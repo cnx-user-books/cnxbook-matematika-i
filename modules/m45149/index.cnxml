@@ -1,0 +1,759 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Примена на изводите во испитување и скицирање график на функција</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45149</md:content-id>
+  <md:title>Примена на изводите во испитување и скицирање график на функција</md:title>
+  <md:abstract>Се дава постапка по која со помош на изводите се испитува функцијата и потоа се скицира нејзиниот график.</md:abstract>
+  <md:uuid>0ee74f23-fb11-4d3e-ad0b-8363de500d50</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id8187145">
+      <title>Примена на изводите во испитување и скицирање график на функција</title>
+      <para id="import-auto-id1171420903367">Под испитување на функција се подразбира низа од различни постапки кои се извршуваат со цел да се добијат информации за функцијата како што се: вредности за кои е дефинирана функцијата, пресечни точки на функцијата со координатните оски, дали функцијата е симетрична, дали има асимптоти, каде расте а каде опаѓа, дали има екстреми, превои. Овие испитувања беа прикажани во делот за <emphasis effect="italics">Основни својства на функциите</emphasis> и сите овие испитувања водат кон добивање сознанија за особините на функцијата врз чија основа можеме да го скицираме графикот на функцијата.</para><para id="import-auto-id8451741">Затоа постапката за испитување на функцијата  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math>, а потоа и скицирање на нејзиниот график, вообичаено се спроведува преку следниве испитувања:</para>
+      <para id="import-auto-id1171418597319"><emphasis effect="bold">1. ДЕФИНИЦИОНА ОБЛАСТ</emphasis>. Во зависност од обликот на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се определува нејзината дефинициона област.</para>
+      <para id="import-auto-id8180845"><emphasis effect="bold">2. НУЛИ</emphasis>. Се определуваат пресечните точки на функцијата со координатните оски. Пресечните точки со <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - {}} {}</m:annotation></m:semantics></m:math> оската се нарекуваат нули на функцијата и се добиваат од <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math>, односно преку решавање на равенката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =0} {}</m:annotation></m:semantics></m:math>. Функцијта може да има една или повеќе нули, но може да нема ниту една. Освен овие нули, бидејќи ќе разгледуваме само еднозначни функции, ќе бараме и пресечна точка на функцијата со <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math> оската (доколку ја има само една е) и тоа е точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,</m:mn><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,f \( 0 \)  \)  "." } {}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-id1171418741024"><emphasis effect="bold">3. СИМЕТРИЧНОСТ</emphasis>. Се испитува и утврдува дали функцијата е парна, непарна или е ни парна ни непарна (можен е само еден од овие три случаи). Функцијата е парна ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \(  - x \) =f \( x \) } {}</m:annotation></m:semantics></m:math> и графикот на функција е симетричен во однос на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math> оската. За непарната функција важи <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \(  - x \) = - f \( x \) } {}</m:annotation></m:semantics></m:math> и нејзиниот график е симетричен во однос на координатниот почеток. Кај парните и непарните функции освен што имаат симетричен график, исто така и нивната дефинициона област е симетрична. Третиот вид на функции се оние кои не се ниту парни ниту непарни и кај нив не постои симетрија ниту во графикот ниту во дефиниционата област.</para>
+      <para id="import-auto-id1171420949628"><emphasis effect="bold">4. ПЕРИОДИЧНОСТ.</emphasis> Доколку функцијата е периодична, се испитува колкав е нејзиниот период. Периодот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> е најмалиот позитивен број за кој важи <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi>T</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x+T \) =f \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416098954"><emphasis effect="bold">5. АСИМПТОТИ</emphasis>. Постојат три вида асимптоти и тоа: вертикални, хоризонтални и коси и тие се определуваат преку гранични вредности. Вертикалните асимптоти се вертикални прави кои се во точките во кои функцијата не е дефинирана (има бескрајна вредност). Ако функцијата е дробно рационална од облик <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {h \( x \) }  over  {g \( x \) } } } {}</m:annotation></m:semantics></m:math>, тогаш вертикалните асимптоти се добиваат преку решавање на равенката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) =0} {}</m:annotation></m:semantics></m:math>. Хоризонталната асимптота се добива преку границата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">±</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  +-  infinity } } f \( x \) =b} {}</m:annotation></m:semantics></m:math> и тогаш правата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=b} {}</m:annotation></m:semantics></m:math> е хоризонтална асимптота. Косата асимптота е од облик <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "kx"+n} {}</m:annotation></m:semantics></m:math>, каде што  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">±</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:munder></m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k= {"lim"}  cSub { size 8{x rightarrow  +-  infinity } }  {  {f \( x \) }  over  {x} } } {}</m:annotation></m:semantics></m:math> а <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">±</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:munder></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= {"lim"}  cSub { size 8{x rightarrow  +-  infinity } }  left (f \( x \)  -  ital "kx" right )} {}</m:annotation></m:semantics></m:math>. Во делот за асимптоти нагласивме дека функција може да има една или повеќе вертикални асимптоти, а хоризонталната и косата асимптота взаемно се исклучуваат (може да постои само една од нив).</para><para id="import-auto-id8496752"><emphasis effect="bold">6. ИСПИТУВАЊЕ СО ПРВ ИЗВОД</emphasis>. Се пресметува првиот извод на функцијата и се утврдуваат стационарните точки преку решавање на равенката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) =0} {}</m:annotation></m:semantics></m:math>. Со стационарните точки се раздробува дефиниционата област и се формираат интервали на монотоност преку утврдување на знакот на првиот извод на секој од овие интервали. На интервалот на кој првиот извод е позитивен функцијата расте, а ако тој е негативен функцијата опаѓа. </para>
+      <para id="import-auto-id8440272"><emphasis effect="bold">7. ИСПИТУВАЊЕ СО ВТОР ИЗВОД</emphasis>. Вториот извод <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' } \( x \) } {}</m:annotation></m:semantics></m:math> се пресметува и тој се користи за утврдување која стационарна точка е ектрем и каков е екстремот. Ако за стационарната точка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> важи  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' } \( x rSub { size 8{0} }  \) &gt;0} {}</m:annotation></m:semantics></m:math>, во неа се постигнува минимум, а ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' } \( x rSub { size 8{0} }  \) &lt;0} {}</m:annotation></m:semantics></m:math>, во неа се постигнува максимум. Ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' } \( x rSub { size 8{0} }  \) =0} {}</m:annotation></m:semantics></m:math>, преку интервалите на монотоност утврдуваме каква е стационарната точка.  Со вториот извод  преку решавање на равенката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' } \( x \) =0} {}</m:annotation></m:semantics></m:math> се определуваат превојните точки, тоа се точки во кои функцијата си ја менува закривеноста. Со превојните точки се определуваат интервалите на конкавност и конвексност на функцијата.  На интервал на кој <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' }&gt;0} {}</m:annotation></m:semantics></m:math> функцијата е конвексна (вдлабната <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ union } {}</m:annotation></m:semantics></m:math>), а ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '  ' }&lt;0} {}</m:annotation></m:semantics></m:math> функцијата е конкавна (испакната <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ intersection } {}</m:annotation></m:semantics></m:math>).</para>
+      <para id="import-auto-id1171417998617"><emphasis effect="bold">8. ГРАФИК. </emphasis> По проследување на сите овие чекори во испитувањето на функција, може да се скицира нејзиниот график. Доколку сите испитувања се коректно спроведени и точно пресметани, сите елементи од испитувањето се вклопуваат во графикот на функцијата. </para>
+      <para id="import-auto-id2800690">Дел од наведените чекори во испитувањето на функцијата не мора да се спроведат по наведениот редослед, битно е само сите да се извршат за да се добијат информации за функцијата врз база на кои таа ќе може да се скицира.</para>
+      <section id="import-auto-id1171417634368">
+        <title>Пример 1. </title>
+        <para id="import-auto-id1171418060064">Да се испита и графички претстави функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {3x rSup { size 8{2} } +1}  over  {3x} } } {}</m:annotation></m:semantics></m:math> .</para>
+        <para id="import-auto-id1171420273624">
+          <emphasis effect="bold">Решение.</emphasis>
+        </para>
+        <para id="import-auto-id1171421124066">1. Бидејќи функцијата е дробно рационална, потребно е именителот да биде различен од нула, т.е.  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3x</m:mn><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3x &lt;&gt; 0 drarrow x &lt;&gt; 0} {}</m:annotation></m:semantics></m:math> и затоа </para>
+        <para id="import-auto-id1171420451772"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>0,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } = \(  -  infinity ,0 \)  union  \( 0,+ infinity  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171421361167">2. Графикот не ја сече <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - {}} {}</m:annotation></m:semantics></m:math> оскaта затоа што функцијата за ниедна вредност на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> не е нула, т.е.  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {3x rSup { size 8{2} } +1}  over  {3x} }  &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>. Исто така графикот не ја сече <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math>оската бидејќи <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">∉</m:mo><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0 notin D rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171416304536">3. Проверуваме парност/непарност на функцијата. Се забележува дека функцијата е количник на парна и непарна функција, затоа таа е непарна. Навистина, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - x \) = {  {3 \(  - x \)  rSup { size 8{2} } +1}  over  {3 \(  - x \) } } = {  {3x rSup { size 8{2} } +1}  over  { - 3x} } = -  {  {3x rSup { size 8{2} } +1}  over  {3x} } = - y \( x \)  drarrow } {}</m:annotation></m:semantics></m:math> функцијата е непарна.</para>
+        <para id="import-auto-id1171417265289">4. Функцијата не е периодична.</para>
+        <para id="import-auto-id1171416808434">5. Асимптоти:</para>
+        <para id="import-auto-id1171419056893"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> e вертикална асимптота;</para>
+        <para id="import-auto-id1171416098331"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mi/><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {3x rSup { size 8{2} } +1}  over  {3x} } = infinity ~ drarrow } {}</m:annotation></m:semantics></m:math> функцијата нема хоризонтална асимптота;</para>
+        <para id="import-auto-id1171417102743"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k= {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {f \( x \) }  over  {x} } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { {  {3x rSup { size 8{2} } +1}  over  {3x} } }  over  {x} } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {3x rSup { size 8{2} } +1}  over  {3x rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math> ,</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416725056"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3x</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= {"lim"}  cSub { size 8{x rightarrow  infinity } }  \( f \( x \)  -  ital "kx" \) = {"lim"}  cSub { size 8{x rightarrow  infinity } }  left ( {  {3x rSup { size 8{2} } +1}  over  {3x} }  - x right )= {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {1}  over  {3x} } =0 drarrow } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x} {}</m:annotation></m:semantics></m:math> е коса асимптота.</para><para id="import-auto-id1171417108108">6. Се пресметува првиот извод:</para>
+        <para id="import-auto-id1171419240333"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mn>6x</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mn>3</m:mn></m:mrow><m:msup><m:mn>9x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {6x cdot 3x -  \( 3x rSup { size 8{2} } +1 \) 3}  over  {9x rSup { size 8{2} } } } = {  {3x rSup { size 8{2} }  - 1}  over  {3x rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171417338558">Се определуваат стационарни точки:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416134893"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mi>'</m:mi>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mo stretchy="false">⇒</m:mo>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>3x</m:mn>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mn>3x</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mo stretchy="false">⇒</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>3x</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mo stretchy="false">⇒</m:mo>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msqrt>
+                          <m:mn>3</m:mn>
+                        </m:msqrt>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">±</m:mo>
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0 drarrow  {  {3x rSup { size 8{2} }  - 1}  over  {3x rSup { size 8{2} } } } =0 drarrow 3x rSup { size 8{2} }  - 1=0 drarrow x= +-  {  {1}  over  { sqrt {3} } } = +-  {  { sqrt {3} }  over  {3} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id1171416379143">Вредноста на функцијата во овие точки е:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171417265337"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow><m:mn>3</m:mn><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y left ( {  { sqrt {3} }  over  {3} }  right )= {  {3 left ( {  { sqrt {3} }  over  {3} }  right ) rSup { size 8{2} } +1}  over  {3 {  { sqrt {3} }  over  {3} } } } = {  {2 sqrt {3} }  over  {3} } } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y left ( -  {  { sqrt {3} }  over  {3} }  right )= {  {3 left ( -  {  { sqrt {3} }  over  {3} }  right ) rSup { size 8{2} } +1}  over  { - 3 {  { sqrt {3} }  over  {3} } } } = -  {  {2 sqrt {3} }  over  {3} } } {}</m:annotation></m:semantics></m:math></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171421356697">и стационарни точки се: <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  { sqrt {3} }  over  {3} } ,` {  {2 sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  {  { sqrt {3} }  over  {3} } ,` -  {  {2 sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1171418626994">Интервали на монотоност:</para>
+        <para id="import-auto-id1171421565983">Со двете стационарни точки формираме четири интервали на монотоност во кои го испитуваме знакот на првиот извод. Знакот на првиот извод <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {3x rSup { size 8{2} }  - 1}  over  {3x rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>  ќе зависи само од знакот на броителот, бидејќи именителот е квадрат и како таков тој е секогаш позитивен. Броителот е квадратна равенка и тој ќе биде негативен за вредности меѓу неговите нули (стационарните точки), а позитивен надвор од тој интервал. Затоа интервалите на монотоност се:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416250052">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  infinity , -  {  { sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата расте,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416050776">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  {  { sqrt {3} }  over  {3} } ,0 right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата опаѓа,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171422863681">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>0,</m:mn><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (0, {  { sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата опаѓа,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171421187829">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  { sqrt {3} }  over  {3} } ,+ infinity  right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата расте.</para><para id="import-auto-id8853670">7. Го пресметуваме вториот извод:</para>
+        <para id="import-auto-id1171417752530"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mn>6x</m:mn><m:mo stretchy="false">⋅</m:mo><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mn>6x</m:mn></m:mrow><m:msup><m:mn>9x</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>6x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:msup><m:mn>9x</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2</m:mn><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  {6x cdot 3x rSup { size 8{2} }  -  \( 3x rSup { size 8{2} }  - 1 \) 6x}  over  {9x rSup { size 8{4} } } } = {  {6x \( 3x rSup { size 8{2} }  - 3x rSup { size 8{2} } +1 \) }  over  {9x rSup { size 8{4} } } } = {  {2}  over  {3x rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171420161264">Знакот на вториот извод ќе зависи само од знакот на именителот, односно за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;0 drarrow  { {y}} sup { '  ' }&lt;0} {}</m:annotation></m:semantics></m:math>  и затоа функцијата ќе има максимум за негативната стационарна точка, а за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;0 drarrow  { {y}} sup { '  ' }&gt;0} {}</m:annotation></m:semantics></m:math> и позитивната стационарна точка е минимум. Екстремите на функцијата се: <emphasis effect="bold">max</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac></m:mrow><m:mi>,</m:mi><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  {  { sqrt {3} }  over  {3} } ,` -  {  {2 sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math> и <emphasis effect="bold">min</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  { sqrt {3} }  over  {3} } ,` {  {2 sqrt {3} }  over  {3} }  right )} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id1171421241152">Функцијата нема превојни точки, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>, а како утврдивме дека знакот на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }} {}</m:annotation></m:semantics></m:math> е ист со знакот на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, за <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;0} {}</m:annotation></m:semantics></m:math> функцијата е конкавна, а за <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;0} {}</m:annotation></m:semantics></m:math> функцијата е конвексна.</para>
+        <para id="import-auto-id1171421665687">8. Графикот на функцијата е прикажан на Сл 1.</para>
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171421512406"><media id="import-auto-id1171420400553" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics1-0684.jpg" height="227" width="370"/>
+          </media>
+        <caption>Сл. 1. График на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mn>3x</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {3x rSup { size 8{2} } +1}  over  {3x} } } {}</m:annotation></m:semantics></m:math></caption></figure></section>
+      <section id="import-auto-id1171417216585">
+        <title>Пример 2. </title>
+        <para id="import-auto-id1171416629219">Да се испита и графички претстави функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {x}  over  {x rSup { size 8{2} } +1} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171416227684">
+          <emphasis effect="bold">Решение.  </emphasis>
+        </para>
+        <para id="import-auto-id1171419097999">1. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } = \(  -  infinity ,+ infinity  \) } {}</m:annotation></m:semantics></m:math> бидејќи именителот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +1 &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171421414828">2. Нула на функцијата е координатниот почеток <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>O</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O \( 0,0 \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171420874386">3. Функцијата е непарна, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - x \) = {  { - x}  over  { \(  - x \)  rSup { size 8{2} } +1} } = -  {  {x}  over  {x rSup { size 8{2} } +1} } = - y \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171417186511">4. Функцијата не е приодична.</para>
+        <para id="import-auto-id1171416456003">5. Асимптоти:</para>
+        <para id="import-auto-id1171417202562">Нема верикална асимптота, функцијата е дефинирана за сите реални вредности.</para>
+        <para id="import-auto-id1171420319058"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {x}  over  {x rSup { size 8{2} } +1} } =0 drarrow } {}</m:annotation></m:semantics></m:math> правата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=0} {}</m:annotation></m:semantics></m:math> е хоризонтална асимптота.</para>
+        <para id="import-auto-id1171416684335">Функцијата нема коса асимптота бидејќи има хоризонтална асимптота.</para>
+        <para id="import-auto-id1171421869098">6. Прв извод, стационарни точки и интервали на монотоност:</para>
+        <para id="import-auto-id1171418857887"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">⋅</m:mo><m:mn>2x</m:mn></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1+x rSup { size 8{2} }  - x cdot 2x}  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{2} } } } = {  {1 - x rSup { size 8{2} } }  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171416533322"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0 drarrow  {  {1 - x rSup { size 8{2} } }  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{2} } } } =0 drarrow 1 - x rSup { size 8{2} } =0 drarrow x= +- 1} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171421153616"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 1 \) = {  {1}  over  {1+1} } = {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171421290473"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - 1 \) = {  { - 1}  over  {1+1} } = -  {  {1}  over  {2} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171421444289">Стационарни точки се <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( - 1, -  {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1,</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1, {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1171421848044">Бидејќи именителот на изводот е квадратна функција, тој е секогаш позитивен и знакот на изводот ќе зависи само од знакот на броителот. Во броителот квадратната функција <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 - x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> е позитивна меѓу нулите (стационарните точки) а негативна на интервалите надвот од нив. Затоа интервалите на монотоност се:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id8085775">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  infinity , - 1 right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата опаѓа,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171422858687">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,1</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( - 1,1 right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата расте,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id8304012">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1,+ infinity  right )} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата опаѓа.</para><para id="import-auto-id8085788">Веќе од интерваите на монотоност согледуваме дека во стационарната точка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math> функцијата ќе има минимум, а во стационарната точка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math> ќе има максимум, што ќе го утврдиме и со вториот извод.</para>
+        <para id="import-auto-id1171421350397">7. Втор извод, екстреми и превојни точки.</para>
+        <para id="import-auto-id1171420840364">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mi>'</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2x</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">[</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>4x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">]</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  { - 2x \( x rSup { size 8{2} } +1 \)  rSup { size 8{2} }  -  \( 1 - x rSup { size 8{2} }  \) 2 \( x rSup { size 8{2} } +1 \) 2x}  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{4} } } } = {  { \( x rSup { size 8{2} } +1 \)  \[  - 2x \( x rSup { size 8{2} } +1 \)  - 4x \( 1 - x rSup { size 8{2} }  \)  \] }  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{4} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1171418069717"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  {2x \( x rSup { size 8{2} }  - 3 \) }  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171419130463"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( 1 \) = {  {2 \( 1 - 3 \) }  over  { \( 1+1 \)  rSup { size 8{3} } } } = {  { - {}}  over  {+{}} } &lt;0 drarrow x=1} {}</m:annotation></m:semantics></m:math> е точка на максимум.</para>
+        <para id="import-auto-id1171420460623"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \(  - 1 \) = {  { - 2 \( 1 - 3 \) }  over  { \( 1+1 \)  rSup { size 8{3} } } } = {  {+{}}  over  {+{}} } &gt;0 drarrow x= - 1} {}</m:annotation></m:semantics></m:math> е точка на минимум.</para>
+        <para id="import-auto-id1171420290354">Вредност на функцијата во екстремните точки: </para>
+        <para id="import-auto-id7224295">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>1</m:mn>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mn>2</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{y \( 1 \) = {  {1}  over  {1+1} } = {  {1}  over  {2} } }  {} # 
+ size 12{y \(  - 1 \) = {  { - 1}  over  {1+1} } = -  {  {1}  over  {2} } }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1171421998086">и екстремеите се:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171420954372"><emphasis effect="bold">max</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1,</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1, {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>, <emphasis effect="bold">min</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( - 1, -  {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1171420454164">Превои:</para>
+        <para id="import-auto-id1171420652876"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mn>2x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }=0 drarrow  {  {2x \( x rSup { size 8{2} }  - 3 \) }  over  { \( x rSup { size 8{2} } +1 \)  rSup { size 8{3} } } } =0 drarrow 2x \( x rSup { size 8{2} }  - 3 \) =0 drarrow x=0,x= +-  sqrt {3} } {}</m:annotation></m:semantics></m:math> се превојни точки.</para>
+        <para id="import-auto-id1171421037526">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mn>0</m:mn>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>0,</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msqrt>
+                                <m:mn>3</m:mn>
+                              </m:msqrt>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:msqrt>
+                                    <m:mn>3</m:mn>
+                                  </m:msqrt>
+                                  <m:mn>4</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mi>,</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:msqrt>
+                              <m:mn>3</m:mn>
+                            </m:msqrt>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:msqrt>
+                                  <m:mn>3</m:mn>
+                                </m:msqrt>
+                                <m:mn>4</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{y \( 0 \) =0,}  {} # 
+ size 12{y \(  -  sqrt {3}  \) = -  {  { sqrt {3} }  over  {4} } ,}  {} # 
+ size 12{y \(  sqrt {3}  \) = {  { sqrt {3} }  over  {4} }  "." }  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1171416208634">Превојните точки се со координати;</para>
+        <para id="import-auto-id1171416224103">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msqrt>
+                          <m:mn>3</m:mn>
+                        </m:msqrt>
+                        <m:mn>4</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>;</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0,0</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>;</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:msqrt>
+                      <m:mn>3</m:mn>
+                    </m:msqrt>
+                    <m:mi>,</m:mi>
+                    <m:mfrac>
+                      <m:msqrt>
+                        <m:mn>3</m:mn>
+                      </m:msqrt>
+                      <m:mn>4</m:mn>
+                    </m:mfrac>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ \(  -  sqrt {3} , -  {  { sqrt {3} }  over  {4} }  \) ; \( 0,0 \) ; \(  sqrt {3} , {  { sqrt {3} }  over  {4} }  \)  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1171417594273">Интервали на конвексност/конкавност</para>
+        <para id="import-auto-id2818626"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \(  -  infinity , -  sqrt {3}  \)  drarrow  { {y}} sup { '  ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> конкавна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∩</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  intersection  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171419980359"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \(  -  sqrt {3} ,0 \)  drarrow  { {y}} sup { '  ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> конвексна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  union  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id2803398"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0,</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \( 0, sqrt {3}  \)  drarrow  { {y}} sup { '  ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> конкавна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∩</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  intersection  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171416133276"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \(  sqrt {3} ,+ infinity  \)  drarrow  { {y}} sup { '  ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> конвексна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  union  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171422896607">8. Врз основа на претходните испитувања, графикот на функцијата е прикажан на Сл. 2.</para>
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171420456068"><media id="import-auto-id1171417643377" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics2-ff9c.jpg" height="227" width="371"/>
+          </media>
+        <caption>Сл. 2. График на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {x}  over  {x rSup { size 8{2} } +1} } } {}</m:annotation></m:semantics></m:math></caption></figure></section>
+      <section id="import-auto-id1171420610048">
+        <title>Пример 3. </title>
+        <para id="import-auto-id1171417812779">Да се испита и графички претстави функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {x rSup { size 8{2} } }  over  {x rSup { size 8{2} }  - 1} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171415780102">
+          <emphasis effect="bold">Решение.</emphasis>
+        </para>
+        <para id="import-auto-id1171417570062">1. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } = \(  -  infinity , - 1 \)  union  \(  - 1,1 \)  union  \( 1,+ infinity  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171418788839">Функцијата не е дефинирана во точките <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= +- 1} {}</m:annotation></m:semantics></m:math> бидејќи именителот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - 1=0 drarrow x= +- 1} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171420903309">2. Нула на функцијата е координатниот почеток <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>O</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{O \( 0,0 \) } {}</m:annotation></m:semantics></m:math> и во неа графикот ги сече двете оски.</para>
+        <para id="import-auto-id1171419264956"> Нулата е двократна и секогаш кога кратноста на нулата е од парен ред (двократна, четирикратна и т. н.) таа е екстрем, а ако од непарен ред (еднократна, трократна, ...) графикот во неа ја сече <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - {}} {}</m:annotation></m:semantics></m:math> оската. Затоа ќе очекуваме функцијата да има екстрем во координатниот почеток.</para>
+        <para id="import-auto-id2801038">3. Функцијата е парна, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - x \) = {  { \(  - x \)  rSup { size 8{2} } }  over  { \(  - x \)  rSup { size 8{2} }  - 1} } = {  {x rSup { size 8{2} } }  over  {x rSup { size 8{2} }  - 1} } =y \( x \) } {}</m:annotation></m:semantics></m:math>, и симетрична е во однос на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math> оската.</para>
+        <para id="import-auto-id1171422836094">4. Функцијата не е приодична.</para>
+        <para id="import-auto-id1171421496928">5. Асимптоти:</para>
+        <para id="import-auto-id1171420982828">Верикални асимптоти се <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math> и <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171420704012"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {x rSup { size 8{2} } }  over  {x rSup { size 8{2} }  - 1} } =1 drarrow } {}</m:annotation></m:semantics></m:math> правата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=1} {}</m:annotation></m:semantics></m:math> е хоризонтална асимптота.</para>
+        <para id="import-auto-id1171421542980">Функцијата нема коса асимптота бидејќи има хоризонтална асимптота.</para>
+        <para id="import-auto-id1171422716025">6. Прв извод, стационарни точки и интервали на монотоност:</para>
+        <para id="import-auto-id1171419154607"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">⋅</m:mo><m:mn>2x</m:mn></m:mrow></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {2x \( x rSup { size 8{2} }  - 1 \)  - x rSup { size 8{2} }  cdot 2x}  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{2} } } } = {  { - 2x}  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171421862663"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">⇒</m:mo><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0 drarrow  {  { - 2x}  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{2} } } } =0 drarrow  - 2x=0 drarrow x=0} {}</m:annotation></m:semantics></m:math> е стационарна точка.</para>
+        <para id="import-auto-id1171417091595"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 0 \) =0} {}</m:annotation></m:semantics></m:math> и координатите на стационарната точка се <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,0 \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171416240354">Од првиот извод <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2x</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  { - 2x}  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> воочуваме дека именителот е квадратна функција и затоа секогаш е позитивен, а знакот на изводот ќе зависи само од знакот на броителот. </para>
+        <para id="import-auto-id8947588">Така, за <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&lt;0 drarrow  { {y}} sup { ' }&gt;0} {}</m:annotation></m:semantics></m:math> и за <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;0 drarrow  { {y}} sup { ' }&lt;0} {}</m:annotation></m:semantics></m:math> и интервалите на монотоност се:</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id7941404">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( -  infinity , - 1 right )} {}</m:annotation></m:semantics></m:math> функцијата расте,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171416214909">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,0</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( - 1,0 right )} {}</m:annotation></m:semantics></m:math> функцијата расте,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171419341520">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mn>0,1</m:mn></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (0,1 right )} {}</m:annotation></m:semantics></m:math> функцијата опаѓа,</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1171418972920">на <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1,+ infinity  right )} {}</m:annotation></m:semantics></m:math> функцијата опаѓа.</para><para id="import-auto-id1171417556653">Од интервалите на монотоност согледуваме дека во стационарната точка <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> функцијата ќе има максимум, а тоа ќе го потврдиме со вториот извод.</para>
+        <para id="import-auto-id1171416881284">7. Втор извод, екстреми и превојни точки.</para>
+        <para id="import-auto-id1171417578849">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mrow>
+                          <m:mi>'</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>2x2</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">[</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mn>4x</m:mn>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">]</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  { - 2 \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{2} } +2x2 \( x rSup { size 8{2} }  - 1 \) 2x}  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{4} } } } = {  {2 \( x rSup { size 8{2} }  - 1 \)  \[  -  \( x rSup { size 8{2} }  - 1 \) +4x rSup { size 8{2} }  \] }  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{4} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1171416758611"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  {2 \( 3x rSup { size 8{2} } +1 \) }  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171420290253"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mtext>=&lt;</m:mtext><m:mn>0</m:mn><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( 0 \) = {  {+{}}  over  { - {}} } "=&lt;"0 drarrow x=0} {}</m:annotation></m:semantics></m:math> е точка на максимум, т.е. <emphasis effect="bold">max</emphasis><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0,0 \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171419145466"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( x \)  &lt;&gt; 0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата нема превојни точки.</para>
+        <para id="import-auto-id1171418734925">Интервали на конвексност/конкавност:</para>
+        <para id="import-auto-id1171418720100">Знакот на вториот извод <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  {2 \( 3x rSup { size 8{2} } +1 \) }  over  { \( x rSup { size 8{2} }  - 1 \)  rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math> ќе зависи само од знакот на изразот во именителот, бидејќи броителот секогаш е позитивен.</para>
+        <para id="import-auto-id1171421978736"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \(  -  infinity , - 1 \)  drarrow  { {y}} sup { '  ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> конвексна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  union  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171418321798"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,0</m:mn></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \(  - 1,0 \)  drarrow  { {y}} sup { '  ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> конкавна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∩</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  intersection  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171417651305"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0,1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \( 0,1 \)  drarrow  { {y}} sup { '  ' }&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> конкавна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∩</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  intersection  \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="import-auto-id1171422773522"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \( 1,+ infinity  \)  drarrow  { {y}} sup { '  ' }&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> конвексна <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  union  \) } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1171422839314">8. Врз основа на спроведените испитувања, графикот на функцијата е прикажан на Сл. 3.</para>
+        <figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id8890726"><media id="import-auto-id1171416720717" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics3-0d03.jpg" height="227" width="323"/>
+          </media>
+        <caption>Сл. 3. График на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>x</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {x}  over  {x rSup { size 8{2} } +1} } } {}</m:annotation></m:semantics></m:math></caption></figure></section>
+    </section>
+  </content>
+</document>

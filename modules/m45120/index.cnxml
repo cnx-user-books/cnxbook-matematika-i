@@ -1,0 +1,500 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Екстремни вредности на функција од една променлива</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m45120</md:content-id>
+  <md:title>Екстремни вредности на функција од една променлива</md:title>
+  <md:abstract/>
+  <md:uuid>8300dab6-7728-4f03-b7e3-7ab3e607f299</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1164035326662">
+      <title>Екстремни вредности на функција од една променлива</title>
+      <para id="import-auto-id1164034285598">Во <emphasis effect="italics">Основни теореми на диференцијалното сметање</emphasis> воведени се поимите за локален екстрем. Така, функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> има локален минимум (максимум) во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> ако вредноста <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> е помала (поголема) од блиските вредности на функцијата кои и претходат или следуваат после оваа вредност на функцијата. </para>
+      <para id="import-auto-id1164035543302">За разлика од локалниот минимум (максимум) на функција, постои и апсолутен минимум (максимум), а тоа е најмалата (најголемата) вредност на функцијата која ја добива на целиот интервал на кој таа се разгледува. </para>
+      <para id="import-auto-id1164035643802">На Сл. 1 е прикажан графикот на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> на затворениот интервал <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[ a,b \] } {}</m:annotation></m:semantics></m:math>. На овој интервал се испитуваат вредностите на функцијата во локалните екстреми и вредностите на функцијата на краевите од интервалот. Забележуваме дека функцијата има локален максимум во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=g} {}</m:annotation></m:semantics></m:math> со вредност на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( g \) } {}</m:annotation></m:semantics></m:math>, а локалниот минимум е во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>e</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=e} {}</m:annotation></m:semantics></m:math> со вредност на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( e \) } {}</m:annotation></m:semantics></m:math>. Вредностите на функцијата на краевите од интервалот се <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( a \) } {}</m:annotation></m:semantics></m:math> и <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( b \) } {}</m:annotation></m:semantics></m:math>. Апсолутен минимум е најмалата вредност на функцијата од сите овие вредности, а тоа е локланиот минимум т.е. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>e</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( e \) } {}</m:annotation></m:semantics></m:math>. Апсолутниот максимум е најголемата од сите вредности на функцијата, а во наведениот пример тоа е <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( a \) } {}</m:annotation></m:semantics></m:math>. Гледаме дека апсолутен екстрем може да се постигне или во локален екстрем или на еден од краевите на интервалот.</para>
+      <figure id="import-auto-id5689835"><media id="import-auto-id5697813" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics1-e316.jpg" height="227" width="364"/>
+        </media>
+      <caption>Сл.1</caption></figure><para id="import-auto-id5662931">Вообичаено е локалниот ектрем да се нарекува само <emphasis effect="bold">екстрем</emphasis>, затоа понатаму под поимот екстем ќе се подразбира локален екстрем.</para>
+      <para id="import-auto-id5648224">Во делот <emphasis effect="italics">Основни теореми на диференцијалното сметање</emphasis>, со теоремата на Ферма е даден потребниот услов за постоење на екстрем во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, а тоа е таа да биде стационарна точка, односно <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x rSub { size 8{0} }  \) =0} {}</m:annotation></m:semantics></m:math>. Секоја стацинорна точка не мора да биде точка на ектрем, тоа е потребен услов, а доволниот услов  за екстем може да се спроведе преку две постапки:</para>
+      <list id="import-auto-id1164034283787" list-type="bulleted">
+        <item>со извод од прв ред преку испитување на интервалите на монотоност;</item>
+        <item>со извод од повисок ред.</item>
+      </list>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-938"><title><emphasis effect="bold">Постапка за испитување на екстрем преку првиот извод</emphasis></title><para id="eip-637">Оваа постапка го користи знакот на првиот извод за утврдување на монотоноста на функцијата на интервал, а се базира на теоремата Лагранж. 
+</para><para id="eip-28">За монотоноста  (растењето и опаѓањето) на функцијата на итервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) } {}</m:annotation></m:semantics></m:math> ако важи:</para><para id="eip-100"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) &gt;0} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∀</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ forall x in  \( a,b \)  drarrow } {}</m:annotation></m:semantics></m:math> функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е строго монотоно растечка;</para><para id="eip-784"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) &lt;0} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∀</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ forall x in  \( a,b \)  drarrow } {}</m:annotation></m:semantics></m:math> функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е строго монотоно опаѓачка.</para><para id="eip-209"><figure id="cute"><media id="import-auto-id116403405236" alt="">
+    <image mime-type="image/jpg" src="../../media/graphics2-e1dc.jpg" height="227" width="369"/>
+  
+
+        </media>
+      <caption>Сл. 2. Растечка функција
+  </caption></figure></para><para id="eip-266">Навистина, ако на интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) } {}</m:annotation></m:semantics></m:math> функцијата расте, тогаш <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∀</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ forall x rSub { size 8{1} } ,x rSub { size 8{2} }  in  \( a,b \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } &lt;x rSub { size 8{2} }  drarrow f \( x rSub { size 8{1} }  \) &lt;f \( x rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>. Од теоремата на Лагранж следува дека постои точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} }  in  \( x rSub { size 8{1} } ,x rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> за која ќе важи <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x rSub { size 8{2} }  \)  - f \( x rSub { size 8{1} }  \) = { {f}} sup { ' } \( x rSub { size 8{0} }  \)  \( x rSub { size 8{2} }  - x rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math>. Бидејќи функцијата е растечка, знакот на <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> ќе биде ист со знакот на разликата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x rSub { size 8{2} }  \)  - f \( x rSub { size 8{1} }  \) &gt;0} {}</m:annotation></m:semantics></m:math>, т.е. знакот е позитивен и затоа <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x rSub { size 8{0} }  \) &gt;0} {}</m:annotation></m:semantics></m:math> кога функцијата расте (Сл. 2.).</para><para id="eip-826">Со аналогна постапка се покажува дека ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x rSub { size 8{0} }  \) &lt;0} {}</m:annotation></m:semantics></m:math>, функцијата опаѓа (Сл. 3.).</para><para id="eip-766"><figure id="cute-do"><media id="import-auto-id378080" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics3-4d73.jpg" height="227" width="370"/>
+        </media>
+<caption>Сл. 3. Опаѓачка функција
+  </caption></figure></para><para id="eip-954">Овој факт ќе се примени во постапка за испитување на екстреми на функција <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> преку знакот првиот извод и таа постапка се одвива во следните чекори:</para><para id="eip-66">1. Со решавање на равенката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) =0} {}</m:annotation></m:semantics></m:math> по <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> се добиваат стационарните точки.</para><para id="eip-439">2. Секоја стационарна точка се подредува по својата вредност на бројната оска и со нив дефиниционата област се раздробува на таканаречени  <emphasis effect="bold">интервали на монотоност</emphasis>. Во секој од овие интервали изводната функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> има постојан знак.</para><para id="eip-283">3. Се определува знакот за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> во секој од овие интервали.</para><para id="eip-908">Ако во околина на стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, со зголемување на <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>:</para><para id="eip-844">- знакот на <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> се менува од <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+{}} {}</m:annotation></m:semantics></m:math> во – , функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> има <emphasis effect="bold">максимум </emphasis> во точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,f \( x rSub { size 8{0} }  \)  \) } {}</m:annotation></m:semantics></m:math>(Сл. 4);</para><para id="eip-780"><figure id="cute-og"><media id="dogic" alt="">
+    <image mime-type="image/jpeg" src="../../media/graphics4-02dc.jpg" height="227" width="374"/>
+  </media>
+  
+<caption>Сл. 4. Максимум
+  </caption></figure></para><para id="eip-597">- знакот на <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> се менува од – во + , функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> има  <emphasis effect="bold">минимум </emphasis> во точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,f \( x rSub { size 8{0} }  \)  \) } {}</m:annotation></m:semantics></m:math>(Сл. 5);</para><para id="eip-519"><figure id="cut-dog"><media id="import-auto-id502885" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics5-740d.jpg" height="227" width="370"/>
+        </media>
+  
+<caption>Сл. 5. Минимум
+  </caption></figure></para><para id="eip-391">- ако знакот на <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> не се менува, функцијата <emphasis effect="bold">нема екстрем</emphasis> во точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>,</m:mi><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x rSub { size 8{0} } ,f \( x rSub { size 8{0} }  \)  \) } {}</m:annotation></m:semantics></m:math> (Превојна точка, Сл. 6).  </para><para id="eip-435"><figure id="cue-dog"><media id="import-auto-id499264" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics6-d81f.jpg" height="227" width="371"/>
+        </media>
+      <caption>Сл. 6. Превој
+  </caption></figure></para></section><para id="import-auto-id5252849">Пред да го изнесеме вториот начин на испитување на екстремите, ќе ја дефинираме закривеноста на лакот од графикот на кривата, односно неговата конвексност или конкавност. Овие поими се дефинираат во зависност од позицијата на точката на гледање на графикот и ако гледаме оддгоре надолу (од позитивниот дел на <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y - {}} {}</m:annotation></m:semantics></m:math> оската), следат дефиниции:</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id5049272"><emphasis effect="bold">Дефиниција 1.</emphasis> Функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е <emphasis effect="bold">конвексна </emphasis>(вдлабната) на интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) } {}</m:annotation></m:semantics></m:math> ако лакот на функцијата е <emphasis effect="bold">над </emphasis> тангентата на кривата повлечена во било која точка од интервалот (Сл. 7).</para><para id="import-auto-id4233984">На интервалот на кој функцијата е конвексна, знакот на првиот извод се менува од – во +, што значи дека првиот извод расте и затоа неговиот извод ќе биде позитивен. Извод од првиот извод е втор извод и критериум за конвексност на функција на даден интервал е <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x \) &gt;0} {}</m:annotation></m:semantics></m:math>.</para>
+      <figure id="import-auto-id5764139"><media id="import-auto-id4862377" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics7-5298.jpg" height="227" width="370"/>
+        </media>
+      <caption>Сл. 7 Конвексен лак </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4705365"><emphasis effect="bold">Дефиниција 2.</emphasis> Функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е <emphasis effect="bold">конкавна </emphasis>(испакната) на интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) } {}</m:annotation></m:semantics></m:math> ако лакот на функцијата е <emphasis effect="bold">под</emphasis> тангентата на кривата повлечена во било која точка од интервалот (Сл. 8). </para><para id="import-auto-id1164035277991">Аналогно, на интервалот на кој функцијата е конкавна, знакот на првиот извод се менува од + во –, значи првиот извод се намалува и затоа неговиот извод ќе биде негативен, односно изводот од првиот извод т.е. вториот извод ќе биде негативен. Затоа критериум за конкавност на лак на функција на даден интервал е <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x \) &lt;0} {}</m:annotation></m:semantics></m:math>.</para>
+      <figure id="import-auto-id1164035126332"><media id="import-auto-id1164035488860" alt="">
+          <image mime-type="image/jpg" src="../../media/graphics8.jpg" height="227" width="370"/>
+        </media>
+      <caption>Сл. 8 Конкавен лак</caption></figure><para id="import-auto-id1164034323605">Но, што е со точките во кои <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x \) =0} {}</m:annotation></m:semantics></m:math>? </para>
+      <para id="import-auto-id1164034314776"><emphasis effect="bold">Дефиниција 3.</emphasis> Точката се нарекува <emphasis effect="bold">превојна точка</emphasis> ако во неа графикот преминува од конкавен во конвексен и обратно . </para><para id="import-auto-id1164035675438">На Сл. 1 превојни точки се :</para>
+      <para id="import-auto-id1164035557644"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=c} {}</m:annotation></m:semantics></m:math> во која <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( c \) =0, { {f}} sup { '  ' } \( c \) =0} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id4588757"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=d} {}</m:annotation></m:semantics></m:math> во која <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0,</m:mn></m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>d</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( d \) &lt;0, { {f}} sup { '  ' } \( d \) =0} {}</m:annotation></m:semantics></m:math>,</para>
+      <para id="import-auto-id2245546"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=f} {}</m:annotation></m:semantics></m:math> во која <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0,</m:mn></m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( f \) &gt;0, { {f}} sup { '  ' } \( f \) =0} {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id4843788">Од дефиницијата за превојна точка произлегува дека во превојните точки графикот на функцијата ја менува закривеноста, односно во нив се менува знакот за вториот извод и затоа превојните точки се добиваат со решавање на равенката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x \) =0} {}</m:annotation></m:semantics></m:math>. Условот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x rSub { size 8{0} }  \) =0} {}</m:annotation></m:semantics></m:math> е потребен услов точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> да биде превојна, но не е доволен. </para>
+      <para id="import-auto-id1164034282033">Сега можеме да да ја прикажеме втората постапка за определување на ектрем на функција во која се користи вториот извод.</para>
+      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-165"><title><emphasis effect="bold">Постапка за испитување на екстрем преку вториот извод</emphasis></title><para id="eip-191">Постапката се изведува преку следните чекори:
+</para><para id="eip-37">1. се решава равенката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) =0} {}</m:annotation></m:semantics></m:math> која ги определува стационарните точки;</para><para id="eip-940">2. стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> е:</para><para id="eip-812">- точка на <emphasis effect="bold">максимум</emphasis> ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x rSub { size 8{0} }  \) &lt;0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-433">- точка на <emphasis effect="bold">минимум</emphasis> ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x rSub { size 8{0} }  \) &gt;0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-870">- ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { '' } \( x rSub { size 8{0} }  \) =0} {}</m:annotation></m:semantics></m:math>, потребни се дополнителни испитувања.</para></section><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-609"><title>Пример 1.</title><para id="eip-192">За функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>6x</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {1}  over  {3} } x rSup { size 8{3} } + {  {1}  over  {2} } x rSup { size 8{2} }  - 6x} {}</m:annotation></m:semantics></m:math> да се определат стационарните точки, интервалите на монотоност и екстремите преку првиот извод.</para><para id="eip-956"><emphasis effect="bold">Решение. </emphasis></para><para id="eip-50"><emphasis effect="bold">
+          <emphasis effect="italics">а</emphasis>
+        </emphasis>
+        <emphasis effect="bold">) Стационарни точки</emphasis>
+      </para><para id="eip-638">Стационатните точки се определуваат од првиот извод на функцијата</para><para id="eip-798"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=x rSup { size 8{2} } +x - 6} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-835">односно со решавање на равенката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0} {}</m:annotation></m:semantics></m:math>. Равенката </para><para id="eip-461"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>6</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +x - 6=0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-258">има две решенија <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } = - 3} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{2} } =2} {}</m:annotation></m:semantics></m:math>. Вредностите на функцијата во овие точки се</para><para id="eip-692"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>27</m:mtext><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - 3 \) = {  {"27"}  over  {2} } } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>22</m:mtext></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 2 \) = {  { - "22"}  over  {3} } } {}</m:annotation></m:semantics></m:math> и стационарните точки имаат координати:</para><para id="eip-965"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3,</m:mn></m:mrow><m:mfrac><m:mtext>27</m:mtext><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A \(  - 3, {  {"27"}  over  {3} }  \) } {}</m:annotation></m:semantics></m:math>  и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">(</m:mo><m:mn>2,</m:mn><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>22</m:mtext></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B \( 2, {  { - "22"}  over  {3} }  \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-331"><emphasis effect="bold">
+          <emphasis effect="italics">б</emphasis>
+        </emphasis>
+        <emphasis effect="bold">) Интервали на монотоност</emphasis>
+      </para><para id="eip-212">Со стационарните точки <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } = - 3} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{2} } =2} {}</m:annotation></m:semantics></m:math>, дефиниционата област на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>D</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D= \(  -  infinity ,+ infinity  \) } {}</m:annotation></m:semantics></m:math> се разделува на подинтервали т.н. интервали на монотоност во кои знакот на првиот извод е постојан.</para><para id="eip-49">Интервалите на монотоност се:</para><para id="eip-635"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3,2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity , - 3 \) ,` \(  - 3,2 \) ,` \( 2,+ infinity  \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-707">За секој интервал поединечно се испитува знакот на <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-540">Така:</para><para id="eip-925">На интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity , - 3 \) } {}</m:annotation></m:semantics></m:math>, на пример за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5,</m:mn></m:mrow></m:mrow><m:mi/><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 5,` { {y}} sup { ' } \(  - 5 \) ="25" - 5 - 6&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата расте на овој интервал.</para><para id="eip-364">На интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3,2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - 3,2 \) } {}</m:annotation></m:semantics></m:math>, на пример за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mi/><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0,` { {y}} sup { ' } \( 0 \) = - 6&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата опаѓа на овој интервал.</para><para id="eip-287">На интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` \( 2,+ infinity  \) } {}</m:annotation></m:semantics></m:math>, на пример за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5,</m:mn></m:mrow><m:mi/><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=5,` { {y}} sup { ' } \( 5 \) ="25"+5 - 6&gt;0 drarrow } {}</m:annotation></m:semantics></m:math> функцијата расте на овој интервал.</para><para id="eip-611"><emphasis effect="bold">
+          <emphasis effect="italics">в</emphasis>
+        </emphasis>
+        <emphasis effect="bold">) Екстреми</emphasis>
+      </para><para id="eip-857">Во околина на стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3} {}</m:annotation></m:semantics></m:math> функцијата на првиот извод го менува знакот од <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+{}} {}</m:annotation></m:semantics></m:math> во  – , а тоа значи дека функцијата од растечка преминува во опаѓачка и затоа во <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 3} {}</m:annotation></m:semantics></m:math> функцијата има max (максимум) и се означува  <emphasis effect="bold">max</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3,</m:mn></m:mrow><m:mfrac><m:mtext>27</m:mtext><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - 3, {  {"27"}  over  {2} }  \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-369">Во околина на стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false"/><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3} {}</m:annotation></m:semantics></m:math> функцијата на првиот извод го менува знакот од  – во <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+{}} {}</m:annotation></m:semantics></m:math>, односно функцијата од опаѓачка преминува во растечка и затоа во <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2} {}</m:annotation></m:semantics></m:math> функцијата има min (минимум) и се означува <emphasis effect="bold">min</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2,</m:mn><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>22</m:mtext></m:mrow><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 2, {  { - "22"}  over  {3} }  \) } {}</m:annotation></m:semantics></m:math>.</para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-406"><title><emphasis effect="bold">Пример 2.</emphasis></title><para id="eip-109">Да се пресметаат екстремите на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2x</m:mn><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {2x}  over  {1+x rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> преку вториот извод и да се определат интервалите на конвексност/конкавност.</para><para id="eip-501"><emphasis effect="bold">Решение. </emphasis>Најпрво се пресметува првиот извод</para><para id="eip-887"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>y</m:mi>
+                    <m:mi>'</m:mi>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2x</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2x</m:mn>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {2 \( 1+x rSup { size 8{2} }  \)  - 2x \( 2x \) }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{2} } } } } {}</m:annotation>
+          </m:semantics>
+        </m:math></para><para id="eip-891">и по средување</para><para id="eip-554"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {2 - 2x rSup { size 8{2} } }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-0">Определување на стационарни точки:</para><para id="eip-746"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0 drarrow  {  {2 - 2x rSup { size 8{2} } }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{2} } } } =0 drarrow 2 - 2x rSup { size 8{2} } =0 drarrow x rSup { size 8{2} } =1 drarrow x= +- 1} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-744">Добивме дека функцијата има две стационарни точки <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow></m:mrow><m:mi/><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1} } = - 1,`x rSub { size 8{2} } =1} {}</m:annotation></m:semantics></m:math> во кои вредноста на функцијата е</para><para id="eip-478"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - 1 \) = {  {2 \(  - 1 \) }  over  {1+1} } = - 1} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 1 \) = {  {2 \( 1 \) }  over  {1+1} } =1} {}</m:annotation></m:semantics></m:math> и стационарните точки се <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - 1, - 1 \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1,1 \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-704">Го пресметуваме вториот извод:</para><para id="eip-578"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mn>2x</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4x</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  { - 4x \( 1+x rSup { size 8{2} }  \)  rSup { size 8{2} }  -  \( 2 - 2x rSup { size 8{2} }  \) 2 \( 1+x rSup { size 8{2} }  \) 2x}  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{4} } } } = {  { - 4x \( 1+x rSup { size 8{2} }  \)  \( 1+x rSup { size 8{2} } +2 - 2x rSup { size 8{2} }  \) }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{4} } } } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-59">или по средување</para><para id="eip-606"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }= {  {4x \( x rSup { size 8{2} }  - 3 \) }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-252">Според критериумот за утврдување на екстрем преку вториот извод:</para><para id="eip-392"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \(  - 1 \) = {  {4 \(  - 1 \)  \( 1 - 3 \) }  over  { \( 1+1 \)  rSup { size 8{3} } } } = {  {+{}}  over  {+{}} } &gt;0 drarrow x= - 1} {}</m:annotation></m:semantics></m:math> е точка во која функцијата има минимум, т.е. <emphasis effect="bold">min</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  - 1, - 1 \) } {}</m:annotation></m:semantics></m:math>;</para><para id="eip-348"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( 1 \) = {  {4 \( 1 \)  \( 1 - 3 \) }  over  { \( 1+1 \)  rSup { size 8{3} } } } = {  { - {}}  over  {+{}} } &lt;0 drarrow x=1} {}</m:annotation></m:semantics></m:math> е точка во која функцијата има максимум, т.е. <emphasis effect="bold">max</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1,1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1,1 \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-453"><emphasis effect="bold">Забелешка</emphasis>. Во определувањето на екстремот преку вториот извод го испитуваме само знакот на вториот извод во стационарната точка, без да ја испитуваме неговата точна бројна вредност.</para><para id="eip-949">Превојни точки: </para><para id="eip-308"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mfrac><m:mrow><m:mn>4x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mn>4x</m:mn><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }=0 drarrow  {  {4x \( x rSup { size 8{2} }  - 3 \) }  over  { \( 1+x rSup { size 8{2} }  \)  rSup { size 8{3} } } } =0 drarrow 4x \( x rSup { size 8{2} }  - 3 \) =0 drarrow x rSub { size 8{1} } =0,x rSub { size 8{2/3} } = +-  sqrt {3} } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-935">Со овие три точки дефиниционата област се раздробува на четири подинтервали, при што функцијата е:</para><para id="eip-855">конвексна (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }&gt;0} {}</m:annotation></m:semantics></m:math>) на интервалите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt></m:mrow><m:mi>,</m:mi><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  sqrt {3} ,0 \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  sqrt {3} ,+ infinity  \) } {}</m:annotation></m:semantics></m:math>, </para><para id="eip-530">конкавна (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }&lt;0} {}</m:annotation></m:semantics></m:math>) на интервалите <emphasis effect="bold"/><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mroot><m:mn>3</m:mn><m:mrow/></m:mroot></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  infinity , -  nroot {}  {3}  \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0,</m:mn><m:msqrt><m:mn>3</m:mn></m:msqrt><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0, sqrt {3}  \) } {}</m:annotation></m:semantics></m:math><emphasis effect="bold">.</emphasis></para><para id="eip-380">Се забележува симетрија во конвексноста/конкавноста заради симетричноста на функцијата, односно таа е непарна функција.  </para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-612"><title>Пример 3.</title><para id="eip-817">На интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[  - 1,2 \] } {}</m:annotation></m:semantics></m:math> да се определат најмата и најголемата вредност на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>5x</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mn>5x</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{5} }  - 5x rSup { size 8{4} } +5x rSup { size 8{3} } +1} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-807"><emphasis effect="bold">Решение. </emphasis>Од изводот</para><para id="eip-377"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mn>5x</m:mn>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>20</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>15</m:mtext>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=5x rSup { size 8{4} }  - "20"x rSup { size 8{3} } +"15"x rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-179">преку решавање на равенката</para><para id="eip-82"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>y</m:mi>
+                      <m:mi>'</m:mi>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">⇒</m:mo>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>5x</m:mn>
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>20</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>15</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0 drarrow 5x rSup { size 8{4} }  - "20"x rSup { size 8{3} } +"15"x rSup { size 8{2} } =0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-518"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mn>5x</m:mn>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>4x</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{5x rSup { size 8{2} }  \( x rSup { size 8{2} }  - 4x+3 \) =0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-918">се добиваат четири стационарни точки (првите две се исти)</para><para id="eip-899"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">/</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x rSub { size 8{1/2} } =0}  {} # 
+x rSub { size 8{3} } =1 {} # 
+x rSub { size 8{4} } =3 "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-428">Во бараниот интервал <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[  - 1,2 \] } {}</m:annotation></m:semantics></m:math> припаѓаат стационарните точки <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0,x=1} {}</m:annotation></m:semantics></m:math>, додека стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∉</m:mo><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,2</m:mn></m:mrow></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3 notin  \[  - 1,2 \] } {}</m:annotation></m:semantics></m:math>. Затоа понатаму ќе испитуваме екстреми само за стационатните точки <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-14"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>20</m:mtext></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mtext>60</m:mtext></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>30</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' }="20"x rSup { size 8{3} }  - "60"x rSup { size 8{2} } +"30"x} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-15"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( 0 \) =0 drarrow } {}</m:annotation></m:semantics></m:math> ништо не можеме да кажеме за екстремот во стационарната точка <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-27"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>60</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '  ' } \( 1 \) ="20" - "60"="30"&lt;0 drarrow } {}</m:annotation></m:semantics></m:math> точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math> е точка на максимум.</para><para id="eip-248">Се пресметуваат вредностите на функцијата во екстремот и на краевите од интервалот:</para><para id="eip-943"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>2,</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mtext>10</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>2</m:mn>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mtext>32</m:mtext>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>80</m:mtext>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mtext>40</m:mtext>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>7</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{y \( 1 \) =1 - 5+5+1=2,}  {} # 
+ size 12{y \(  - 1 \) = - 1 - 5 - 5+1= - "10",}  {} # 
+ size 12{y \( 2 \) ="32" - "80"+"40"+1= - 7 "." }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-291">Од вредностите на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2,y= - "10",y= - 7} {}</m:annotation></m:semantics></m:math> најголема е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=2} {}</m:annotation></m:semantics></m:math>, а најмала е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= - "10"} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-150">При тоа, најголемата вредност <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2} {}</m:annotation></m:semantics></m:math> се постигнува во локалниот максимум во точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>, а најмалата вредност <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "10"} {}</m:annotation></m:semantics></m:math> е во почетната точна на интервалот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1,2</m:mn></m:mrow><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \[  - 1,2 \] } {}</m:annotation></m:semantics></m:math>, т.е.во <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x= - 1} {}</m:annotation></m:semantics></m:math>.</para>
+</example></section>
+  </content>
+</document>

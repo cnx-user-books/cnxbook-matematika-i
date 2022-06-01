@@ -1,0 +1,606 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Параметарски равенки на функција</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15450</md:content-id>
+  <md:title>Параметарски равенки на функција</md:title>
+  <md:abstract>Се воведува поимот за параметарски облик на функција.</md:abstract>
+  <md:uuid>73484913-9270-4cda-8073-f6f30dc72001</md:uuid>
+</metadata>
+  <content>
+    <section id="id-373435784994">
+      <title>ПАРАМЕТАРСКИ  РАВЕНКИ НА ФУНКЦИЈА </title><para id="id10306183">При проучувањето на некои проблеми од физиката и механиката, функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> задедена во експлицитен или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x,y \) =0} {}</m:annotation></m:semantics></m:math> во имплицитен облик не е погодна за проучување и затоа се воведува нова, трета помошна променлива <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis/>  преку која функцијата пооделно се разгледува на апсцисната и ординатната оска. Затоа функцијата се изразува преку нови равенки</para><para id="id10226157">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>ϕ</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mstyle fontsize="12pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>ψ</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mtext>.</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x=ϕ \( t \) }  {} # 
+ size 12{y=ψ \( t \)  "." }  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      <para id="id10719652">Помошната променлива <m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis/>  во овие равенки се нарекува <term>параметар</term>, а вака зададената функција е во <term>параметарски облик</term> или со <term>параметарски равенки</term>. </para><para id="id10719983">Со елимини­рање на парамертарот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis/> од параметарски зададената функција, доколку е можно, функцијата може да се доведе во експлицитен облик 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> или имплицитен облик 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x,y \) =0} {}</m:annotation></m:semantics></m:math>, во коj директно се гледа зависноста на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. </para>
+      <para id="id10915361"/>
+      <section id="id-468689694457">
+        <title>Задача 1. </title>
+        <para id="id10915378">Во параметарски зададената функција</para>
+        <para id="id10915385">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>cos</m:mtext>
+                              </m:mrow>
+                              <m:mi>t</m:mi>
+                              <m:mi>,</m:mi>
+                              <m:mi/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>sin</m:mtext>
+                              </m:mrow>
+                              <m:mn>2t</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x="cos"t,`}  {} # 
+ size 12{y="sin"2t}  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10707462">да се елиминира параметарот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis>.</emphasis></para></section>
+      <section id="id-574895341591">
+        <title>Решение: </title>
+        <para id="eip-661">Поаѓајќи од функцијата</para><para id="eip-975"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>sin</m:mtext>
+                </m:mrow>
+                <m:mn>2t</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y="sin"2t} {}</m:annotation>
+        </m:semantics>
+      </m:math></para><para id="eip-166">и со нејзино квадрирање</para><para id="eip-983"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>sin</m:mtext><m:mn>2t</m:mn><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mtext>cos</m:mtext><m:mi>t</m:mi><m:mtext>sin</m:mtext><m:mi>t</m:mi><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>t</m:mi><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{2} } = \( "sin"2t \)  rSup { size 8{2} } = \( 2"cos"t"sin"t \)  rSup { size 8{2} } =4"cos" rSup { size 8{2} } t"sin" rSup { size 8{2} } t=4"cos" rSup { size 8{2} }  \( 1 - "cos" rSup { size 8{2} } t \) } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-623">и замена на  </para><para id="eip-100"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>cos</m:mtext>
+                </m:mrow>
+                <m:mi>t</m:mi>
+                <m:mi>,</m:mi>
+                <m:mi/>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x="cos"t,`} {}</m:annotation>
+        </m:semantics>
+      </m:math></para><para id="eip-935">се исклучува параметарот <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, при што се добива имплицитната функција</para><para id="id10929890"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mn>4x</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{2} } =4x rSup { size 8{2} }  \( 1 - x rSup { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="id-643311724456">
+        <title>Задача 2. </title>
+        <para id="id10930004">Да се провери дека со параметарските равенки</para>
+        <para id="id10930009">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>cos</m:mtext>
+                      <m:mi>t</m:mi>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mtext>sin</m:mtext>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x=2+5"cos"t,`y= - 3+5"sin"t} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id11250003">е зададена кружница. </para>
+      </section>
+      <section id="id-797813983068">
+        <title>Решение:</title>
+        <para id="id11250018">Равенката на кружницата ќе се определи доведуваки ги параметарските равенки во облик</para>
+        <para id="id11250029">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                              <m:mtext>cos</m:mtext>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                              <m:mtext>sin</m:mtext>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x - 2=5"cos"t}  {} # 
+ size 12{y+3=5"sin"t}  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10916329">и ако по квадрирање на двете равенки </para>
+        <para id="id10916334">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>25</m:mtext>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mtext>cos</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>25</m:mtext>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mtext>sin</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ \( x - 2 \)  rSup { size 8{2} } ="25""cos" rSup { size 8{2} } t}  {} # 
+ \( y+3 \)  rSup { size 8{2} } ="25""sin" rSup { size 8{2} } t {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10916482">ги собереме се добива </para>
+        <para id="id10916487"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>25</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>cos</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x - 2 \)  rSup { size 8{2} } + \( y+3 \)  rSup { size 8{2} } ="25" \( "cos" rSup { size 8{2} } t+"sin" rSup { size 8{2} } t \) } {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id10916642">односно</para>
+        <para id="id10916646"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mn>5</m:mn><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x - 2 \)  rSup { size 8{2} } + \( y+3 \)  rSup { size 8{2} } =5 rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, </para>
+        <para id="id9373683">што претставува централна равенка на кружница со центар во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>2,</m:mn><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S \( 2, - 3 \) } {}</m:annotation></m:semantics></m:math> и радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r=5} {}</m:annotation></m:semantics></m:math>.</para></section>
+      <section id="id-709368828025">
+        <title>Пример 1. </title>
+        
+        
+        <para id="element-581">Кривата што ја опишува точка од кружница со радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> која се тркала по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - {}} {}</m:annotation></m:semantics></m:math>оската се нарекува <link url="http://en.wikipedia.org/wiki/Cycloid">циклоида</link> <term/>(Сл. 2.3.) и е зададена со параметарските равенки</para><para id="element-543"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mi>t</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>sin</m:mtext>
+                          </m:mrow>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>cos</m:mtext>
+                          </m:mrow>
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x=a \( t - "sin"t \) }  {} # 
+ size 12{y=a \( 1 - "cos"t \)  "." }  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><table id="id10097667" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1168840105105" alt=""><image src="../../media/graphics1-f2bd.png" mime-type="image/png"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 2.3 Циклоида</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id-71036340573">
+        <title>Пример 2. </title>
+        <para id="id10097741">Равенката на кривата во правоаголни координати</para>
+        <para id="id10097746">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mn>2</m:mn>
+                                <m:mn>3</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mn>2</m:mn>
+                                <m:mn>3</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>2</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{ {  {2}  over  {3} } } } +y rSup { size 8{ {  {2}  over  {3} } } } =a rSup { size 8{ {  {2}  over  {3} } } } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id10097851">се нарекува <link url="http://en.wikipedia.org/wiki/Astroid">астроида</link> и често пати се проучува и во параметарски облик преку нејзините параметарски равенки</para>
+        <para id="id10097874">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi>a</m:mi>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mtext>cos</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mi>t</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mtext>sin</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x=a"cos" rSup { size 8{3} } t}  {} # 
+y=a"sin" rSup { size 8{3} } t "."  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <table id="id10678416" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1168818655905" alt=""><image src="../../media/graphics2-cafd.png" mime-type="image/png"/></media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 2.4 Астроида</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para id="id10678474">Графикот на астроидата (Сл. 2. 4) е крива која ја опишува точка од кружница со радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">/</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r/4} {}</m:annotation></m:semantics></m:math> која се тркала по внатрешната страна од кружница со радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>.</para></section>
+    </section>
+  </content>
+</document>

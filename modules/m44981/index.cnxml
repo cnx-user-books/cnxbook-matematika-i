@@ -1,0 +1,314 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Поим за реална функција од една независна променлива</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m44981</md:content-id>
+  <md:title>Поим за реална функција од една независна променлива</md:title>
+  <md:abstract>Се воведува поимот за величина и се дефинираат независни и зависни величини. Во множеството на реалните броеви се дефинира функција од една реална променлива.</md:abstract>
+  <md:uuid>3c02ba94-41ba-4137-bbbb-e7cdd57188f8</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1172778356487">
+      <title>ПОИМ ЗА РЕАЛНА ФУНКЦИЈА ОД ЕДНА НЕЗАВИСНА ПРОМЕНЛИВА  </title>
+      <para id="import-auto-id1172782487262">Насекаде околу нас се случуваат разни промени и тие се сврзани со основниот поим големина. </para><para id="import-auto-id1172778195979">Под поимот <term id="import-auto-id1172778354968">големина</term> се подразбира секој објект кој може да се измери и изрази преку број.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172783802954">При мерење на една иста големина во различно време и на различно место може да се добијат различни вредности. Може да се мери и уочи промената на температурата и притисокот на воздухот во зависност од времето, јачината на ветерот кој дува, брзината со која се движи некое возило или пешак и сл. Во математиката, на пример, се мери должината и радиусот на кружницата, плоштината на кружницата, должината на страната во квадратот и т.н. Постојат и големини кои секогаш имаат иста вредност како што се броевите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>π</m:mi><m:mi>,</m:mi><m:mi/><m:mi>e</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π,~e} {}</m:annotation></m:semantics></m:math> и други. Се забележува дека некои големини ја менуваат својата вредност и тие се нарекуваат <term id="import-auto-id1172778777100">променливи</term>, додека оние кои секогаш имаат иста вредност се нарекуваат <term id="import-auto-id1172772992059">константи</term>. Математичката анализа е област која ги изучува променливите големини. Постојат два вида променливи, едните се менуваат произволно, независно од други и се нарекуваат <term id="import-auto-id1172775563423">независни променливи</term>, а вторите зависат од менувањето на некоја големина и се нарекуваат <term id="import-auto-id1172777769613">зависни променливи</term>. На пример, плоштината на кружницата зависи од должината на нејзиниот радиус, плоштината на квадратот зависи од должината на стрната на квадратот и т.н. Плоштината на квадратот се пресметува по формулата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=a rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> и за страната <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> се вели дека е независна променлива додека плоштината <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> е зависна променлива, односно <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> е функција <emphasis effect="bold"><emphasis effect="italics"/></emphasis> од <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> и се запишува <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=f \( a \) } {}</m:annotation></m:semantics></m:math> или <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi>P</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=P \( a \) } {}</m:annotation></m:semantics></m:math>. Следува дефиниција за функција:</para><para id="import-auto-id1172784581590"><term id="import-auto-id1172778211487">Дефиниција</term>.</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172780420146">Нека <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math> се две непразни бројни множества <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>D,G</m:mtext><m:mo stretchy="false">⊆</m:mo><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "D,G" subseteq R \) } {}</m:annotation></m:semantics></m:math>. Ако на секој елемент <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>D</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in D} {}</m:annotation></m:semantics></m:math> по некој закон или правило <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> му одговара еден и само еден елемент <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>G</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y in G} {}</m:annotation></m:semantics></m:math>, се вели дека е зададена <term id="import-auto-id1172775020965">функција</term><m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> од множеството <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> во множест­вото <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> и се означува <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math></emphasis> или <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mi>:</m:mi><m:mi>D</m:mi><m:mo stretchy="false">→</m:mo><m:mi>G</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f:D rightarrow G "." } {}</m:annotation></m:semantics></m:math></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172772389432">Функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> се нарекува <term id="import-auto-id1172772387305">реалана функција од една реална променлива</term> бидејки вредностите и на независната променлива и на функцијата се реални вредности. </para><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-999"><title>ПРИМЕР 1.</title><para id="eip-56">Дадена е функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( x \) = {  { \lline x+3 \lline }  over  {2x - 1} } } {}</m:annotation></m:semantics></m:math>. Да се пресметаат вредностите:
+</para><para id="eip-299"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>,</m:mi>
+                  <m:mi/>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>1</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>,</m:mi>
+                  <m:mi/>
+                  <m:mi>y</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>,</m:mi>
+                  <m:mi/>
+                  <m:mi>y</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mi>,</m:mi>
+                  <m:mi/>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi>y</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y \( 0 \) ,`y \( 1 \) ,`y \(  - 3 \) ,`y \(  - 4 \) ,` \lline y \(  - 4 \)  \lline  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-583">РЕШЕНИЕ.</para><para id="eip-578"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>3</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 0 \) = {  { \lline 0+3 \lline }  over  {2 cdot 0 - 1} } = {  { \lline 3 \lline }  over  { - 1} } = - 3} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-94"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>4</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mn>1</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \( 1 \) = {  { \lline 1+3 \lline }  over  {2 cdot 1 - 1} } = {  { \lline 4 \lline }  over  {1} } =4} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-187"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">∣</m:mo><m:mn>0</m:mn><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - 3 \) = {  { \lline  - 3+3 \lline }  over  {2 cdot  \(  - 3 \)  - 1} } = {  { \lline 0 \lline }  over  { - 7} } =0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-164"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">⋅</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y \(  - 4 \) = {  { \lline  - 4+3 \lline }  over  {2 cdot  \(  - 4 \)  - 1} } = {  { \lline  - 1 \lline }  over  { - 9} } = {  {1}  over  { - 9} } = -  {  {1}  over  {9} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-399"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">∣</m:mo><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>9</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` \lline y \(  - 4 \)  \lline = lline  -  {  {1}  over  {9} }  rline = {  {1}  over  {9} } } {}</m:annotation></m:semantics></m:math>.</para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-615"><title>ПРИМЕР 2.</title><para id="eip-940">Дадени се функциите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =x rSup { size 8{2} }  - 3x} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>12</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>4x</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) ="12" - 4x} {}</m:annotation></m:semantics></m:math>. Да се најдат сите корени на равнката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =g \( x \) } {}</m:annotation></m:semantics></m:math>.
+</para><para id="eip-225">РЕШЕНИЕ:</para><para id="eip-85">Со замена на изразите во равенството</para><para id="eip-682"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>g</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =g \( x \) } {}</m:annotation>
+          </m:semantics>
+        </m:math></para><para id="eip-484">се добива равенката</para><para id="eip-116"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>3x</m:mn>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mtext>12</m:mtext>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>4x</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} }  - 3x="12" - 4x} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-145">која по средување е квадратната равенка</para><para id="eip-743"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>12</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{2} } +x - "12"=0} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="eip-764">чии што корени се</para><para id="eip-199"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">±</m:mo><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>48</m:mtext></m:mrow></m:msqrt></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">±</m:mo><m:mn>7</m:mn></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{1/2} } = {  { - 1 +-  sqrt {1+"48"} }  over  {2} } = {  { - 1 +- 7}  over  {2} } } {}</m:annotation></m:semantics></m:math>,</para><para id="eip-675">односно</para><para id="eip-883"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                  <m:mtr>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{x rSub { size 8{1} } = - 4}  {} # 
+x rSub { size 8{2} } =3 "."  {} 
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></example><para id="import-auto-id1172772373099">Со функциите се поврзани следниве термини:</para>
+      <para id="import-auto-id1172772373871"><term id="import-auto-id1172772373173">Дефинициона област</term> или <term id="import-auto-id1172772373765">домен</term> за функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> е множеството <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>;</para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172775184891"><term id="import-auto-id1172790014345">Множество од вредности</term> или <term id="import-auto-id1172772372755">кодомен</term><emphasis effect="italics"/> на функцијата е множеството <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math>;</para><para id="import-auto-id1172772374200"><term id="import-auto-id1172772373141">Функција</term> е законот (правилото) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> со кој множеството <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> се пресликува во множеството <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math>; </para>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172778250398"><term id="import-auto-id1172779700467">Независна променлива</term> или <term id="import-auto-id1172778229342">аргумент</term> е променливата <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>; </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172772371556"><term id="import-auto-id1172772371901">Зависна променлива</term> или <emphasis effect="bold"/><term id="import-auto-id1172772371465">вредност на функцијата</term> е промeнливата <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>.</para><section id="import-auto-id1172772372549">
+        <title>Еднаквост на функции</title>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1172772371449">За две функции <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека се <term id="import-auto-id1172772370956">еднакви</term> ако се исполнети следните три услови:</para><para id="import-auto-id1172772370907">1) Имаат еднакви дефинициони области (домени), т. е. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>D</m:mi><m:mrow><m:mi>g</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } =D rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="import-auto-id1172772369725">2) Имаат еднакви вредности на функцијата (кодомени), т.е. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>G</m:mi><m:mrow><m:mi>g</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{f} } =G rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="import-auto-id1172772368936">3) Имаат еднакви вредност за ист аргумент, т.е. <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">∀</m:mo><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>D</m:mi><m:mrow><m:mi>g</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =g \( x \) ,` forall x in D rSub { size 8{f} } =D rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="import-auto-id1172772367130">Ако не е исполенет било кој од наведените три услови за еднаквост, функциите не се еднакви.</para>
+        <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-802"><title>ПРИМЕР 3.</title><para id="eip-634">Дали се еднакви функциите
+</para><para id="eip-161">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>x</m:mi><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {x}  over  {x rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> и <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) = {  {1}  over  {x} } } {}</m:annotation></m:semantics></m:math></emphasis>?</para><para id="eip-36">б) <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h \( x \) = {  {x rSup { size 8{2} } }  over  {x} } } {}</m:annotation></m:semantics></m:math></emphasis> и <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k \( x \) =x} {}</m:annotation></m:semantics></m:math></emphasis>?</para><para id="eip-589">в) <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s \( x \) =x} {}</m:annotation></m:semantics></m:math></emphasis>  и <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msqrt><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:msqrt></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t \( x \) = sqrt {x rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></emphasis>?</para><para id="eip-742">РЕШЕНИЕ:
+</para><para id="eip-848">а) Функциите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> се еднакви.</para><para id="eip-373">б) Функциите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k \( x \) } {}</m:annotation></m:semantics></m:math> не се еднакви бидејќи немаат еднакви дефинициони области, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>h</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">∪</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>0,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } = \(  -  infinity ,0 \)  union  \( 0,+ infinity  \) } {}</m:annotation></m:semantics></m:math> додека <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>k</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{g} } = \(  -  infinity ,+ infinity  \) } {}</m:annotation></m:semantics></m:math>. </para><para id="eip-808">в) Функциите <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t \( x \) } {}</m:annotation></m:semantics></m:math> не се еднакви бидејќи немаат еднакви вредности на функциите, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{s} } = \(  -  infinity ,+ infinity  \) } {}</m:annotation></m:semantics></m:math> додека <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>G</m:mi><m:mrow><m:mi>t</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>0,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G rSub { size 8{t} } = \[ 0,+ infinity  \)  "." } {}</m:annotation></m:semantics></m:math> Тие се еднакви само за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mrow><m:mn>0,</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x in  \[ 0,+ infinity  \) } {}</m:annotation></m:semantics></m:math>. </para></example><note id="eip-961"><title>ЗАБЕЛЕШКА</title>Во дефиницијата за функција се нагласи дека на секоја вредност на аргументот одговара една и само една вредност на функцијата. Ваквите функции се нарекуваат еднозначни. Постојат и повеќезначни функции кај кои за една вредност на аргументот се добива повеќе од една вредност на функцијата. Под поимот функција понатаму ќе подразбираме дека функцијата е еднозначна. </note><para id="import-auto-id1172772407965">Терминот “функција” за прв пат е воведен од Лајбниц (Leibnitz, 1640-1716), додека вообичаената ознака <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е воведена подоцна од Ојлер (Euler, 1707-1783). </para>
+        <para id="import-auto-id1172772405338">За означување на функциите вообичаено се користат ознаките</para>
+        <para id="import-auto-id1172772403958">
+          <emphasis effect="italics">
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>f</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>F</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>ϕ</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>f</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mi>,</m:mi>
+                      <m:mi/>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>f</m:mi>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) ,`y=F \( x \) ,`y=ϕ \( x \) ,`y=y \( x \) ,`y rSub { size 8{1} } =f rSub { size 8{1} }  \( x \) ,` "."  "."  "." ,`y rSub { size 8{n} } =f rSub { size 8{n} }  \( x \) ,} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </emphasis>
+        </para>
+        <para id="import-auto-id1172778194952">кои накратко се запишуваат и како  <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mi>y</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:msub><m:mi>f</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>f</m:mi><m:mrow><m:mi>n</m:mi></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) ,`F \( x \) ,`ϕ \( x \) ,`y \( x \) ,`f rSub { size 8{1} }  \( x \) ,` "."  "."  "." ,`f rSub { size 8{n} }  \( x \)  "." } {}</m:annotation></m:semantics></m:math></emphasis></para>
+      </section>
+    </section>
+  </content>
+</document>

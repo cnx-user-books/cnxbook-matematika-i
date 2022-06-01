@@ -1,0 +1,252 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Асимптоти</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15562</md:content-id>
+  <md:title>Асимптоти</md:title>
+  <md:abstract>Се дефинира поимот за асимптота и се дефинираат три вида асимптоти: вертикална, хоризонтална и коса асимптота.</md:abstract>
+  <md:uuid>2abfe441-1fa9-41c4-bea0-abead6fe3735</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1168867382744">
+      <title>АСИМПТОТИ</title>
+      <para id="id1168866403729">Ако една крива линија која се продолжува во бесконечност сé повеќе се доближува до некоја права линија, т.е. растојанието на точките од кривата до правата тежи кон нула, правата се нарекува <term>асимптота</term>. </para>
+      <para id="id1168851990221">Една функција може да има три вида на асимптоти и тоа: вертикални, хоризонтални и коси.</para>
+      <section id="id4904907">
+        <title>Верикална асимптота</title>
+        <para id="id1168852965495">Правата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math> е <term>вертикална</term><term> асимптота</term> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> ако важи некој од случаите:</para>
+        <equation id="id1168856538984">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi/>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">→</m:mo>
+                                      <m:mrow>
+                                        <m:mi>a</m:mi>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mrow/>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:munder>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mtext>=+</m:mtext>
+                              <m:mo stretchy="false">∞</m:mo>
+                              <m:mi>,</m:mi>
+                              <m:mi/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:munder>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">∞</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:munder>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mtext>=+</m:mtext>
+                        <m:mo stretchy="false">∞</m:mo>
+                        <m:mi>,</m:mi>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mrow>
+                                  <m:mi>a</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:munder>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mo stretchy="false">∞</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{` {"lim"}  cSub { size 8{x rightarrow a - {}} } f \( x \) "=+" infinity ,~}  {} # 
+ {"lim"}  cSub { size 8{x rightarrow a - {}} } f \( x \) = -  infinity ,~ {} # 
+ {"lim"}  cSub { size 8{x rightarrow a+{}} } f \( x \) "=+" infinity , {} # 
+ {"lim"}  cSub { size 8{x rightarrow a+{}} } f \( x \) = -  infinity  "."  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <list id="id1168862358543" list-type="bulleted">
+          <item>Вертиклните асимптоти се вертикални прави кон кои графикот на функцијата бесконечно се доближува.</item>
+          <item>Графикот на функцијата и верикалната асимптота не може да имаат заеднички точки.</item>
+          <item>Ако функцијата е дробнорационална, вертикални асимптоти се вредностите на независната променлива за кои именителот е еднаков на нула. </item>
+          <item>Функција може да има повеке вертикални асимптоти и тоа се точки во кои функцијта е прекината.</item>
+        </list>
+        <para id="eip-797"><link document="m13605">Решени примери 1 
+  </link> на дробнорационални функции со вертикални асимптоти.
+</para>
+      </section>
+      <section id="id1168858976367">
+        <title>Хоризонтална асимптота</title>
+        <para id="id1168851834792">Правата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=b} {}</m:annotation></m:semantics></m:math> е <term>хоризонтална асимптота</term> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math>   ако </para>
+        <para id="id7151233"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  infinity } } f \( x \) =b} {}</m:annotation></m:semantics></m:math>  или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  -  infinity } } f \( x \) =b} {}</m:annotation></m:semantics></m:math>.</para>
+        <list id="id2592577" list-type="bulleted"><item>Хоризонталаната асимптота е хоризонтална права кон која графикот на функцијата бесконечно се доближува за бесконечни вредности на независната променлива.</item>
+          <item>Ако функцијата е дробнорационална и ако полиномите во именителот и броителот се со исти степени, коефициентот <emphasis effect="italics">b  </emphasis> на хоризонталната асимптота е еднаков на количникот од коефициентитите пред највисоката степен од броителот и именителот. </item>
+          <item>Ако во дробнорационалната функција степенот во именителот е поголем од оној во броителот, хоризонтална асимптота ќе биде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - {}} {}</m:annotation></m:semantics></m:math>оската.</item>
+          <item>Ако во дробнорационалната функција степенот во броителот е попоголем од оној во именителот, функцијата нема хоризонтална асимптота.</item>
+          <item>Графикот на функцијата може да има пресек со хоризонталната асимптота, но само во конечен број на точки.</item>
+        </list>
+        <para id="id1168866415390"><link url="http://cnx.org/content/m13606/latest/">Решени примери 2</link> на дробнорационални функции со хоризонтална асимптота.</para>
+      </section>
+      <section id="id1168852551190">
+        <title>Коса асимптота</title>
+        <para id="id1168851837084"><term>Коса</term><term> асимптота </term> е права од обликот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "kx"+n} {}</m:annotation></m:semantics></m:math> за која растојанието до функција
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> е бесконечно мало кога аргументот се стреми кон некоја од бесконечностите т.е. 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ infinity } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  infinity  "." } {}</m:annotation></m:semantics></m:math> Таа се пресметува со</para>
+        <para id="id1168867092634"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  -  infinity } }  left [f \( x \)  -  \(  ital "kx"+n \)  right ]=0} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow + infinity } }  left [f \( x \)  -  \(  ital "kx"+n \)  right ]=0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1168855615684">Поаѓајки од последната гранична вредност по делење со <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>x</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се добива </para><para id="id1168860528296"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mi>k</m:mi></m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>n</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  infinity } }  left [ {  {f \( x \) }  over  {x} }  - k -  {  {n}  over  {x} }  right ]=0} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math>односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder></m:mrow><m:mrow><m:mfrac><m:mi>n</m:mi><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {f \( x \) }  over  {x} }  -  {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {n}  over  {x} } =k} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1168852808303">Бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfrac><m:mi>n</m:mi><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {n}  over  {x} } =0} {}</m:annotation></m:semantics></m:math>, се добива дека коефициентот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>k</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се определува преку равенката</para><para id="id1168867866514"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder></m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`k= {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {f \( x \) }  over  {x} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1168862151623">Коефициентот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>n</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     во косата асимптота се определува од почетната гранична вредност за коса асимптора</para><para id="eip-182"><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow  -  infinity } }  left [f \( x \)  -  \(  ital "kx"+n \)  right ]=0} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow + infinity } }  left [f \( x \)  -  \(  ital "kx"+n \)  right ]=0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-156">од каде се добива дека</para><para id="id1168866938719"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi/><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder></m:mrow><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`n= {"lim"}  cSub { size 8{x rightarrow  infinity } }  left [f \( x \)  -  ital "kx" right ]} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id4744469"/>
+        <list id="id1168854434702" list-type="bulleted"><item>Косата асимптота е коса права кон која графикот на функцијата бесконечно се доближува за бесконечни вредности на аргументот.</item>
+          <item>Графикот на функцијата и косата асиптота може да немаат заеднички точки или пак се сечат во конечен број на точки. </item>
+          <item>Функција неможе да има истовремено коса и хоризонтална асимптота, бидејки хоризонталната права е специјален случај од косата права.</item>
+        </list><para id="id1168853588839"><link document="m13608"> Решени примери 3</link> на дробнорационални функции со коса асимптота.</para>
+      </section>
+    </section>
+  </content>
+</document>

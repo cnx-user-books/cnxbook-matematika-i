@@ -1,0 +1,2360 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Изводи и диференцијали од повисок ред</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42089</md:content-id>
+  <md:title>Изводи и диференцијали од повисок ред</md:title>
+  <md:abstract>Се дава постапка за пресметување на изводи и диференцијали од повисок ред.</md:abstract>
+  <md:uuid>58151f6b-43b1-47db-a8d5-4cb125a072d1</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1166065448970">
+      <title>Изводи и диференцијали од повисок ред</title>
+      <para id="id1166063972547">Најпрво ќе покажеме како се пресметува извод од повисок ред.</para>
+      <section id="id1166063666809">
+        <title>Извод од повисок ред</title>
+        <para id="id1166071747600">Знаеме дека функцијата може да биде зададена на повеќе различни начини, затоа посебно ќе се објасни како се пресметуваат изводите од повисок ред од експлицитна функција, од имплицитна функција и од функција зададена во параметарски облик.</para>
+        <section id="id1166064230994">
+          <title>Функција во експлицитен облик</title>
+          <para id="id1166070781258">Нека функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> е дифернцијабилна на интервалот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi>b</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a,b \) } {}</m:annotation></m:semantics></m:math> и нека нејзиниот прв извод е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math>. Првиот извод на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {f}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math> во општ случај е функција од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> и од него пак може да се бара извод по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. Изводот од првиот извод се нарекува <emphasis>втор извод</emphasis> на функцијата<emphasis effect="bold"/> или <emphasis effect="bold"/><emphasis>извод од втор ред </emphasis><emphasis effect="bold"/>и се означува со </para>
+          <para id="id1166071660828"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>′</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( { {f}} sup { ' } \( x \)  right ) rSup { size 8{′} } = { {f}} sup { '' } \( x \) } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  { {y}} sup { ' } { { \) }} sup { ' }= { {y}} sup { '' }} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166063466543">Аналогно, извод од вториот извод е <emphasis>трет извод</emphasis>, при што</para>
+          <para id="id1166070868174"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>′</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( { {f}} sup { '' } \( x \)  right ) rSup { size 8{′} } = { {f}} sup { ''' } \( x \) } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  { {y}} sup { '' } { { \) }} sup { ' }= { {y}} sup { ''' }} {}</m:annotation></m:semantics></m:math>и т.н.</para>
+          <para id="id1166070776752">Изводите од втор, трет и повисок ред под заедничко име се нарекуваат <emphasis>изводи од пов</emphasis><emphasis>и</emphasis><emphasis>сок ред</emphasis><emphasis effect="bold">.</emphasis></para>
+        </section>
+        <section id="id1166064615849">
+          <title>Пример 1. </title>
+          <para id="id1166070831217">Да се пресмета 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }} {}</m:annotation></m:semantics></m:math> ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>ln</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="ln" \( x+ sqrt {x rSup { size 8{2} } +1}  \) } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166062937170">
+            <emphasis>Решение.</emphasis>
+          </para>
+          <para id="id1166062499200">Првиот извод е</para>
+          <para id="id1166061724678"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mtext>ln</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>′</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= left ("ln" \( x+ sqrt {x rSup { size 8{2} } +1}  right ) rSup { size 8{′} } = {  {1}  over  {x+ sqrt {x rSup { size 8{2} } +1} } }  \( 1+ {  {2x}  over  {2 sqrt {x rSup { size 8{2} } +1} } }  \) = {  {1}  over  { sqrt {x rSup { size 8{2} } +1} } } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id1166063739553">а вториот извод е</para>
+          <para id="id1166062680852"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mfrac></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>′</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= left ( {  {1}  over  { sqrt {x rSup { size 8{2} } +1} } }  right ) rSup { size 8{′} } = {  { -  {  {2x}  over  {2 sqrt {x rSup { size 8{2} } +1} } } }  over  {x rSup { size 8{2} } +1} } = -  {  {x}  over  { \( x rSup { size 8{2} } +1 \)  sqrt {x rSup { size 8{2} } +1} } } } {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+        <section id="id1166063416772">
+          <title>Пример 2. </title>
+          <para id="id1166071543702">Да се докаже дека функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mtext>sin</m:mtext></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="cos"e rSup { size 8{x} } +"sin"e rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> ја задоволува равенката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ye</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2x</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' } -  { {y}} sup { ' }+ ital "ye" rSup { size 8{2x} } =0} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166062219495">
+            <emphasis>Решение</emphasis>
+            <emphasis>.</emphasis>
+          </para>
+          <para id="id1166071881415">Се пресметуваат првиот и вториот извод:</para>
+          <para id="id1166063083730"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>cos</m:mtext><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= - e rSup { size 8{x} } "sin"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id1166062205073"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mtext>cos</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mtext>sin</m:mtext><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= - e rSup { size 8{x} } "sin"e rSup { size 8{x} }  - e rSup { size 8{x} } e rSup { size 8{x} } "cos"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} }  - e rSup { size 8{x} } e rSup { size 8{x} } "sin"e rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id1166061387338">и по средување</para>
+          <para id="id1166071438380"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow><m:mtext>sin</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2x</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>cos</m:mtext><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2x</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>sin</m:mtext><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= - e rSup { size 8{x} } "sin"e rSup { size 8{x} }  - e rSup { size 8{2x} } "cos"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} }  - e rSup { size 8{2x} } "sin"e rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166071249976">Со замена на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mi>,</m:mi><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y, { {y}} sup { ' }, { {y}} sup { '' }} {}</m:annotation></m:semantics></m:math>во равенката се добива </para>
+          <equation id="id1166060782722">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mi>y</m:mi>
+                                        <m:mrow>
+                                          <m:mi>'</m:mi>
+                                          <m:mi>'</m:mi>
+                                        </m:mrow>
+                                      </m:msup>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>y</m:mi>
+                                        <m:mi>'</m:mi>
+                                      </m:msup>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mstyle fontstyle="italic">
+                                      <m:mrow>
+                                        <m:msup>
+                                          <m:mtext>ye</m:mtext>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2x</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>e</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mi>x</m:mi>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2x</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2x</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>e</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mtext>sin</m:mtext>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>cos</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>e</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { '' } -  { {y}} sup { ' }+ ital "ye" rSup { size 8{2x} } = - e rSup { size 8{x} } "sin"e rSup { size 8{x} }  - e rSup { size 8{2x} } "cos"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} }  - e rSup { size 8{2x} } "sin"e rSup { size 8{x} }  - {}}  {} # 
+ -  \(  - e rSup { size 8{x} } "sin"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} }  \) +e rSup { size 8{2x} }  \( "cos"e rSup { size 8{x} } +"sin"e rSup { size 8{x} }  \) ={} {} # 
+= - e rSup { size 8{x} } "sin"e rSup { size 8{x} }  - e rSup { size 8{2x} } "cos"e rSup { size 8{x} } +e rSup { size 8{x} } "cos"e rSup { size 8{x} }  - e rSup { size 8{2x} } "sin"e rSup { size 8{x} } +e rSup { size 8{x} } "sin"e rSup { size 8{x} }  - e rSup { size 8{x} } "cos"e rSup { size 8{x} } +{} {} # 
++e rSup { size 8{2x} } "cos"e rSup { size 8{x} } +e rSup { size 8{2x} } "sin"e rSup { size 8{x} } =0 {} 
+} } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166071699321">што и требаше да се докаже.</para>
+          <para id="id1166062183711">Се забележува дека редот на изводот се означува со римски цифри. Бидејки за произволен број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n in N} {}</m:annotation></m:semantics></m:math> не постои соодветен репрезент со римска цифра, изводот на функцијата од <emphasis effect="italics">n</emphasis>-ти ред се означува со </para>
+          <equation id="id1166071468097">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>n</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n \) } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166061747045">што значи дека редот на изводот може на се означи и со конкретен арапски број или со општ број, но тогаш бројот задолжително е во мали загради за да се разликува од ознаката за степен на функција. Затоа на пример, ознаки за изводите се</para>
+          <para id="id1166070916384"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>v</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>10</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>xv</m:mtext></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>15</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{v} } =y rSup { size 8{ \( 5 \) } } ,`y rSup { size 8{x} } =y rSup { size 8{ \( "10" \) } } ,`y rSup { size 8{"xv"} } =y rSup { size 8{ \( "15" \) } } } {}</m:annotation></m:semantics></m:math> и т.н.</para>
+        </section>
+        <section id="id1166061609800">
+          <title>Пример 3. </title>
+          <para id="id1166071177120">Да се пресмета 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n \) } } } {}</m:annotation></m:semantics></m:math> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166063036183">
+            <emphasis>Решение</emphasis>
+            <emphasis>.</emphasis>
+          </para>
+          <para id="id1166064177546">Започнуваме со пресметување на изводите. Најпрво првиот извод </para>
+          <para id="id1166065546646"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= \(  ital "xe" rSup { size 8{x} }  { { \) }} sup { ' }=e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math> ,</para>
+          <para id="id1166071603706">потоа вториот извод </para>
+          <para id="id1166071152013"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= \( e rSup { size 8{x} } + ital "xe" rSup { size 8{x} }  { { \) }} sup { ' }=e rSup { size 8{x} } +e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } =2e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id1166071610741">третиот извод </para>
+          <para id="id1166065449600"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ''' }= \( 2e rSup { size 8{x} } + ital "xe" rSup { size 8{x} }  { { \) }} sup { ' }=2e rSup { size 8{x} } +e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } =3e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166071500136">Од претходно пресметаните изводи може да се претпостави дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n \) } } } {}</m:annotation></m:semantics></m:math> ќе биде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ne</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n \) } } = ital "ne" rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166062624117">Дека тоа е точно, ќе треба да докажеме дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n+1 \) } } = \( n+1 \) e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>. </para>
+          <para id="id1166071302388">За да се пресмета 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n+1 \) } } } {}</m:annotation></m:semantics></m:math> ќе треба да го диференцираме 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n \) } } } {}</m:annotation></m:semantics></m:math> уште еднаш:</para>
+          <para id="id1166067671795">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>n</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>ne</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xe</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>ne</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mi>x</m:mi>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mi>e</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>xe</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mi>x</m:mi>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>n</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xe</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n+1 \) } } = \( y rSup { size 8{ \( n \) } }  { { \) }} sup { ' }= \(  ital "ne" rSup { size 8{x} } + ital "xe" rSup { size 8{x} }  { { \) }} sup { ' }= ital "ne" rSup { size 8{x} } +e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } = \( n+1 \) e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id1166065363239">и заклучуваме дека навистина </para>
+          <para id="id1166065600447"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>xe</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSup { size 8{ \( n+1 \) } } = \( n+1 \) e rSup { size 8{x} } + ital "xe" rSup { size 8{x} } } {}</m:annotation></m:semantics></m:math>,</para>
+          <para id="id1166066213171">со што потврдивме дека претпоставката е точна (за дожување го користевме методот на математичка индукција).</para>
+        </section>
+        <section id="id1166074180451">
+          <title>Функција во имплицитен облик</title>
+          <para id="id1166068989796">Кога функцијата е зададена во имплицитен облик со равенка 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x,y \) =0} {}</m:annotation></m:semantics></m:math>, оваа имплицитна равенка ја диференцираме член по член по независно пременливата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, водејќи сметка дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> е функција, односно дека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=y \( x \) } {}</m:annotation></m:semantics></m:math>. Изразот што се добива за првиот извод уште еднаш се диференцира и се изразува вториот извод. Постапката може и понатаму да продолжи со извод од вториот извод кога се добива извод од трет ред и т.н.</para>
+        </section>
+        <section id="id1166071691893">
+          <title>Пример 4.</title>
+          <para id="id1166070304704">Да се пресмета 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }} {}</m:annotation></m:semantics></m:math> за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } } =1} {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166061950664">
+            <emphasis>Решение</emphasis>
+            <emphasis>.</emphasis>
+          </para>
+          <para id="id1166065406115">Бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dy</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  { ital "dy"}  over  { ital "dx"} } } {}</m:annotation></m:semantics></m:math>, двете страни на оваа имплицитната равенка (равенка на елипса) ги диференцираме по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></para>
+          <equation id="id1166062318675">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>b</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {d}  over  { ital "dx"} }  left ( {  {x rSup { size 8{2} } }  over  {a rSup { size 8{2} } } } + {  {y rSup { size 8{2} } }  over  {b rSup { size 8{2} } } }  right )= {  {d}  over  { ital "dx"} }  \( 1 \) } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166063754212">и се добива </para>
+          <equation id="id1166070889440">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>2x</m:mn>
+                            <m:msup>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2y</m:mn>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mi>b</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {2x}  over  {a rSup { size 8{2} } } } + {  {2y { {y}} sup { ' }}  over  {b rSup { size 8{2} } } } =0} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166064130984">од каде</para>
+          <para id="id1166071760208"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>x</m:mi></m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mi>y</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= -  {  {b rSup { size 8{2} } x}  over  {a rSup { size 8{2} } y} } } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166065396204">Ако сега првиот извод го диференцираме уште еднаш</para>
+          <equation id="id1166064093389">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mi>d</m:mi>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>b</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>a</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ {  {d}  over  { ital "dx"} }  \(  { {y}} sup { ' } \) = -  {  {d}  over  { ital "dx"} }  left ( {  {b rSup { size 8{2} } x}  over  {a rSup { size 8{2} } y} }  right )} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166070784862">се добива</para>
+          <equation id="id1166063977538">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>b</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mfrac>
+                              <m:mi>d</m:mi>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mi>x</m:mi>
+                                  <m:mi>y</m:mi>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mfrac>
+                                    <m:msup>
+                                      <m:mi>b</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:msup>
+                                      <m:mi>a</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mi>y</m:mi>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+                                    <m:msup>
+                                      <m:mi>y</m:mi>
+                                      <m:mi>'</m:mi>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:msup>
+                                    <m:mi>b</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>y</m:mi>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                  <m:mfenced open="(" close=")">
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mfrac>
+                                        <m:mrow>
+                                          <m:msup>
+                                            <m:mi>b</m:mi>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:mn>2</m:mn>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msup>
+                                          <m:mi>x</m:mi>
+                                        </m:mrow>
+                                        <m:mrow>
+                                          <m:msup>
+                                            <m:mi>a</m:mi>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:mn>2</m:mn>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msup>
+                                          <m:mi>y</m:mi>
+                                        </m:mrow>
+                                      </m:mfrac>
+                                    </m:mrow>
+                                  </m:mfenced>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mfrac>
+                                <m:msup>
+                                  <m:mi>b</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mfrac>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>y</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>b</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= -  {  {b rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  cdot  {  {d}  over  { ital "dx"} }  left ( {  {x}  over  {y} }  right )= -  {  {b rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  cdot  {  {y - x { {y}} sup { ' }}  over  {y rSup { size 8{2} } } } = -  {  {b rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  cdot  {  {y - x left ( -  {  {b rSup { size 8{2} } x}  over  {a rSup { size 8{2} } y} }  right )}  over  {y rSup { size 8{2} } } } = -  {  {b rSup { size 8{2} } }  over  {a rSup { size 8{2} } } }  cdot  {  { {  {a rSup { size 8{2} } y rSup { size 8{2} } +b rSup { size 8{2} } x rSup { size 8{2} } }  over  {a rSup { size 8{2} } y} } }  over  {y rSup { size 8{2} } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166062062760">и со користење на релацијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSup { size 8{2} } y rSup { size 8{2} } +b rSup { size 8{2} } x rSup { size 8{2} } =a rSup { size 8{2} } b rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> следува дека</para>
+          <para id="id1166064192703"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= -  {  {b rSup { size 8{4} } }  over  {a rSup { size 8{2} } y rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+        <section id="id1166065800753">
+          <title>Функција во параметарски облик</title>
+          <para id="id1166071253579">Кога функцијата е зададена во параметарски облик преку равенките 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>y</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x \( t \) ,y=y \( t \) } {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t - {}} {}</m:annotation></m:semantics></m:math> параметар, вториот извод е извод од првиот извод по променливата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. Бидејќи изводот е изразен преку параметарот, затоа целата постапка на диференцирање се изведува преку параметарот преку следната постапка</para>
+          <equation id="id1166064095816">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mfrac>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dy</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>dx</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mfrac>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dx</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mfrac>
+                              <m:mover accent="true">
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                            </m:mfrac>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dt</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dt</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>dx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mfrac>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mfrac>
+                              <m:mover accent="true">
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                            </m:mfrac>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>dt</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mfrac>
+                                  <m:mover accent="true">
+                                    <m:mi>y</m:mi>
+                                    <m:mo stretchy="false">˙</m:mo>
+                                  </m:mover>
+                                  <m:mover accent="true">
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">˙</m:mo>
+                                  </m:mover>
+                                </m:mfrac>
+                              </m:mfenced>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mfrac>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dx</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dt</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:mfrac>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mover accent="true">
+                                    <m:mi>y</m:mi>
+                                    <m:mo stretchy="false">¨</m:mo>
+                                  </m:mover>
+                                  <m:mrow>
+                                    <m:mover accent="true">
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">˙</m:mo>
+                                    </m:mover>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mover accent="true">
+                                      <m:mi>y</m:mi>
+                                      <m:mo stretchy="false">˙</m:mo>
+                                    </m:mover>
+                                  </m:mrow>
+                                  <m:mover accent="true">
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">¨</m:mo>
+                                  </m:mover>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mover accent="true">
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">˙</m:mo>
+                                  </m:mover>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mfrac>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mover accent="true">
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">˙</m:mo>
+                                </m:mover>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">¨</m:mo>
+                              </m:mover>
+                              <m:mrow>
+                                <m:mover accent="true">
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">˙</m:mo>
+                                </m:mover>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mover accent="true">
+                                  <m:mi>y</m:mi>
+                                  <m:mo stretchy="false">˙</m:mo>
+                                </m:mover>
+                              </m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">¨</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= {  {d}  over  { ital "dx"} }  left ( {  { ital "dy"}  over  { ital "dx"} }  right )= {  {d}  over  { ital "dx"} }  left ( {  { { dot  {y}}}  over  { { dot  {x}}} }  right )= {  {d}  over  { ital "dt"} }  {  { ital "dt"}  over  { ital "dx"} }  left ( {  { { dot  {y}}}  over  { { dot  {x}}} }  right )= {  {d}  over  { ital "dt"} }  left ( {  { { dot  {y}}}  over  { { dot  {x}}} }  right ) cdot  {  {1}  over  { {  { ital "dx"}  over  { ital "dt"} } } } = {  { { ddot  {y}} { dot  {x}} -  { dot  {y}} { ddot  {x}}}  over  { { dot  {x}} rSup { size 8{2} } } }  cdot  {  {1}  over  { { dot  {x}}} } = {  { { ddot  {y}} { dot  {x}} -  { dot  {y}} { ddot  {x}}}  over  { { dot  {x}} rSup { size 8{3} } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166071691012">и конечно запишуваме дека</para>
+          <para id="id1166061132515"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mover accent="true"><m:mi>y</m:mi><m:mo stretchy="false">¨</m:mo></m:mover><m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mo stretchy="false">−</m:mo><m:mover accent="true"><m:mi>y</m:mi><m:mo stretchy="false">˙</m:mo></m:mover></m:mrow><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">¨</m:mo></m:mover></m:mrow><m:msup><m:mover accent="true"><m:mi>x</m:mi><m:mo stretchy="false">˙</m:mo></m:mover><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= {  { { ddot  {y}} { dot  {x}} -  { dot  {y}} { ddot  {x}}}  over  { { dot  {x}} rSup { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+        <section id="id1166063937184">
+          <title>Пример 5. </title>
+          <para id="id1166071237394">Да се пресмета вториот извод на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arcsin</m:mtext></m:mrow><m:mi>t</m:mi><m:mi>,</m:mi><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>ln</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="arcsin"t,y="ln" \( 1 - t rSup { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>.</para>
+          <para id="id1166063002749">
+            <emphasis>Решение</emphasis>
+            <emphasis>.</emphasis>
+          </para>
+          <para id="id1166071406654">Ги пресметуваме изводите по параметарот</para>
+          <para id="id1166063666683">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mover accent="true">
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">˙</m:mo>
+                                  </m:mover>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mfrac>
+                                    <m:mn>1</m:mn>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msup>
+                                          <m:mi>t</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mi>,</m:mi>
+                                <m:mi/>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mover accent="true">
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">¨</m:mo>
+                                    </m:mover>
+                                    <m:mo stretchy="false">=</m:mo>
+                                    <m:mfrac>
+                                      <m:mrow>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mfrac>
+                                          <m:mrow>
+                                            <m:mo stretchy="false">−</m:mo>
+                                            <m:mn>2t</m:mn>
+                                          </m:mrow>
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                            <m:msqrt>
+                                              <m:mrow>
+                                                <m:mn>1</m:mn>
+                                                <m:mo stretchy="false">−</m:mo>
+                                                <m:msup>
+                                                  <m:mi>t</m:mi>
+                                                  <m:mstyle fontsize="8pt">
+                                                    <m:mrow>
+                                                      <m:mn>2</m:mn>
+                                                    </m:mrow>
+                                                  </m:mstyle>
+                                                </m:msup>
+                                              </m:mrow>
+                                            </m:msqrt>
+                                          </m:mrow>
+                                        </m:mfrac>
+                                      </m:mrow>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msup>
+                                          <m:mi>t</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mfrac>
+                                    <m:mi>t</m:mi>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">(</m:mo>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msup>
+                                          <m:mi>t</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                      <m:mo stretchy="false">)</m:mo>
+                                      <m:msqrt>
+                                        <m:mrow>
+                                          <m:mn>1</m:mn>
+                                          <m:mo stretchy="false">−</m:mo>
+                                          <m:msup>
+                                            <m:mi>t</m:mi>
+                                            <m:mstyle fontsize="8pt">
+                                              <m:mrow>
+                                                <m:mn>2</m:mn>
+                                              </m:mrow>
+                                            </m:mstyle>
+                                          </m:msup>
+                                        </m:mrow>
+                                      </m:msqrt>
+                                    </m:mrow>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mi>,</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mover accent="true">
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">˙</m:mo>
+                            </m:mover>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>2t</m:mn>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mi>t</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                          <m:mi/>
+                          <m:mrow>
+                            <m:mover accent="true">
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">¨</m:mo>
+                            </m:mover>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>t</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mn>2t</m:mn>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>t</m:mi>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msup>
+                                <m:mi>t</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mi>t</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mi>,</m:mi>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { dot  {x}}= {  {1}  over  { sqrt {1 - t rSup { size 8{2} } } } } ,~ { ddot  {x}}= {  { -  {  { - 2t}  over  {2 sqrt {1 - t rSup { size 8{2} } } } } }  over  {1 - t rSup { size 8{2} } } } = {  {t}  over  { \( 1 - t rSup { size 8{2} }  \)  sqrt {1 - t rSup { size 8{2} } } } } ,}  {} # 
+ { dot  {y}}= {  { - 2t}  over  {1 - t rSup { size 8{2} } } } ,~ { ddot  {y}}= - 2 {  {1 - t rSup { size 8{2} } +2t rSup { size 8{2} } }  over  { \( 1 - t rSup { size 8{2} }  \)  rSup { size 8{2} } } } = - 2 {  {1+t rSup { size 8{2} } }  over  { \( 1 - t rSup { size 8{2} }  \)  rSup { size 8{2} } } } , {} 
+} } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id1166062431270">и со нивна замена во изразот за втор извод се добива</para>
+          <equation id="id1166063494607">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mi>'</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">¨</m:mo>
+                              </m:mover>
+                              <m:mrow>
+                                <m:mover accent="true">
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">˙</m:mo>
+                                </m:mover>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mover accent="true">
+                                  <m:mi>y</m:mi>
+                                  <m:mo stretchy="false">˙</m:mo>
+                                </m:mover>
+                              </m:mrow>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">¨</m:mo>
+                              </m:mover>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mover accent="true">
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">˙</m:mo>
+                              </m:mover>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>t</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>t</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                    <m:msup>
+                                      <m:mo stretchy="false">)</m:mo>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>t</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>2t</m:mn>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>t</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mfrac>
+                                  <m:mi>t</m:mi>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>t</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:msup>
+                                          <m:mi>t</m:mi>
+                                          <m:mstyle fontsize="8pt">
+                                            <m:mrow>
+                                              <m:mn>2</m:mn>
+                                            </m:mrow>
+                                          </m:mstyle>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:msqrt>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>t</m:mi>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:msqrt>
+                              </m:mfrac>
+                            </m:mfenced>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= {  { { ddot  {y}} { dot  {x}} -  { dot  {y}} { ddot  {x}}}  over  { { dot  {x}} rSup { size 8{3} } } } = {  { - 2 {  {1+t rSup { size 8{2} } }  over  { \( 1 - t rSup { size 8{2} }  \)  rSup { size 8{2} } } }  cdot  {  {1}  over  { sqrt {1 - t rSup { size 8{2} } } } }  -  {  { - 2t}  over  {1 - t rSup { size 8{2} } } }  cdot  {  {t}  over  { \( 1 - t rSup { size 8{2} }  \)  sqrt {1 - t rSup { size 8{2} } } } } }  over  { left ( {  {1}  over  { sqrt {1 - t rSup { size 8{2} } } } }  right ) rSup { size 8{3} } } } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </equation>
+          <para id="id1166061734738">и по средување </para>
+          <para id="id1166063265026"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:msup><m:mi>t</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { '' }= {  { - 2}  over  {1 - t rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+      </section>
+      <section id="id1166069311398">
+        <title>Диференцијали од повисок ред</title>
+        <para id="id1166073272956">За функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> диференцијалот се означуваше со</para>
+        <equation id="id1166065535569">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dy</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>f</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dx</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ ital "dy"= { {f}} sup { ' } \( x \)  ital "dx"} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166069949737">и тој е пак некоја функција од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. Ако од диференцијалот побараме пак диференцијал се добива втор диференцијал</para>
+        <equation id="id1166077912219">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>d</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>dy</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{d \(  ital "dy" \) =d rSup { size 8{2} } y} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166072556552">и од правилото за пресметување на диференцијал </para>
+        <para id="id1166068267367"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msup><m:mi>d</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>′</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mrow><m:mi>'</m:mi><m:mi>'</m:mi></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSup { size 8{2} } y= left ( { {f}} sup { ' } \( x \)  ital "dx" right ) rSup { size 8{′} }  ital "dx"= { {f}} sup { '' } \( x \)  \(  ital "dx" \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1166068745929">Со користење на ознаката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dx</m:mtext></m:mrow></m:mstyle><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>dx</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  ital "dx" \)  rSup { size 8{2} } = ital "dx" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> се добива израз за втор диференцијал </para>
+        <equation id="id1166069634975">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>d</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>f</m:mi>
+                          <m:mrow>
+                            <m:mi>'</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>dx</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mstyle>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{d rSup { size 8{2} } y= { {f}} sup { '' } \( x \)  ital "dx" rSup { size 8{2} }  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1166076456259">Со аналогна постапка и се добиваат и диференцијалите од повисок ред:</para>
+        <equation id="id1166068508544">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>d</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msup>
+                                  <m:mi>f</m:mi>
+                                  <m:mrow>
+                                    <m:mi>'</m:mi>
+                                    <m:mi>'</m:mi>
+                                    <m:mi>'</m:mi>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>dx</m:mtext>
+                                    <m:mstyle fontsize="8pt">
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:mstyle>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mo stretchy="false">⋮</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>d</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>n</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>f</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:msup>
+                              <m:mtext>dx</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{d rSup { size 8{3} } y= { {f}} sup { ''' } \( x \)  ital "dx" rSup { size 8{3} } }  {} # 
+ dotsvert  {} # 
+d rSup { size 8{ \( n \) } } y=f rSup { size 8{ \( n \) } }  \( x \)  ital "dx" rSup { size 8{n} }  "."  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <section id="id1166076700299">
+          <title>Пример 6. </title>
+          <para id="id1166069624733">За функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="sin" rSup { size 8{2} } x} {}</m:annotation></m:semantics></m:math> диференцијалите од втор и трет ред се:</para>
+          <para id="id1166069905825">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mi>x</m:mi>
+                                <m:mtext>cos</m:mtext>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>sin</m:mtext>
+                                </m:mrow>
+                                <m:mn>2x</m:mn>
+                                <m:mo stretchy="false">⇒</m:mo>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>dy</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mtext>sin</m:mtext>
+                                </m:mrow>
+                                <m:mn>2</m:mn>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>xdx</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mstyle fontsize="12pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mrow>
+                                      <m:mi>'</m:mi>
+                                      <m:mi>'</m:mi>
+                                    </m:mrow>
+                                  </m:msup>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mtext>cos</m:mtext>
+                                <m:mn>2x</m:mn>
+                                <m:mo stretchy="false">⇒</m:mo>
+                                <m:msup>
+                                  <m:mi>d</m:mi>
+                                  <m:mstyle fontsize="8pt">
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                </m:msup>
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                                <m:mtext>cos</m:mtext>
+                                <m:mn>2</m:mn>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>xdx</m:mtext>
+                                      <m:mstyle fontsize="8pt">
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:mstyle>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>y</m:mi>
+                              <m:mrow>
+                                <m:mi>'</m:mi>
+                                <m:mi>'</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mn>2x</m:mn>
+                          <m:mo stretchy="false">⇒</m:mo>
+                          <m:msup>
+                            <m:mi>d</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xdx</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }=2"sin"x"cos"x="sin"2x drarrow  ital "dy"="sin"2 ital "xdx"}  {} # 
+ size 12{ { {y}} sup { '' }=2"cos"2x drarrow d rSup { size 8{2} } y=2"cos"2 ital "xdx" rSup { size 8{2} } }  {} # 
+ { {y}} sup { ''' }= - 4"sin"2x drarrow d rSup { size 8{3} } y= - 4"sin"2 ital "xdx" rSup { size 8{3} }  "."  {} 
+} } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

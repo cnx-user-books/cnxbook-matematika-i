@@ -1,0 +1,2589 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Таблица на изводи од елементарни функции и правила за диференцирање</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m51711</md:content-id>
+  <md:title>Таблица на изводи од елементарни функции и правила за диференцирање</md:title>
+  <md:abstract>Се дава таблица на изводи од елементарните функции и основните правила за пресметување на извод.</md:abstract>
+  <md:uuid>ab95bf28-1088-45f2-a75c-29605995d28c</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1165161851531">
+      <title>Таблица на изводи од елементарни функции и правила за диференцирање</title>
+      <para id="import-auto-id6996601">Преку дефиницијата на извод, за секој тип елементарна функција може да се пресмета изводот. Но пресметувањето на изводот по дефиниција значи негово барање преку гранична вредност, што не секогаш е брз и лесен начин на пресметување. Затоа за секоја елементарна функција е пресметан  изводот по дефиниција и се дава таблица на изводи од елементарните функции.</para>
+      <section id="import-auto-id1165162748220">
+        <title>Таблица на изводи од елементарни функции</title>
+        <para id="import-auto-id1165164599164">
+          <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1165160521568" summary="се наведува таблицата на изводи">
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+              <colspec colnum="2" colname="c2"/>
+              <thead>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                              <m:mi>,</m:mi>
+                              <m:mrow>
+                                <m:mi>c</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>const</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y=c,c= ital "const"} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=0} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+              </thead>
+              <tbody>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{n} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>nx</m:mtext>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mi>n</m:mi>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mn>1</m:mn>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= ital "nx" rSup { size 8{n - 1} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msup>
+                                <m:mi>e</m:mi>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y=e rSup { size 8{x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msup>
+                                <m:mi>e</m:mi>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=e rSup { size 8{x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msup>
+                                <m:mi>a</m:mi>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y=a rSup { size 8{x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mi>'</m:mi>
+                                </m:msup>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mtext>ln</m:mtext>
+                              <m:mi>a</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=a rSup { size 8{x} } "ln"a} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>ln</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="ln"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mi>x</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1}  over  {x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:msub>
+                                  <m:mtext>log</m:mtext>
+                                  <m:mrow>
+                                    <m:mi>a</m:mi>
+                                  </m:mrow>
+                                </m:msub>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{a} } x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mtext>ln</m:mtext>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1}  over  {x"ln"a} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>sin</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="sin"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mi>'</m:mi>
+                                </m:msup>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>cos</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }="cos"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>cos</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="cos"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>y</m:mi>
+                                  <m:mi>'</m:mi>
+                                </m:msup>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>sin</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= - "sin"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>tg</m:mtext>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="tg"`x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mtext>cos</m:mtext>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1}  over  {"cos" rSup { size 8{2} } x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>ctg</m:mtext>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="ctg"`x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mtext>sin</m:mtext>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                    <m:mi>x</m:mi>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= -  {  {1}  over  {"sin" rSup { size 8{2} } x} } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>arcsin</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="arcsin"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:msqrt>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:msqrt>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1}  over  { sqrt {1 - x rSup { size 8{2} } } } } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>arccos</m:mtext>
+                              </m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="arccos"x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= -  {  {1}  over  { sqrt {1 - x rSup { size 8{2} } } } } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>arctg</m:mtext>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="arctg"`x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {1}  over  {1+x rSup { size 8{2} } } } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+                <row>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mtext>arcctg</m:mtext>
+                              </m:mrow>
+                              <m:mi/>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{y="arcctg"`x} {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                  <entry>
+                    <m:math>
+                      <m:semantics>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= -  {  {1}  over  {1+x rSup { size 8{2} } } } } {}</m:annotation>
+                      </m:semantics>
+                    </m:math>
+                  </entry>
+                </row>
+              </tbody>
+            
+</tgroup><caption>Таблични изводи</caption>
+</table></para>
+      </section>
+      <section id="import-auto-id1165162866503">
+        <title>Правила за диференцирање</title>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1165161542508">Најчесто функците за кои се бара да им се определи изводот се зададени преку збир (разлика), производ или количник од функции. Затоа во вид на теореми со доказ ќе ги прикажеме правилата за пресметување на збир (разлика), производ и количник од диференцијабилни функции. За таа цел нека се дадени две диференцијабилни функции <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math>, што значи дека постојат изводите</para><para id="import-auto-id1165161607179">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>f</m:mi>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi fontstyle="italic">Δx</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>f</m:mi>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                        <m:mi fontstyle="italic">Δx</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msup>
+                        <m:mi>f</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {f \( x+Δx \)  - f \( x \) }  over  {Δx} } = { {f}} sup { ' } \( x \) } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1165160720032">и </para>
+        <para id="import-auto-id1165160337815"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi fontstyle="italic">Δx</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mi fontstyle="italic">Δx</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:msup><m:mi>g</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {g \( x+Δx \)  - g \( x \) }  over  {Δx} } = { {g}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="import-auto-id1165163300012">
+        <title>Извод од збир на функции</title>
+        <section id="import-auto-id1165162083816">
+          <title>Теорема 1.</title>
+          <para id="import-auto-id1165160702191">Да се докаже дека</para>
+          <para id="import-auto-id1165167606988">
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mfenced open="[" close="]">
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>g</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mi>′</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>f</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msup>
+                          <m:mi>g</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ left [f \( x \) +g \( x \)  right ] rSup { size 8{′} } = { {f}} sup { ' } \( x \) + { {g}} sup { ' } \( x \)  "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <section id="import-auto-id1165164533552">
+            <title>Доказ.</title>
+            <para id="import-auto-id1165163497555">Теоремата ќе се докаже со пресметување на изводот по дефиниција. </para>
+            <para id="import-auto-id1165164163432">Ако  </para>
+            <para id="import-auto-id1165161242424"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) +g \( x \) } {}</m:annotation></m:semantics></m:math>, </para>
+            <para id="import-auto-id1165162236053">тогаш</para>
+            <para id="import-auto-id1165162747976"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">Δy</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δy=f \( x+Δx \)  - f \( x \) +g \( x+Δx \)  - g \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="import-auto-id1165160130380">Пресметувајќи го изводот по дефиниција се добива </para>
+            <para id="import-auto-id5798338">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="[" close="]">
+                              <m:mrow>
+                                <m:mi>f</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi>g</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mrow>
+                              <m:mi>′</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= left [f \( x \) +g \( x \)  right ] rSup { size 8{′} } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165170315233">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mi fontstyle="italic">Δy</m:mi>
+                            <m:mi fontstyle="italic">Δx</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>g</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>g</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mi fontstyle="italic">Δx</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {Δy}  over  {Δx} } = {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {f \( x+Δx \)  - f \( x \) +g \( x+Δx \)  - g \( x \) }  over  {Δx} } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165161615976">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi fontstyle="italic">Δx</m:mi>
+                              <m:mo stretchy="false">→</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:munder>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mi fontstyle="italic">Δx</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>g</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mi fontstyle="italic">Δx</m:mi>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>f</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mi>g</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {f \( x+Δx \)  - f \( x \) }  over  {Δx} } + {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {g \( x+Δx \)  - g \( x \) }  over  {Δx} } = { {f}} sup { ' } \( x \) + { {g}} sup { ' } \( x \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165160497786">што значи дека </para>
+            <para id="import-auto-id1165164256186"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mrow><m:mi>′</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msup><m:mi>g</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [f \( x \) +g \( x \)  right ] rSup { size 8{′} } = { {f}} sup { ' } \( x \) + { {g}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+          </section>
+          <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-156"><title>Пример 1.</title><para id="eip-31">Да се пресмета изводот на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="sin"x+x rSup { size 8{4} } + sqrt {x}  "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-144">РЕШЕНИЕ:
+</para><para id="eip-536"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtable>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:mtext>sin</m:mtext>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mrow>
+                                    <m:mn>4</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">/</m:mo>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mn>4x</m:mn>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mn>2</m:mn>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                    <m:mo stretchy="false">/</m:mo>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mtext>cos</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mn>4x</m:mn>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                  <m:msqrt>
+                                    <m:mi>x</m:mi>
+                                  </m:msqrt>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                      </m:mtable>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }= \( "sin"x { { \) }} sup { ' }+ \( x rSup { size 8{4} }  { { \) }} sup { ' }+ \( x rSup { size 8{1/2} }  { { \) }} sup { ' }={}}  {} # 
+="cos"x+4x rSup { size 8{3} } + {  {1}  over  {2} } x rSup { size 8{ - 1/2} } ={} {} # 
+="cos"x+4x rSup { size 8{3} } + {  {1}  over  {2 sqrt {x} } }  "."  {} 
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para></example></section>
+      </section>
+      <section id="import-auto-id1165163266279">
+        <title>Извод од производ на функции</title>
+        <section id="import-auto-id1165163497300">
+          <title>Теорема 2.</title>
+          <para id="import-auto-id1165162500333">Да се докаже дека</para>
+          <para id="import-auto-id1165161814816"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mrow><m:mi>′</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>g</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [f \( x \) g \( x \)  right ] rSup { size 8{′} } = { {f}} sup { ' } \( x \) g \( x \) +f \( x \)  { {g}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+          <section id="import-auto-id1165164652600">
+            <title>Доказ.</title>
+            <para id="import-auto-id1165162011489">Нека </para>
+            <para id="import-auto-id1165163061843"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) g \( x \) } {}</m:annotation></m:semantics></m:math>, </para>
+            <para id="import-auto-id1165162977723">тогаш нараснувањето на функцијата е</para>
+            <para id="import-auto-id1165160723147">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">Δy</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δy=f \( x+Δx \) g \( x+Δx \)  - f \( x \) g \( x \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165160169028">и додавајќи го и одземајќи го од десната страна изразот </para>
+            <para id="import-auto-id1165166367112">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{f \( x \) g \( x+Δx \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165160566847">се добива</para>
+            <para id="import-auto-id1165162887530">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">Δy</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δy=f \( x+Δx \) g \( x+Δx \)  - f \( x \) g \( x \) +{}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165176300187">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>f</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>g</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi fontstyle="italic">Δx</m:mi>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{+f \( x \) g \( x+Δx \)  - f \( x \) g \( x+Δx \) ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165163818546"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced></m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mfenced open="[" close="]"><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}= left [f \( x+Δx \)  - f \( x \)  right ]g \( x+Δx \) +f \( x \)  left [g \( x+Δx \)  - g \( x \)  right ]} {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="import-auto-id1165159766728">Со примена на дефиницијата за извод на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) g \( x \) } {}</m:annotation></m:semantics></m:math> се добива </para>
+            <para id="import-auto-id1165161025618">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtable>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>y</m:mi>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">=</m:mo>
+                                  <m:msup>
+                                    <m:mfenced open="[" close="]">
+                                      <m:mrow>
+                                        <m:mi>f</m:mi>
+                                        <m:mo stretchy="false">(</m:mo>
+                                        <m:mi>x</m:mi>
+                                        <m:mo stretchy="false">)</m:mo>
+                                        <m:mi>g</m:mi>
+                                        <m:mo stretchy="false">(</m:mo>
+                                        <m:mi>x</m:mi>
+                                        <m:mo stretchy="false">)</m:mo>
+                                      </m:mrow>
+                                    </m:mfenced>
+                                    <m:mrow>
+                                      <m:mi>′</m:mi>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mrow>
+                                  <m:munder>
+                                    <m:mtext>lim</m:mtext>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mi fontstyle="italic">Δx</m:mi>
+                                        <m:mo stretchy="false">→</m:mo>
+                                        <m:mn>0</m:mn>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:munder>
+                                  <m:mfrac>
+                                    <m:mi fontstyle="italic">Δy</m:mi>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mrow/>
+                              </m:munder>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">Δx</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>f</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mi fontstyle="italic">Δx</m:mi>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mi>f</m:mi>
+                                </m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mi fontstyle="italic">Δx</m:mi>
+                            </m:mfrac>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">Δx</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi fontstyle="italic">Δx</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>f</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi fontstyle="italic">Δx</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>g</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>g</m:mi>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mfrac>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                        <m:mtr>
+                          <m:mrow>
+                            <m:mrow/>
+                            <m:msup>
+                              <m:mi>f</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mi>f</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:msup>
+                              <m:mi>g</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtr>
+                      </m:mtable>
+                      <m:mrow/>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ { {y}} sup { ' }= left [f \( x \) g \( x \)  right ] rSup { size 8{′} } ={}}  {} # 
+= { {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {Δy}  over  {Δx} } }  cSub {} ={} {} # 
+= {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {f \( x+Δx \)  - f \( x \) }  over  {Δx} }  {"lim"}  cSub { size 8{Δx rightarrow 0} } g \( x+Δx \) +f \( x \)  {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {g \( x+Δx \)  - g \( x \) }  over  {Δx} } ={} {} # 
+= { {f}} sup { ' } \( x \) g \( x \) +f \( x \)  { {g}} sup { ' } \( x \)  {} 
+} } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165164295632">или </para>
+            <para id="import-auto-id1165161472610"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mrow><m:mi>′</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>g</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [f \( x \) g \( x \)  right ] rSup { size 8{′} } = { {f}} sup { ' } \( x \) g \( x \) +f \( x \)  { {g}} sup { ' } \( x \) } {}</m:annotation></m:semantics></m:math>.</para>
+          </section>
+        </section>
+        <section id="import-auto-id1165160400490">
+          <title>Последица.</title>
+          <para id="import-auto-id1165162550034">
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mfenced open="[" close="]">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>cf</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mi>′</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mi>f</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mi>,</m:mi>
+                      <m:mrow>
+                        <m:mi>c</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>const</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ left [ ital "cf" \( x \)  right ] rSup { size 8{′} } =c { {f}} sup { ' } \( x \) ,c -  ital "const" "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-704"><title>Пример 2.</title><para id="eip-681">Да се пресмета изводот на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msup><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=5"ln"x - x rSup { size 8{2} } e rSup { size 8{x} }  "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-987">РЕШЕНИЕ:</para><para id="eip-283"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mtext>ln</m:mtext>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>5</m:mn>
+                              <m:mi>x</m:mi>
+                            </m:mfrac>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>xe</m:mtext>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=5 \( "ln"x { { \) }} sup { ' } -  \( x rSup { size 8{2} }  { { \) }} sup { ' }e rSup { size 8{x} }  - x rSup { size 8{2} }  \( e rSup { size 8{x} }  { { \) }} sup { ' }= {  {5}  over  {x} }  - 2 ital "xe" rSup { size 8{x} }  - x rSup { size 8{2} } e rSup { size 8{x} }  "." } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para></example></section>
+      </section>
+      <section id="import-auto-id1165162984513">
+        <title>Извод од количник на функции</title>
+        <section id="import-auto-id1165161605486">
+          <title>Теорема 3.</title>
+          <para id="import-auto-id1165161810573">Да се докаже дека</para>
+          <para id="import-auto-id1165162745992">
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+              <m:semantics>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mfenced open="[" close="]">
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>f</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>g</m:mi>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mi>′</m:mi>
+                          </m:mrow>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>f</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>f</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:msup>
+                              <m:mi>g</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>g</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ left [ {  {f \( x \) }  over  {g \( x \) } }  right ] rSup { size 8{′} } = {  { { {f}} sup { ' } \( x \) g \( x \)  - f \( x \)  { {g}} sup { ' } \( x \) }  over  {g rSup { size 8{2} }  \( x \) } }  "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <section id="import-auto-id1165162083538">
+            <title>Доказ.</title>
+            <para id="import-auto-id1165164418285">Нека </para>
+            <para id="import-auto-id1165162408541"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {f \( x \) }  over  {g \( x \) } } } {}</m:annotation></m:semantics></m:math>, </para>
+            <para id="import-auto-id1165161554325">тогаш</para>
+            <para id="import-auto-id1165163920630"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">Δy</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">Δx</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δy= {  {f \( x+Δx \) }  over  {g \( x+Δx \) } }  -  {  {f \( x \) }  over  {g \( x \) } } = {  {f \( x+Δx \) g \( x \)  - f \( x \) g \( x+Δx \) }  over  {g \( x+Δx \) g \( x \) } } } {}</m:annotation></m:semantics></m:math>.</para>
+            <para id="import-auto-id1165161388141">Додавајќи го и одземајќи го од броителот изразот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) g \( x \) } {}</m:annotation></m:semantics></m:math> се добива </para>
+            <para id="import-auto-id1165175551916">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi fontstyle="italic">Δy</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δy= {  {f \( x+Δx \) g \( x \)  - f \( x \) g \( x+Δx \) +f \( x \) g \( x \)  - f \( x \) g \( x \) }  over  {g \( x+Δx \) g \( x \) } } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165168270597">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:mi>f</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>f</m:mi>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mfenced open="[" close="]">
+                                <m:mrow>
+                                  <m:mi>g</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>g</m:mi>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  { left [f \( x+Δx \)  - f \( x \)  right ]g \( x \)  - f \( x \)  left [g \( x+Δx \)  - g \( x \)  right ]}  over  {g \( x+Δx \) g \( x \) } }  "." } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165161343387">Пресметувајќи го изводот по дефиниција за функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {f \( x \) }  over  {g \( x \) } } } {}</m:annotation></m:semantics></m:math> се добива</para>
+            <para id="import-auto-id1165165523378">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="[" close="]">
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>f</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mi>g</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mfenced>
+                            <m:mrow>
+                              <m:mi>′</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= left [ {  {f \( x \) }  over  {g \( x \) } }  right ] rSup { size 8{′} } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165161130388">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:munder>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:munder>
+                              <m:mfrac>
+                                <m:mi fontstyle="italic">Δy</m:mi>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= { {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {Δy}  over  {Δx} } }  cSub {} ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165160730572">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow/>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:munder>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>f</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>f</m:mi>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mfrac>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mi>f</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:munder>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mi>g</m:mi>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>g</m:mi>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi fontstyle="italic">Δx</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:munder>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi fontstyle="italic">Δx</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mi>g</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  { {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {f \( x+Δx \)  - f \( x \) }  over  {Δx} } g \( x \)  - f \( x \)  {"lim"}  cSub { size 8{Δx rightarrow 0} }  {  {g \( x+Δx \)  - g \( x \) }  over  {Δx} } }  over  { {"lim"}  cSub { size 8{Δx rightarrow 0} } g \( x+Δx \) g \( x \) } } ={}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165162913046">
+              <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>f</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>f</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:msup>
+                              <m:mi>g</m:mi>
+                              <m:mi>'</m:mi>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>g</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {}= {  { { {f}} sup { ' } \( x \) g \( x \)  - f \( x \)  { {g}} sup { ' } \( x \) }  over  {g rSup { size 8{2} }  \( x \) } } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para>
+            <para id="import-auto-id1165162123094">што докажува дека</para>
+            <para id="import-auto-id1165160827539"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="[" close="]"><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mfenced><m:mrow><m:mi>′</m:mi></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>f</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:msup><m:mi>g</m:mi><m:mi>'</m:mi></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msup><m:mi>g</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left [ {  {f \( x \) }  over  {g \( x \) } }  right ] rSup { size 8{′} } = {  { { {f}} sup { ' } \( x \) g \( x \)  - f \( x \)  { {g}} sup { ' } \( x \) }  over  {g rSup { size 8{2} }  \( x \) } } } {}</m:annotation></m:semantics></m:math>.</para>
+          </section>
+          <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-838"><title>Пример 3.</title><para id="eip-964">Да се пресмета изводот на функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mrow><m:msup><m:mi>a</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= {  {2x rSup { size 8{3} } }  over  {a rSup { size 8{2} }  - x rSup { size 8{2} } } }  "." } {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-726">РЕШЕНИЕ:</para><para id="eip-47"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mi>'</m:mi>
+                              </m:msup>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:msup>
+                                    <m:mn>2x</m:mn>
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>a</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mn>2x</m:mn>
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>a</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mi>'</m:mi>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mrow>
+                                    <m:msup>
+                                      <m:mi>a</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:msup>
+                                    <m:mo stretchy="false">)</m:mo>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mn>6x</m:mn>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mn>2x</m:mn>
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2x</m:mn>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mrow>
+                                  <m:msup>
+                                    <m:mi>a</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:msup>
+                                    <m:mi>x</m:mi>
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mn>6x</m:mn>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mn>2x</m:mn>
+                                  <m:mrow>
+                                    <m:mn>4</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mi>a</m:mi>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  { \( 2x rSup { size 8{3} }  { { \) }} sup { ' } \( a rSup { size 8{2} }  - x rSup { size 8{2} }  \)  - 2x rSup { size 8{3} }  \( a rSup { size 8{2} }  - x rSup { size 8{2} }  { { \) }} sup { ' }}  over  { \( a rSup { size 8{2} }  - x rSup { size 8{2} }  \)  rSup { size 8{2} } } } = {  {6x rSup { size 8{2} }  \( a rSup { size 8{2} }  - x rSup { size 8{2} }  \)  - 2x rSup { size 8{3} }  \(  - 2x \) }  over  { \( a rSup { size 8{2} }  - x rSup { size 8{2} }  \)  rSup { size 8{2} } } } = {  {6x rSup { size 8{2} } a rSup { size 8{2} }  - 2x rSup { size 8{4} } }  over  { \( a rSup { size 8{2} }  - x rSup { size 8{2} }  \)  rSup { size 8{2} } } }  "." } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para></example></section>
+      </section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,194 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Сложена функција</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15451</md:content-id>
+  <md:title>Сложена функција</md:title>
+  <md:abstract>Се дефинира поимот за сложена функција</md:abstract>
+  <md:uuid>70b57c54-c29e-456a-bbb4-df4058c7008e</md:uuid>
+</metadata>
+  <content>
+    <section id="id-27892333633">
+      <title>СЛОЖЕНА ФУНКЦИЈА</title>
+      <section id="id-615087602556">
+        <title>Дефиниција.</title>
+        <para id="id9803548">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>D</m:mi><m:mi>,</m:mi><m:mi>E</m:mi><m:mi>,</m:mi><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">⊆</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D,E,G subseteq R} {}</m:annotation></m:semantics></m:math> а 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>g</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> се функции такви што 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mi>:</m:mi><m:mi>D</m:mi><m:mo stretchy="false">→</m:mo><m:mi>E</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f:D rightarrow E} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mi>:</m:mi><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo><m:mi>G</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g:E rightarrow G} {}</m:annotation></m:semantics></m:math>. Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>h</m:mi><m:mi>:</m:mi><m:mi>D</m:mi><m:mo stretchy="false">→</m:mo><m:mi>G</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h:D rightarrow G} {}</m:annotation></m:semantics></m:math> дефинирана со </para>
+        <para id="id7876748">
+          <quote id="id1164766738510" display="block">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>h</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mi>g</m:mi>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mi>,</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{h \( x \) =g \( f \( x \)  \) ,} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">∀</m:mo>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">∈</m:mo>
+                          <m:mi>D</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ forall x in D} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </quote>
+        </para>
+        <para id="id7837381">се нарекува <term>сложена функција</term> на функциите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>g</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> или <term>посредно за</term><term>д</term><term>адена функција.</term></para>
+        <para id="id8322685">Значи </para>
+        <para id="id8322690">Сложена функција е функција чии што аргумент е функција.</para>
+      </section>
+      <example id="eip-671"><title>ПРИМЕР 1.</title><para id="eip-431">Дадени се функциите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>z</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>z</m:mi><m:mo stretchy="false">=</m:mo><m:mroot><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:mroot></m:mrow><m:mi>,</m:mi><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>t</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=z rSup { size 8{2} } ,z= nroot { size 8{3} }  {x+1} ,x=a rSup { size 8{t} }  "." } {}</m:annotation></m:semantics></m:math> Да се изрази сложената функција
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> како функција од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>t</m:mi><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t "." } {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-211">РЕШЕНИЕ:</para><para id="eip-177"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi>z</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mroot>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:mroot>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mroot>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>a</m:mi>
+                        <m:mrow>
+                          <m:mi>t</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                </m:mroot>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=z rSup { size 8{2} } = nroot { size 8{3} }  { \( x+1 \)  rSup { size 8{2} } } = nroot { size 8{3} }  { \( a rSup { size 8{t} } +1 \)  rSup { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>.
+    </para></example><example id="eip-465"><title>ПРИМЕР 2.</title><para id="eip-136">Нека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) =x rSup { size 8{3} }  - x} {}</m:annotation></m:semantics></m:math> а 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mn>2x</m:mn><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ \( x \) ="sin"2x "." } {}</m:annotation></m:semantics></m:math> Да се определат сложените функции</para><para id="eip-523"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( f \( x \)  \) } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( ϕ \( x \)  \) } {}</m:annotation></m:semantics></m:math> ,  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ \( ϕ \( x \)  \)  "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-946">РЕШЕНИЕ:</para><para id="eip-102"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msup><m:mn>3x</m:mn><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">−</m:mo><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( f \( x \)  \) =f \( x rSup { size 8{3} }  - x \) = \( x rSup { size 8{3} }  - x \)  rSup { size 8{3} }  - x rSup { size 8{3} } +x=x rSup { size 8{9} }  - 3x rSup { size 8{7} } +3x rSup { size 8{5} }  - 2x rSup { size 8{3} } +x} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-359"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>ϕ</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>sin</m:mtext><m:mn>2x</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mn>2x</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>sin</m:mtext></m:mrow></m:mrow><m:mn>2x</m:mn><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mn>2x</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( ϕ \( x \)  \) =f \( "sin"2x \) ="sin" rSup { size 8{3} } 2x - "sin"2x="sin"2x \( "sin" rSup { size 8{2} } 2x - 1 \) = - "sin"2x"cos" rSup { size 8{2} } 2x} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-694"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>ϕ</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>ϕ</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>ϕ</m:mi>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>sin</m:mtext>
+                  <m:mn>2x</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>sin</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mn>2</m:mn>
+                  <m:mtext>sin</m:mtext>
+                  <m:mn>2x</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ϕ \( ϕ \( x \)  \) =ϕ \( "sin"2x \) ="sin" \( 2"sin"2x \)  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></example></section>
+  </content>
+</document>

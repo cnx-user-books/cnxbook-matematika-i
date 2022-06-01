@@ -1,0 +1,79 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Задавање на функција</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15301</md:content-id>
+  <md:title>Задавање на функција</md:title>
+  <md:abstract>Се дефинираат три начини на задавање на функција: аналитички, графички и табеларен начин.</md:abstract>
+  <md:uuid>b66e2717-cba0-4f6d-aa1b-7951ff0fa018</md:uuid>
+</metadata>
+  <content>
+    <section id="id-80408750939">
+      <title>ЗАДАВАЊЕ НА ФУНКЦИЈА </title>
+      <para id="id6410647">Функцијата може да биде задедена во аналитички, табеларен или графички облик.</para>
+      <list id="id6410657" list-type="bulleted"><item><term>Аналитички облик</term> на задавање е кога функцијата е зададна со математички израз (формула) во кој се наведени математичките операции кои треба да се извршат над независно променливата големина 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> за да се добие вредноста на функци­јата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. Понекогаш аналитичкиот израз дава поширока област на дефинираност на функцијата за разлика од истиот израз со кој се искажува некој природен закон или некоја примена. Таков е случајот на наведениот пример со квадратаната функција 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=a rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> со која се пресметува плоштината на квадратот. Имено, при пресметување на плоштина, променливата мора да има со позитивна вредност и дефиници­оната област е множеството од позитивни реални броеви D = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>R</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> (бидејќи должината на страната на квадратот мора да биде позитивна вредност), додека општата квадратна функција 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=x rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> е дефинирана за секое 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, т.е. за оваа функција D = 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>R</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>. </item>
+      </list>
+      <list id="id5819811" list-type="bulleted"><item>Вториот начин на задавање на функција е <term>табеларен </term><term>облик</term>, кога се дадени вредностите и на аргументот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math><emphasis/> и соодветните на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> во облик на табела. Ваквиот начин на задавање се користи во случаи кога се вршат мерења на вредностите на функцијата за конкретни вредности на независно променливата. На пример, во табелата </item>
+      </list>
+      <table id="id6031934" summary="">
+        <tgroup cols="7">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <colspec colnum="4" colname="c4"/>
+          <colspec colnum="5" colname="c5"/>
+          <colspec colnum="6" colname="c6"/>
+          <colspec colnum="7" colname="c7"/>
+          <tbody>
+            <row>
+              <entry>x</entry>
+              <entry>1</entry>
+              <entry>2</entry>
+              <entry>3</entry>
+              <entry>0</entry>
+              <entry>-1</entry>
+              <entry>-2</entry>
+            </row>
+            <row>
+              <entry>y</entry>
+              <entry>3</entry>
+              <entry>5</entry>
+              <entry>7</entry>
+              <entry>1</entry>
+              <entry>-1</entry>
+              <entry>-3</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id6395863">множеството D = {1, 2, 3, 0, -1, -2}, а множеството G = {3, 5, 7, 1, -1, -3} и тоа се шест изолирани точки во рамни­ната. </para>
+      <para id="id5521910"/>
+      <list id="id5521914" list-type="bulleted">
+        <item>Третиот начин на задавање на функција е <term>графички</term> начин кога функцијата е зададена со својот график, односно со едно континуирано множество на подредени двојки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( x,`y \) } {}</m:annotation></m:semantics></m:math> во рамнината 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math>. </item>
+      </list>
+      <section id="id-255403039026">
+        <title>Дефиниција. </title>
+        <para id="id5821872">Множеството на подредени двојки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mi>y</m:mi><m:mo stretchy="false">)</m:mo><m:mi/><m:mo stretchy="false">∣</m:mo><m:mi/><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>D</m:mi></m:mrow><m:mo stretchy="false">⊆</m:mo><m:mi>R</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace  \( x,`y \) `` \lline ``x in D subseteq R,``y=f \( x \)  rbrace } {}</m:annotation></m:semantics></m:math> во рамнината 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xOy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xOy"} {}</m:annotation></m:semantics></m:math> се нарекува <term>график</term> на функцијата. </para>
+      </section>
+    </section>
+    <section id="id-372567530149">
+      
+      <para id="id5802375">
+        <term/>
+      </para>
+      <para id="id5802381">Во најголем број случаи при задавање на функцијата, таа може да преминува од еден во друг облик. Секој начин на задавање има свои предности и недостатоци. Аналитичкиот начин е многу важен во математичката анализа и покрај тоа што овој облик не дава визуелна прегледност на фунцијата, која ја има табеларниот и графичкиот начин, но тој дава можност за проучување на особините на функцијата како и составување на табела со пресметани вредности на фунцијата, а со тоа и определување на произволно множество од изолирани парови точки кои може да се нанесат во рамнината (тие се дел од графикот на функцијата) и да се поврзат во согласност со испитаните особини на функцијата. Знаејќи ја само табелата на конечен број изолирани точки од функцијата, може да се нацрта графикот на функцијата само ако таа е од елементарен вид, а тоа се функции за кои однапред се знае обликот на графикот. Во останатите случаи само со поврзување на точките од табелата може да се направи грешка во графичкото претставување на функцијата, бидејќи помеѓу две изолирани точки не се знае дали функцијата е дефинирана, дали има еден екстрем или повеќе и сл.</para>
+    </section>
+  </content>
+</document>

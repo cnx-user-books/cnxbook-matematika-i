@@ -1,0 +1,74 @@
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11377</md:content-id>
+    <md:title>МАТЕМАТИКА 1</md:title>
+    <md:language>mk</md:language>
+    <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
+    <md:uuid>9318fd70-0af4-45e0-a04c-8b816434d824</md:uuid>
+<md:slug>matematika-i</md:slug>
+</metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Воведни поими од математичка анализа</md:title>
+      <col:content>
+        <col:module document="m15116"/>
+        <col:module document="m15118"/>
+        <col:module document="m15119"/>
+        <col:module document="m15179"/>
+        <col:module document="m15180"/>
+        <col:module document="m15181"/>
+        <col:module document="m15182"/>
+        <col:module document="m15183"/>
+        <col:module document="m15184"/>
+        <col:module document="m15185"/>
+        <col:module document="m15270"/>
+        <col:module document="m15271"/>
+        <col:module document="m15272"/>
+        <col:module document="m15273"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Функции од една реална променлива</md:title>
+      <col:content>
+        <col:module document="m44981"/>
+        <col:module document="m15511"/>
+        <col:module document="m15301"/>
+        <col:module document="m15449"/>
+        <col:module document="m15450"/>
+        <col:module document="m15451"/>
+        <col:module document="m15115"/>
+        <col:module document="m15561"/>
+        <col:module document="m35940"/>
+        <col:module document="m43053"/>
+        <col:module document="m15562"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Диференцијално сметање за функции од една променлива</md:title>
+      <col:content>
+        <col:module document="m35966"/>
+        <col:module document="m51711"/>
+        <col:module document="m35994"/>
+        <col:module document="m35995"/>
+        <col:module document="m35996"/>
+        <col:module document="m43270"/>
+        <col:module document="m41641"/>
+        <col:module document="m42089"/>
+        <col:module document="m36052"/>
+        <col:module document="m45104"/>
+        <col:module document="m45120"/>
+        <col:module document="m45149"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Неопределен интеграл</md:title>
+      <col:content>
+        <col:module document="m32959"/>
+        <col:module document="m32962"/>
+        <col:module document="m36040"/>
+        <col:module document="m36236"/>
+        <col:module document="m36293"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>

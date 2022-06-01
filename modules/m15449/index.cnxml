@@ -1,0 +1,363 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Експлицитен и имплицитен облик на функција</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15449</md:content-id>
+  <md:title>Експлицитен и имплицитен облик на функција</md:title>
+  <md:abstract>Според обликот на аналитичкиот израз на фунцијата, се дефинира експлицитен и имплицитен облик на функција.</md:abstract>
+  <md:uuid>2ec351ab-83f3-443b-89db-3605dee6ab49</md:uuid>
+</metadata>
+  <content>
+    <section id="id-463766832216">
+      <title>ЕКСПЛИЦИТЕН И ИМПЛИЦИТЕН ОБЛИК НА ФУНКЦИЈА </title>
+      <para id="id9965866">Аналитички зададената функција се претставува со израз кој може да биде во експлицитен или имплицитен облик. </para>
+      <section id="id-91992156292">
+        <title>Експлицитен облик</title>
+        <para id="id3176461">Ако аналитичкиот израз е од обликот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math>, израз во кој функцијата е одвоена од изразот со независно променлива големина, се вели дека функцијата е зададена во <term>експлицитен</term> или <term>јавен облик</term>. </para>
+        <para id="id12003603">За експлицитните функции вредноста на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> може да се пресмета за секоја дефинирана вредност на аргументот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> во согласност со формулата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \)  "." } {}</m:annotation></m:semantics></m:math></para>
+        <section id="id-644175275737">
+          <title>Пример 1.</title>
+          <para id="id3356491">Во експлицитен облик се зададени следните функции:</para>
+          <para id="id3342449">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2x</m:mn>
+                              <m:msqrt>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mn>4</m:mn>
+                                </m:mrow>
+                              </m:msqrt>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>3x</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2x</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mtext>ln</m:mtext>
+                        <m:mi>x</m:mi>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>sin</m:mtext>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msup>
+                            <m:mn>7x</m:mn>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>6</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y= {  {2x sqrt {x+4} }  over  {3x - 2} } ,~y= \( x rSup { size 8{3} }  - 2x \) "ln"x,~y="sin"x+7x rSup { size 8{6} }  "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+        </section>
+      </section>
+      <section id="id-969490503222">
+        <title>Имплицитен облик</title>
+        <para id="id3176007">За функцијата се вели дека е зададена во <term>имплицитен</term> или <term>нејавен облик</term> ако таа не е одвоена од изразот со независно променливата големина и се запишува во облик 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mi>y</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F \( x,`y \) =0} {}</m:annotation></m:semantics></m:math>. </para>
+        <section id="id-0339971408493">
+          <title>Пример 2. </title>
+          <para id="id11885534">Во имплицитен облик се зададени следните функции:</para>
+          <para id="id4598635">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>2</m:mn>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>7,</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mi/>
+                        <m:mi>y</m:mi>
+                        <m:mtext>sin</m:mtext>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mtext>ln</m:mtext>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>yx</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mtext>sin</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msqrt>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xy</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msqrt>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>e</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xy</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x+y} }  \( x rSup { size 8{2} }  - 2 \) =x rSup { size 8{3} } +7,~y"sin"x+"ln" ital "yx"=x+y,~"sin"y+ sqrt { ital "xy"} =x rSup { size 8{2} } e rSup { size 8{ ital "xy"} }  "." } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id11884406">Секоја функција од експлицитен облик може да се напише во имплицитен облик, додека обратното секогаш не е можно. Така на пример, имплицитната функција</para>
+          <para id="id10707160">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mn>2</m:mn>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msup>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>7</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{x+y} }  \( x rSup { size 8{2} }  - 2 \) =x rSup { size 8{3} } +7} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para>
+          <para id="id3409534">може да се реши по 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math><emphasis/> и да се сведе во експлицитен облик</para>
+          <para id="id3815026"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msub>
+                            <m:mtext>log</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mtext>log</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{y="log" rSub { size 8{2} }  \( x rSup { size 8{2} } +7 \)  - "log" rSub { size 8{2} }  \( x rSup { size 8{2} }  - 2 \)  - x,} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </para><para id="id11244292">додека другите имплицитни функции наведени во пример 2 не може да се доведат во експлицитен облик.</para>
+        </section>
+      </section>
+    </section>
+  </content>
+</document>

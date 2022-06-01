@@ -1,0 +1,1000 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Гранична вредност на функција</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35940</md:content-id>
+  <md:title>Гранична вредност на функција</md:title>
+  <md:abstract>Се дефинира поимот за гранична вредност на функција или накратко само граница на функција. Се дефинира лева и десна граница и бесконечно големи и бесконечно мали величини како и начини за нивно споредување и оценување на нивната големина.</md:abstract>
+  <md:uuid>c06eb3cd-b1ee-4554-8237-8fd9180867cb</md:uuid>
+</metadata>
+
+<content>
+    <section id="import-auto-id1163773506952">
+      <title>ГРАНИЧНА ВРЕДНОСТ НА ФУНКЦИЈА </title>
+      <para id="import-auto-id1163788283810">Нека функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> е дефинирана во околина на точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math>, без да се бара функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> да е дефинирана во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>.</para>
+      <section id="import-auto-id1163790430884">
+        <title>Дефиниција.</title>
+        <para id="import-auto-id1163791294001">Бројот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> се нарекува <term id="import-auto-id1163790448908">гранична вредност</term><emphasis effect="italics"/> на функцијата <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> кога <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> тежи кон бројот <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> ако на секој број <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math> му одговара број <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>δ</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ&gt;0} {}</m:annotation></m:semantics></m:math> таков што <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mi>A</m:mi></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>ε</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline `f \( x \)  - A` rline &lt;ε} {}</m:annotation></m:semantics></m:math>  кога  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>δ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline `x - a` rline &lt;δ} {}</m:annotation></m:semantics></m:math> и се пишува <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) =A} {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-594">Постоењето на граничната вредност <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> не означува дека вредноста на функцијата во точката  <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>  мора да е еднаква на бројот <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>, бидејќи функцијата не мора да е да е дефинирана во таа точка. </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-649">Од дефиницијата за гранична вредност следува дека за секоја <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>-околина на точката <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> ќе постои <m:math><m:semantics><m:mrow><m:mrow><m:mi>δ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ} {}</m:annotation></m:semantics></m:math>-околина на точката <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> таква што со функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> целата <m:math><m:semantics><m:mrow><m:mrow><m:mi>δ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ} {}</m:annotation></m:semantics></m:math>-околина на  точката <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> се пресликува во <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>-околина на  точката <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-327"><term id="import-auto-id1163801166720">Граничната вредност </term><emphasis effect="bold"><emphasis effect="italics"/></emphasis>накратко се нарекува <emphasis effect="bold"/><term id="import-auto-id1163789208262">граница</term> на функцијата.</para><para id="eip-648">За функција се дефинираат еднострани граници преку лева и десна граница. </para><section id="import-auto-id1163793067673">
+        <title>Дефиниција.</title>
+        <para id="import-auto-id1163802064294">Граничната вредност</para>
+        <para id="import-auto-id1163787892531">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:msup>
+                            <m:mi>a</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mn>1</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow a rSup { size 6{ - {}} } } } f \( x \) =A rSub {1} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163798669806">се нарекува <term id="import-auto-id1163800270360">лева граница</term> на функција <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math>, а </para><para id="import-auto-id1163794594667">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi/>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:msup>
+                            <m:mi>a</m:mi>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>A</m:mi>
+                        <m:mn>2</m:mn>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow a rSup { size 6{+{}} } } } f \( x \) =A rSub {2} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163790446538">е <term id="import-auto-id1163791294128">десна граница</term>. </para>
+        </section>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-712">Десната граница на функцијата е вредноста која се добива кога <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> тежи кон <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> од десно (преку поголемите вредности од <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>), а левата граница се добива кога <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> тежи кон <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> од лево (преку помалите од <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>).</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-483">Ако левата и десната граница во една точка се различни, функцијата нема граница во таа точка, а ако пак тие се еднакви, т. е. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=A rSub { size 8{1} } =A rSub { size 8{2} } ,} {}</m:annotation></m:semantics></m:math> тогаш функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> има граница и </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-998"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder></m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`A= {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow a rSup { size 6{ - {}} } } } f \( x \) ={}} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mi>a</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` {"lim"}  cSub { size 8{x rightarrow a rSup { size 6{+{}} } } } f \( x \) } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-849">Често пати, постоењето на едната од едностраните граници не мора да значи дека ќе постои и другата еднострана граница.</para><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-318"><title>ПРИМЕР 1.</title><para id="eip-424">Нека  е дадена функцијата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = sqrt {2 - x} } {}</m:annotation></m:semantics></m:math>. Нејзината дефинициона област е <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>D</m:mi><m:mrow><m:mi>f</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>2</m:mn><m:mo stretchy="false">]</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSub { size 8{f} } = \(  -  infinity ,2 \] } {}</m:annotation></m:semantics></m:math>  и границата на функцијата е</para><para id="eip-70"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow></m:msqrt></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  sqrt {2 - x} = sqrt {2 - a} ,} {}</m:annotation></m:semantics></m:math> за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">∈</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mi>,</m:mi><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a in  \(  -  infinity ,2 \)  "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-938">Иако функцијата <m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2 - x} } {}</m:annotation></m:semantics></m:math>  е дефинирана во точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=2,} {}</m:annotation></m:semantics></m:math> таа ќе нема граница во таа точка бидејќи нема десна граница. Навистина,</para><para id="eip-492">левата граница на функцијата е</para><para id="eip-717"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:munder><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 2 rSup { size 6{ - {}} } } }  sqrt {2 - x} =0} {}</m:annotation></m:semantics></m:math>,</para><para id="eip-333">додека десната граница</para><para id="eip-201"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>2</m:mn><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:munder><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 2 rSup { size 6{+{}} } } }  sqrt {2 - x} } {}</m:annotation></m:semantics></m:math> не постои,</para><para id="eip-727">бидејќи за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;2} {}</m:annotation></m:semantics></m:math> функцијата <m:math><m:semantics><m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {2 - x} } {}</m:annotation></m:semantics></m:math>  не е дефинирана, затоа и  границата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:munder><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 2} }  sqrt {2 - x} } {}</m:annotation></m:semantics></m:math> не постои.</para></example><para id="eip-307">Границата на функцијата  не мора да биде конечен број.</para><section id="import-auto-id1163791633301">
+        <title>Дефиниција.</title>
+        <para id="import-auto-id1163791385056">Граничната вредност е <term id="import-auto-id1163791634353">бесконечна</term><emphasis effect="bold"/> и се пишува<emphasis effect="bold"/></para><para id="import-auto-id1163790446795">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>=+</m:mtext>
+                    <m:mo stretchy="false">∞</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) "=+" infinity } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163791380777">ако за секој позитивен број <emphasis effect="italics"> M</emphasis> (доволно голем) постои позитивен број <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>δ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{δ} {}</m:annotation></m:semantics></m:math> така што</para>
+        <para id="import-auto-id1163790446847"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mi>M</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline f \( x \)  rline &gt;M} {}</m:annotation></m:semantics></m:math> кога <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>δ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline x - a rline &lt;δ} {}</m:annotation></m:semantics></m:math>.</para>
+        </section>
+      <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-224">При тоа, кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mi>M</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) &gt;M} {}</m:annotation></m:semantics></m:math> важи  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>=+</m:mtext><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) "=+" infinity } {}</m:annotation></m:semantics></m:math>, додека за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>M</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) &lt; - M} {}</m:annotation></m:semantics></m:math> важи <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) = -  infinity } {}</m:annotation></m:semantics></m:math>.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-430">Симболите за бесконечност <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ infinity , -  infinity } {}</m:annotation></m:semantics></m:math> не се реални вредности и тие само означуваат одредено поведение на функцијта. Кога вредностите на функцијата постојано растат, но не надминуваат некој конечен број <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, тогаш функцијата за граница го има бројот <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> или некој помал број. Ако таков конечен број <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> не постои, тогаш функцијата станува бесконечна и во тој случај границата не постои.</para><para id="eip-312">Можни се повеќе случаи на кога функцијата нема граница:</para><section id="import-auto-id1163789001464">
+        <title><term id="import-auto-id1163800238969">Случај 1:</term>           <term id="import-auto-id1163795203021">Функција со различни конечни граници</term>         </title><para id="import-auto-id1163794239416">Ако левата и десната граница на функцијата во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> се конечни и различни (Сл. 1), функцијата нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis>.</emphasis></para>
+        <para id="import-auto-id1163791378462">
+          <figure id="import-auto-id1163791378463"><media id="import-auto-id1163791634073" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics1-dbf1.jpg" height="161" width="186"/>
+            </media>
+          <caption>Слика 1.</caption></figure></para>
+      </section>
+      <section id="import-auto-id1163791384958">
+        <title>Случај 2:  Функција со бесконечни граници</title>
+        <para id="import-auto-id1163791380758"><emphasis effect="italics">а</emphasis>) Ако двете еднострани граници во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> тежат кон плус бесконечност (Сл. 2),  функцијата нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="import-auto-id1163791632036">
+          <figure id="import-auto-id1163791632037"><media id="import-auto-id1163791632038" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics2-0d68.jpg" height="146" width="169"/>
+            </media>
+          <caption>Слика 2.</caption></figure></para>
+        <para id="import-auto-id1163791384943"><emphasis effect="italics">б</emphasis>) Ако двете еднострани граници во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> тежат кон минус бесконечност (Сл. 3),  функцијата нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="import-auto-id1163791634119">
+          <figure id="import-auto-id1163791634120"><media id="import-auto-id1163791634122" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics3-6a29.jpg" height="141" width="176"/>
+            </media>
+          <caption>Слика 3.</caption></figure></para>
+        <para id="import-auto-id1163791378496"><emphasis effect="italics">в</emphasis>) Ако двете еднострани граници во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> тежат кон бесконечност, но левата бесконечност е позитивна а десната е негативна (Сл. 4), функцијата нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>;</para>
+        <para id="import-auto-id1163787716762">
+          <figure id="import-auto-id1163799109586"><media id="import-auto-id1163797333398" alt="">
+              <image mime-type="image/jpg" src="../../media/graphics4-2d02.jpg" height="174" width="176"/>
+            </media>
+          <caption>Слика 4.</caption></figure></para>
+        <para id="import-auto-id1163794586070"><emphasis effect="italics">г</emphasis>) Ако двете еднострани граници во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> тежат кон бесконечност, но левата е негативна бесконечност а десната е позитивна (Сл. 5), функцијата нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>;</para>
+        <figure id="import-auto-id1163796700492"><media id="import-auto-id1163802352758" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics5-a5de.jpg" height="174" width="161"/>
+          </media>
+        <caption>Слика 5.</caption></figure></section>
+      <section id="import-auto-id1163799271501">
+        <title>Случај 3:  Функција со конечна и бесконечна граница</title>
+        <para id="import-auto-id1163794516572">Ако во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> едната еднострана граница е конечна, а другата бесконечна (на пример како на Сл 6. левата граница е конечна а десната бесконечна), функцијата ќе нема граница во точката <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis>.</emphasis></para>
+        <figure id="import-auto-id1163798860082"><media id="import-auto-id1163798204517" alt="">
+            <image mime-type="image/jpg" src="../../media/graphics6-b179.jpg" height="156" width="158"/>
+          </media>
+        <caption>Слика 6.</caption></figure></section>
+      <section id="import-auto-id1163772132857">
+        <title>Особини на граничните вредности</title>
+        <para id="import-auto-id1163775419105">За граничните вредности на функците важат аналогни правила како за граничните вредности на низите. Така, ако <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) =A} {}</m:annotation></m:semantics></m:math> и <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>B</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } g \( x \) =B} {}</m:annotation></m:semantics></m:math>, тогаш:</para>
+        <para id="import-auto-id1163788933880">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>kf</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>k</m:mi>
+                    </m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>kA</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>k</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>const</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>;</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  ital "kf" \( x \) =k {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) = ital "kA", \( k -  ital "const" \) ;} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163798012005">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:mi>g</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:munder>
+                        <m:mtext>lim</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">→</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:munder>
+                    </m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:munder>
+                        <m:mtext>lim</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">→</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:munder>
+                    </m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mo stretchy="false">±</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>;</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  \( f \( x \)  +- g \( x \)  \) = {"lim"}  cSub { size 8{x rightarrow a} } f \( x \)  +-  {"lim"}  cSub { size 8{x rightarrow a} } g \( x \) =A +- B;} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163801935757">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:munder>
+                        <m:mtext>lim</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">→</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:munder>
+                    </m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:munder>
+                        <m:mtext>lim</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">→</m:mo>
+                            <m:mi>a</m:mi>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:munder>
+                    </m:mrow>
+                    <m:mi>g</m:mi>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>A</m:mi>
+                        <m:mo stretchy="false">⋅</m:mo>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mi>;</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  \( f \( x \) g \( x \)  \) = {"lim"}  cSub { size 8{x rightarrow a} } f \( x \)  cdot  {"lim"}  cSub { size 8{x rightarrow a} } g \( x \) =A cdot B;} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163798529600">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mi>a</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mi>f</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mi>a</m:mi>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mi>f</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mo stretchy="false">∞</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mi>A</m:mi>
+                        <m:mi>B</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mi>,</m:mi>
+                    <m:mi/>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mi>B</m:mi>
+                      <m:mo stretchy="false">≠</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } = {  { {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) }  over  { {"lim"}  cSub { size 8{n rightarrow  infinity } } g \( x \) } } = {  {A}  over  {B} } ,~ \( B &lt;&gt; 0 \)  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+      </section>
+      <section id="import-auto-id1519317">
+        <title>Некои поважни граници</title>
+        <para id="import-auto-id1163798665241">Без да се докажат, ќе наведеме некои поважни граници на функции кои се користат во задачите за определување на граница на функција:</para><para id="import-auto-id1163800394819">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mtext>sin</m:mtext>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  {  {"sin"x}  over  {x} } =1} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163789078590"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mo stretchy="false">∞</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mi>x</m:mi>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>e</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  left (1+ {  {1}  over  {x} }  right ) rSup { size 8{x} } = size 14{e}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163798015073"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mi>x</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mi>e</m:mi>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  left (1+x right ) rSup { size 8{ {  {1}  over  {x} } } } = size 14{e}} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para><para id="import-auto-id1163772829064">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>e</m:mi>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  {  {e rSup { size 8{x} }  - 1}  over  {x} } =1} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="import-auto-id1163772854482">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:munder>
+                      <m:mtext>lim</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">→</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:munder>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>a</m:mi>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>ln</m:mtext>
+                    </m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  {  {a rSup { size 8{x} }  - 1}  over  {x} } ="ln"a "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        </section>
+      <example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-702"><title>ПРИМЕР 2.</title><para id="eip-853"><emphasis effect="italics">а</emphasis>) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:munder><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 2} }  \( x rSup { size 8{2} }  - 3x+4 \) =2 rSup { size 8{2} }  - 6+4=2} {}</m:annotation></m:semantics></m:math>.
+</para><para id="eip-102"><emphasis effect="italics">б</emphasis>) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:munder><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:munder><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:mn>3x</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:munder><m:msup><m:mn>2x</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 2} }  {  {x rSup { size 8{2} }  - 3x+4}  over  {2x rSup { size 8{2} } } } = {  { {"lim"}  cSub { size 8{x rightarrow 2} }  \( x rSup { size 8{2} }  - 3x+4 \) }  over  { {"lim"}  cSub { size 8{x rightarrow 2} } 2x rSup { size 8{2} } } } = {  {2}  over  {8} } = {  {1}  over  {4} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-158"><emphasis effect="italics">в</emphasis>) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>8</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 3} }  {  {x - 3}  over  {x rSup { size 8{2} } +2x - "15"} } = {"lim"}  cSub { size 8{x rightarrow 3} }  {  {x - 3}  over  { \( x - 3 \)  \( x+5 \) } } = {"lim"}  cSub { size 8{x rightarrow 3} }  {  {1}  over  {x+5} } = {  {1}  over  {8} } } {}</m:annotation></m:semantics></m:math>.</para></example><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-19">За пресметување на граница на функција која е количник од полиноми и кога аргументот тежи кон <m:math><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ infinity } {}</m:annotation></m:semantics></m:math> се дели со највисоката степен на полиномот и се користи границата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {1}  over  {x} } =0} {}</m:annotation></m:semantics></m:math>.</para><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-652"><title>ПРИМЕР 3.</title><para id="eip-469"><emphasis effect="italics">а</emphasis>)  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2x</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:mfrac><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2x</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mi>x</m:mi><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>0</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {x rSup { size 8{3} } +2x}  over  {x+1} } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { {  {x rSup { size 8{3} } }  over  {x rSup { size 8{3} } } } + {  {2x}  over  {x rSup { size 8{3} } } } }  over  { {  {x}  over  {x rSup { size 8{3} } } } + {  {1}  over  {x rSup { size 8{3} } } } } } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  {1+ {  {2}  over  {x rSup { size 8{2} } } } }  over  { {  {1}  over  {x rSup { size 8{2} } } } + {  {1}  over  {x rSup { size 8{3} } } } } } = {  {1}  over  {0} } = infinity } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-359"><emphasis effect="italics">б</emphasis>) <m:math><m:semantics><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mi>x</m:mi></m:msqrt></m:mrow><m:mrow><m:mrow><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo stretchy="false">−</m:mo><m:mi>x</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:mfrac><m:msqrt><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:msqrt><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msqrt><m:mi>x</m:mi></m:msqrt><m:mi>x</m:mi></m:mfrac></m:mrow><m:mrow><m:mrow><m:mfrac><m:mroot><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>x</m:mi><m:mi>x</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder></m:mrow><m:mrow><m:mfrac><m:mrow><m:msqrt><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mfrac><m:mi>x</m:mi><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:msqrt></m:mrow><m:mrow><m:mrow><m:mroot><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>x</m:mi></m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow/><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:munder><m:mrow><m:mrow><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:msqrt><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:msqrt></m:mrow><m:mrow><m:mrow><m:mroot><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msup><m:mi>x</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:mroot><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>2</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { sqrt {x rSup { size 8{2} } +1} + sqrt {x} }  over  { nroot { size 8{4} }  {x rSup { size 8{3} } +x}  - x+2} } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { {  { sqrt {x rSup { size 8{2} } +1} }  over  {x} } + {  { sqrt {x} }  over  {x} } }  over  { {  { nroot { size 8{4} }  {x rSup { size 8{3} } +x} }  over  {x} }  -  {  {x}  over  {x} } + {  {2}  over  {x} } } } = {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { sqrt { {  {x rSup { size 8{2} } +1}  over  {x rSup { size 8{2} } } } } + sqrt { {  {x}  over  {x rSup { size 8{2} } } } } }  over  { nroot { size 8{4} }  { {  {x rSup { size 8{3} } +x}  over  {x rSup { size 8{4} } } } }  - 1+ {  {2}  over  {x} } } } ={}}  {} # 
+= {"lim"}  cSub { size 8{x rightarrow  infinity } }  {  { sqrt {1+ {  {1}  over  {x rSup { size 8{2} } } } } + sqrt { {  {1}  over  {x} } } }  over  { nroot { size 8{4} }  { {  {1}  over  {x} } + {  {1}  over  {x rSup { size 8{3} } } } }  - 1+ {  {2}  over  {x} } } } = {  {1}  over  { - 1} } = - 1 "."  {} 
+} } {}</m:annotation></m:semantics></m:math></para></example><example xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-303"><title>ПРИМЕР 4.</title><para id="eip-536">Да се пресмета границата <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:munder><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  {  { sqrt {1+x rSup { size 8{2} } }  - 1}  over  {x} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-861">РЕШЕНИЕ:</para><para id="eip-382">Оваа граница е неопределеност <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mn>0</m:mn><m:mn>0</m:mn></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {0}  over  {0} } } {}</m:annotation></m:semantics></m:math> и за да се одлободиме од неа, множиме и делиме со изразот <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ sqrt {1+x rSup { size 8{2} } } +1 &lt;&gt; 0} {}</m:annotation></m:semantics></m:math> кога  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow 0} {}</m:annotation></m:semantics></m:math>.</para><para id="eip-695">Затоа границата ќе биде</para><para id="eip-716"><m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:munder>
+                            <m:mrow>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:msqrt>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                      <m:mo stretchy="false">+</m:mo>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:msqrt>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mfrac>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mn>0</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:munder>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">+</m:mo>
+                                        <m:msup>
+                                          <m:mi>x</m:mi>
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mfrac>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:mfrac>
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">+</m:mo>
+                                        <m:msup>
+                                          <m:mi>x</m:mi>
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mrow>
+                                    <m:msqrt>
+                                      <m:mrow>
+                                        <m:mn>1</m:mn>
+                                        <m:mo stretchy="false">+</m:mo>
+                                        <m:msup>
+                                          <m:mi>x</m:mi>
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:msup>
+                                      </m:mrow>
+                                    </m:msqrt>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:mrow>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">→</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:munder>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msup>
+                                  <m:mi>x</m:mi>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:msqrt>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:msqrt>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                                <m:mo stretchy="false">→</m:mo>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:msup>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mrow>
+                                <m:msqrt>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:msqrt>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mrow/>
+                        <m:munder>
+                          <m:mtext>lim</m:mtext>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                              <m:mo stretchy="false">→</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:munder>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:msqrt>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:msup>
+                                      <m:mi>x</m:mi>
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+                                    </m:msup>
+                                  </m:mrow>
+                                </m:msqrt>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mn>0</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {"lim"}  cSub { size 8{x rightarrow 0} }  {  { sqrt {1+x rSup { size 8{2} } }  - 1}  over  {x} } = {"lim"}  cSub { size 8{x rightarrow 0} }  {  { sqrt {1+x rSup { size 8{2} } }  - 1}  over  {x} }  cdot  {  { sqrt {1+x rSup { size 8{2} } } +1}  over  { sqrt {1+x rSup { size 8{2} } } +1} } ={}}  {} # 
+ {"lim"}  cSub { size 8{x rightarrow 0} }  {  {1+x rSup { size 8{2} }  - 1}  over  {x \(  sqrt {1+x rSup { size 8{2} } } +1 \) } } = {"lim"}  cSub { size 8{x rightarrow 0} }  {  {x rSup { size 8{2} } }  over  {x \(  sqrt {1+x rSup { size 8{2} } } +1 \) } } ={} {} # 
+= {"lim"}  cSub { size 8{x rightarrow 0} }  {  {x}  over  { sqrt {1+x rSup { size 8{2} } } +1} } = {  {0}  over  {2} } =0 "."  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para></example><section id="import-auto-id1163793117196">
+        <title>Споредување на функциите</title>
+        <para id="import-auto-id1163797728092">Вредностите на различни функции во околина на дадена точка може да се споредуваат по големина и кога тоа не е очигледно, а споредувањето се врши преку нивниот количник.</para><para id="import-auto-id1163796701747">Функцијата се <term id="import-auto-id1163800742353">нарекува бесконечно мала величина</term> или <term id="import-auto-id1163787647985">инфинитезимала</term> кога <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math> ако нејзина гранична вредност е нула.</para>
+        <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163802152230">Нека се дадени две бесконечно мали величини <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> за кои <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) =0} {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } g \( x \) =0} {}</m:annotation></m:semantics></m:math>. Овие бесконечно мали величини може да се споредат по големина во околина на точката <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math> преку граничната вредност на нивниот количник и притоа ако:</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-3">Ако  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } =0} {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека е <term id="import-auto-id1163800254631">бесконечно мала величина од повисок ред</term> во однос на бесконечно малата величина <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math>;</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-592">Ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } = infinity } {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека е <term id="import-auto-id1163786519006">бесконечно мала величина од понизок ред</term> во однос на бесконечно малата величина <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math>;</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-476">Ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>const</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } = ital "const" &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека се <term id="import-auto-id1163798552672">бесконечно мали величини од ист ред.</term> Ако <term id="import-auto-id1163803740516"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>const</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "const"=1} {}</m:annotation></m:semantics></m:math>, бесконечно малите величини се еквивалентни.</term></para><para id="import-auto-id1163791377022">Со аналогна постапка може е да се споредуваат и бесконечно големите величини.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163791377018">Функцијата се нарекува <term id="import-auto-id1163791377020"> бесконечно голема величина </term>кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math> ако има бесконечна граница. </para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-11">Бесконечно големите величини <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> за кои <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) = infinity } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) = infinity } {}</m:annotation></m:semantics></m:math> може да се споредат по големина ако се пресмета границата од нивниот количник. Притоа:</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-770">Ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } = infinity } {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека е <term id="import-auto-id1163794496103">бесконечно голема величина од повисок ред</term> во однос на бесконечно големата величина <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math>;</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-684">Ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } =0} {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека е <term id="import-auto-id1163799342477">бесконечно голема величина од понизок ред</term> во однос на бесконечно големата величина <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math>;</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-881">Ако <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:munder><m:mrow><m:mrow><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>const</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} }  {  {f \( x \) }  over  {g \( x \) } } = ital "const" &lt;&gt; 0} {}</m:annotation></m:semantics></m:math>, за <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> се вели дека се <term id="import-auto-id1163794596514">бесконечно големи од ист ред.</term> Ако <term id="import-auto-id1163780886844"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>const</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "const"=1} {}</m:annotation></m:semantics></m:math>, бесконечно големите величини се еквивалентни</term> кога <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rightarrow a} {}</m:annotation></m:semantics></m:math>.</para></section>
+    </section>
+  </content>
+</document>

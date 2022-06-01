@@ -1,0 +1,332 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Непрекинатост на функција</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m43053</md:content-id>
+  <md:title>Непрекинатост на функција</md:title>
+  <md:abstract>Непрекинатите функции се многу важна класа функции. Се дефинира кога функција е непрекината, а кога таа е прекината.</md:abstract>
+  <md:uuid>8194cb54-57f2-419a-b02d-a26b122e83db</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1172584621990">
+      <title>НЕПРЕКИНАТОСТ НА ФУНКЦИЈА </title>
+      <section id="id1172556778487">
+        <title>Дефиниција.</title>
+        <para id="id1172602014461">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \) } {}</m:annotation></m:semantics></m:math> е <term>непрекината во точката </term><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math> ако се исполнети следните три услови:</para>
+        <para id="id1172585455426">1<sup>0</sup><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е дефинирана во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1172584856739">2<sup>0</sup> постои 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) =A} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1172582737118">3<sup>0 </sup><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow a} } f \( x \) =f \( a \) =A} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1172571176730">Од дефиницијата за непрекинатост на функција следува дека функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е непрекината во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math> ако е дефинирана во таа точка, ако постои гранична вредност во таа точка и ако таа граница е еднаква со вредноста на функцијата во истата точка. Обратното не мора да важи, бидејки функцијата може да има граница во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math>, а да не е дефинирана во истата точка.</para>
+        <para id="id1172560487934">Затоа функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> ќе биде <term>прекината во точката </term><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math> ако еден или повеќе услови од дефиницијата за непрекинатост не се исполнети.</para>
+      </section>
+      <section id="id1172562771223">
+        <title>Пример 1. </title>
+        <para id="id1172566372642">За која вредност на константата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="true">{</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow><m:mi>;</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ax</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1,</m:mn></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = left lbrace  matrix {
+x+1,~x &lt;= 1; {} ##
+3 -  ital "ax" rSup { size 8{2} } ,~x&gt;1,
+}  right none } {}</m:annotation></m:semantics></m:math> ќе биде непрекината?</para>
+        <para id="id1172586732178">РЕШЕНИЕ: </para><para id="id1172568801467">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> е составена од полиномни функции за кои нема ограничување во дефиниционата област и како такви се непрекинати во интервалите на кои се зададени, a единствено треба да се провери граничната точка која ги дели интервалите на нивното дефинирање. Првата функција е дефинирана и непрекината на интервалот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;= 1} {}</m:annotation></m:semantics></m:math>, а втората на 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x&gt;1} {}</m:annotation></m:semantics></m:math> и затоа единствено треба да се провери граничната точка меѓу овие интервали 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id1172577414446">Се пресметува вредноста на функцијата во оваа точка</para>
+        <para id="id1172569486635"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:msub><m:mo stretchy="false">/</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mrow/></m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( 1 \) = \( x+1 \) / rSub { size 8{x=1} } =1+1=2} {}</m:annotation></m:semantics></m:math>, </para>
+        <para id="id1172577449682">а за пресметување на границата во оваа точка користиме еднострани граници, бидејќи за помали и поголеми вредности од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math> функциите се различно дефинирани. </para>
+        <para id="id1172584604046">Се пресметува левата граница </para>
+        <para id="id1172572688177"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>1</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>1</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:munder></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 1 rSup { size 6{ - {}} } } } f \( x \) = {"lim"}  cSub {x rightarrow 1 rSup { size 6{ - {}} } }  size 12{ \( x+1 \) =2}} {}</m:annotation></m:semantics></m:math>; </para>
+        <para id="id1172584268040">додека десната граница е</para>
+        <para id="id1172565442776"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>1</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle></m:munder><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:munder><m:mtext>lim</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>1</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:munder></m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msup><m:mtext>ax</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:mstyle><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 1 rSup { size 6{+{}} } } } f \( x \) = {"lim"}  cSub {x rightarrow 1 rSup { size 6{+{}} } }  size 12{ \( 3 -  ital "ax" rSup {2} } size 12{ \) =3 - a}} {}</m:annotation></m:semantics></m:math> .</para>
+        <para id="id1172584361122">Од дефиницијата за непрекинатост, за да функцијата биде непрекината во точка потребно е во таа точка да има граница која е еднаква со вредноста на функцијата во точката. Во овој пример вредноста на функцијата е еднаква со левата граница, а останува уште таа вредност да е еднаква и на десната граница. </para>
+        <para id="id1172557475127">Овој услов го дава равенството</para>
+        <para id="id1172597216778"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 - a=2 drarrow a=1} {}</m:annotation></m:semantics></m:math>,</para>
+        <para id="id1172582377236">што значи дека вредноста на константата треба да биде </para>
+        <para id="id1172557413911"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=1} {}</m:annotation></m:semantics></m:math> за да функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> биде непрекината.</para>
+        </section>
+      <para id="eip-553">Неколку видови на непрекинатост на функција ќе се прикажат низ примери.</para><section id="id1172575571252">
+        <title>Пример 2. </title>
+        <para id="id1172583927091">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {1}  over  {x} } } {}</m:annotation></m:semantics></m:math> е прекината во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( 0 \) } {}</m:annotation></m:semantics></m:math> не постои 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">∉</m:mo><m:msub><m:mi>D</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>f</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0 notin D rSub { size 8{f} }  \) } {}</m:annotation></m:semantics></m:math> и едностраните граници се бесконечни: </para>
+        <para id="id1172585985283"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>0</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mtext>=+</m:mtext><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0 rSup { size 6{+{}} } } }  {  {1}  over  {x} } = {  {1}  over  {0+{}} } "=+" infinity } {}</m:annotation></m:semantics></m:math> , </para>
+        <para id="id1172556739588"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:msup><m:mn>0</m:mn><m:mstyle fontsize="6pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 0 rSup { size 6{ - {}} } } }  {  {1}  over  {x} } = {  {1}  over  {0 - {}} } = -  infinity } {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id1172588301953">Оваа функција (Сл.1) е непрекината во сите точки освен во 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> и се вели дека во неа има <term>бесконечен прекин</term>. Графикот на функцијата има ,,<emphasis effect="bold">скок</emphasis>“ во таа таа точка, односно вредностите на функцијата добиени лево од точката на прекин скокаат до вредностите десно од точката на прекин. </para><table id="id1172596646474" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1172586740785" alt="">
+                    <image mime-type="image/png" src="../../media/graphics1-497d.png"/>
+                  </media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 1 График на функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>x</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {1}  over  {x} } } {}</m:annotation></m:semantics></m:math></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <section id="id1172601964400">
+        <title>Пример 3. </title>
+        <para id="id1172602008305">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } } {}</m:annotation></m:semantics></m:math> е прекината во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math>, бидејќи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( 3 \) } {}</m:annotation></m:semantics></m:math> не е постои, додека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">→</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{x rightarrow 3} }  {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } =6} {}</m:annotation></m:semantics></m:math>. </para>
+        <para id="id1172586717686">Овој вид прекин може да отстрани преку редефинирање на функцијата со </para>
+        <equation id="id1172557961724">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>h</m:mi>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="true">{</m:mo>
+                          <m:mtable>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mfrac>
+                                    <m:mrow>
+                                      <m:msup>
+                                        <m:mi>x</m:mi>
+                                        <m:mstyle fontsize="8pt">
+                                          <m:mrow>
+                                            <m:mn>2</m:mn>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>9</m:mn>
+                                    </m:mrow>
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+                                  </m:mfrac>
+                                  <m:mi>,</m:mi>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">≠</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                            <m:mtr>
+                              <m:mtd>
+                                <m:mrow>
+                                  <m:mi/>
+                                  <m:mn>6,</m:mn>
+                                  <m:mi/>
+                                  <m:mrow>
+                                    <m:mi>x</m:mi>
+                                    <m:mo stretchy="false">=</m:mo>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mtd>
+                            </m:mtr>
+                          </m:mtable>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{h \( x \) = left lbrace  matrix {
+ {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } ,~x &lt;&gt; 3 {} ##
+~6,~~~x=3 "." ~
+}  right none } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1172577408112">Функциите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) =x+3} {}</m:annotation></m:semantics></m:math> се идентични освен во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=3} {}</m:annotation></m:semantics></m:math> во која за функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } } {}</m:annotation></m:semantics></m:math> се формира “дупка” (јама) (Сл. 2).</para>
+        <table id="id1172564146290" summary="">
+          <tgroup cols="1">
+            <colspec colnum="1" colname="c1"/>
+            <tbody>
+              <row>
+                <entry>
+                  <media id="id1172585034756" alt="">
+                    <image mime-type="image/png" src="../../media/graphics2-1306.png"/>
+                  </media>
+                </entry>
+              </row>
+              <row>
+                <entry>Слика 2. График на функцијта 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = {  {x rSup { size 8{2} }  - 9}  over  {x - 3} } } {}</m:annotation></m:semantics></m:math></entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </section>
+      <note id="eip-449"><title>ЗАБЕЛЕШКА</title>Прекинот во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> од Пример 2 не може да се отстрани од причина што во таа точка не постои граница, левата и десната граница се различни.</note><section id="id1172584037117">
+        <title>Пример 4. </title>
+        <para id="id1172585652886">Функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="true">{</m:mo><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≥</m:mo><m:mn>1</m:mn></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) = left lbrace  matrix {
+x+1,~x &gt;= 1 {} ##
+x,~~x&lt;1
+}  right none } {}</m:annotation></m:semantics></m:math> е дефинирана во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>, 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( 1 \) =2} {}</m:annotation></m:semantics></m:math>, но има различни еднострани граници во неа:</para>
+        <equation id="id1172557660785">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">→</m:mo>
+                                      <m:msup>
+                                        <m:mn>1</m:mn>
+                                        <m:mstyle fontsize="6pt">
+                                          <m:mrow>
+                                            <m:mrow>
+                                              <m:mo stretchy="false">+</m:mo>
+                                              <m:mrow/>
+                                            </m:mrow>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:munder>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mn>2,</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr>
+                      <m:mrow>
+                        <m:mstyle fontsize="12pt">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:munder>
+                                <m:mtext>lim</m:mtext>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                      <m:mo stretchy="false">→</m:mo>
+                                      <m:msup>
+                                        <m:mn>1</m:mn>
+                                        <m:mstyle fontsize="6pt">
+                                          <m:mrow>
+                                            <m:mrow>
+                                              <m:mo stretchy="false">−</m:mo>
+                                              <m:mrow/>
+                                            </m:mrow>
+                                          </m:mrow>
+                                        </m:mstyle>
+                                      </m:msup>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:munder>
+                              <m:mi>f</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mi>x</m:mi>
+                              <m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">=</m:mo>
+                                <m:mn>1,</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ {"lim"}  cSub { size 8{x rightarrow 1 rSup { size 6{+{}} } } } f \( x \) =2,}  {} # 
+ size 12{ {"lim"}  cSub { size 8{x rightarrow 1 rSup { size 6{ - {}} } } } f \( x \) =1,}  {} 
+} } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1172590016712">и затоа функцијата е прекината во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=1} {}</m:annotation></m:semantics></m:math>.</para>
+      </section>
+      <section id="id1172582386293">
+        <title>ОСОБИНИ НА НЕПРЕКИНАТИТЕ ФУНКЦИИ</title>
+        <para id="id1172584977683">Непрекинатите функции се многу важна класа функции. За нив важат следните особини:</para>
+        <list id="id1172591898510" list-type="bulleted"><item>Ако функциите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \) } {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g \( x \) } {}</m:annotation></m:semantics></m:math> се непрекинати во точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=a} {}</m:annotation></m:semantics></m:math>, тогаш и функциите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">±</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⋅</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi/><m:mfrac><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mi/><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:mi>a</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f \( x \)  +- g \( x \) ,`f \( x \)  cdot g \( x \) ,` {  {f \( x \) }  over  {g \( x \) } } ~ \( g \( a \)  &lt;&gt; 0 \) } {}</m:annotation></m:semantics></m:math> се исто така непрекинати функции во истата точка. </item>
+          <item>Ако функцијата е непрекината во сите точки од еден интервал, тогаш таа е непрекината на целиот интервал. </item>
+          <item>За да непрекината функција премине од една своја вредност во друга, таа мора да ги прими сите вредности меѓу овие две вредности. </item>
+          <item>Ако непрекината функција во околина на дадена точка има вредност различна од нула, тогаш околу таа точка ќе постои интервал во кој функцијта има ист знак со вредноста на функцијата.</item>
+          <item>Ако на краевите од еден интервал функцијата има вредности различни по знак, тогаш ќе постои барем една точка од внатрешноста на интервалот во која функцијата ќе има вредност нула.</item>
+        </list><para id="id8674630">Непрекинатоста кај елементарните функции е следна: полиномот е непрекината функција за секоја реална вредност на аргументот, дробнорационалните функции се непрекинати во сите точки освен во нулите на именителот во кои точки функцијата не е дефинирана. Експоненцијалната функција е непрекината за секоја вредност на аргументот. Логаритамската функција е непрекината за сите позитивни вредности на аргументот. Тригонометриските функции 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>sin</m:mtext></m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>cos</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="sin"x,~y="cos"x} {}</m:annotation></m:semantics></m:math> се непрекинати за секоја реална вредност на аргументот, функцијата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>tg</m:mtext></m:mrow><m:mi/><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="tg"`x} {}</m:annotation></m:semantics></m:math>е непрекината за сите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≠</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>2k</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mfrac><m:mi>π</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt;  \( 2k+1 \)  {  {π}  over  {2} } } {}</m:annotation></m:semantics></m:math>, додека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>ctg</m:mtext></m:mrow><m:mi/><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="ctg"`x} {}</m:annotation></m:semantics></m:math> е непрекината за 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">≠</m:mo><m:mi fontstyle="italic">kπ</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">±</m:mo><m:mn>1,</m:mn></m:mrow><m:mrow><m:mi/><m:mo stretchy="false">±</m:mo><m:mn>2,</m:mn></m:mrow><m:mi/><m:mo stretchy="false">…</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x &lt;&gt; kπ,~ \( k=0,` +- 1,` +- 2,` dotslow  \) } {}</m:annotation></m:semantics></m:math>. Инверзните тригонометриски функции 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arcsin</m:mtext></m:mrow><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arccos</m:mtext></m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="arcsin"x,~y="arccos"x} {}</m:annotation></m:semantics></m:math>се непрекинати на интервалот [-1, 1], додека 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arctg</m:mtext></m:mrow><m:mi/><m:mi>x</m:mi><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>arcctg</m:mtext></m:mrow><m:mi/><m:mi>x</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y="arctg"`x,~y="arcctg"`x} {}</m:annotation></m:semantics></m:math> се непрекинати за секоја реална вредност на аргументот. </para></section>
+    </section>
+  </content>
+</document>

@@ -1,0 +1,426 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Логаритамско диференцирање</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35995</md:content-id>
+  <md:title>Логаритамско диференцирање</md:title>
+  <md:abstract>Кога функцијата не е во некој од облиците на елементраните функции, а таа е од облик во кој и основата и експонентот се функции од променливата, таа не е ниту степена ниту експоненцијална функциј и затоа таквата функција се логаритмира за да може да се примени таблицата од изводи на елементарни фнкции.</md:abstract>
+  <md:uuid>bf0a6ea3-8496-42bd-a50c-9223af1111ea</md:uuid>
+</metadata>
+
+<content>
+    <section id="id1171104640071">
+      <title>Логаритамско диференцирање</title>
+      <para id="id1171116196966">Функцијата за која се бара да се пресмета изводот може да биде задедена и во следниот облик</para>
+      <equation id="id1171099965095">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \)  rSup { size 8{g \( x \) } }  "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1171100232229">На вака зададената функција не може да се примени ниедно правило за пресметување на извод, бидејќи таа не е елементарна функција. Затоа функциите од овој облик најпрво се логаритмираат, и потоа тој израз се диференцира. </para>
+      <para id="id1171104298331">Така со логаритмирање на левата и десната страна на функцијата</para>
+      <equation id="id1171108869865">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>y</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>f</m:mi>
+                    </m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mi>x</m:mi>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mstyle fontsize="8pt">
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mi>g</m:mi>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mi>x</m:mi>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:msup>
+                    <m:mtext>/ln</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{y=f \( x \)  rSup { size 8{g \( x \) } } "/ln"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <para id="id1171100775078">се добива</para>
+      <para id="id1171100893597">
+        <quote id="id1171100893597_quote" display="block"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo><m:mtext>ln</m:mtext><m:mi>f</m:mi><m:mo stretchy="false">(</m:mo><m:mi>x</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ln"y=g \( x \) "ln"f \( x \) } {}</m:annotation></m:semantics></m:math>.</quote>
+      </para>
+      <para id="id1171100784107">Оваа функција е имплицитна, десната страна е запишана во вид на производ од функции и може да се диференцира по 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> при што се добива</para>
+      <para id="id1171099738636">
+        <quote id="id1171099738636_quote" display="block">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow/>
+              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
+            </m:semantics>
+          </m:math>
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>y</m:mi>
+                      </m:mfrac>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msup>
+                          <m:mi>g</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:mi>f</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>g</m:mi>
+                      </m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mi>f</m:mi>
+                      </m:mfrac>
+                      <m:msup>
+                        <m:mi>f</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {y} }  { {y}} sup { ' }= { {g}} sup { ' }"ln"f+g {  {1}  over  {f} }  { {f}} sup { ' }} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </quote>
+      </para>
+      <para id="id1171099708727">од каде</para>
+      <equation id="id1171111242999">
+        <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+          <m:semantics>
+            <m:mrow>
+              <m:mstyle fontsize="12pt">
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>y</m:mi>
+                    </m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>g</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mtext>ln</m:mtext>
+                        <m:mrow>
+                          <m:mi>f</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>g</m:mi>
+                        </m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mi>f</m:mi>
+                        </m:mfrac>
+                        <m:msup>
+                          <m:mi>f</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mtext>.</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mstyle>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }=y left ( { {g}} sup { ' }"ln"f+g {  {1}  over  {f} }  { {f}} sup { ' } right ) "." } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation>
+      <section id="id1171108430182">
+        <title>Пример </title>
+        <para id="id1171109541615">Да се пресмета изводот 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msup><m:mi>y</m:mi><m:mi>'</m:mi></m:msup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }} {}</m:annotation></m:semantics></m:math> на функцијата 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msup><m:mi>x</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>y</m:mi></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">=</m:mo><m:msup><m:mi>y</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle></m:msup></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSup { size 8{y} } =y rSup { size 8{x} }  "." } {}</m:annotation></m:semantics></m:math></para>
+        <para id="id1171103938783">Најпрво дадената функцијата се логаритмира </para>
+        <equation id="id1171100249425">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>x</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>y</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>ln</m:mtext>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mstyle fontsize="8pt">
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{"ln"x rSup { size 8{y} } ="ln"y rSup { size 8{x} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1171104684303">и применувајќи ги правилата за логаритми равенката се запишува со </para>
+        <para id="id1171104616342">
+          <quote id="id1171104616342_quote" display="block"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>y</m:mi><m:mtext>ln</m:mtext><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>x</m:mi></m:mrow><m:mtext>ln</m:mtext><m:mi>y</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y"ln"x=x"ln"y} {}</m:annotation></m:semantics></m:math>.</quote>
+        </para>
+        <para id="id1171102401339">Диференцирајќи ја последната равенка се добива</para>
+        <equation id="id1171106413590">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                      <m:mtext>ln</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mi>y</m:mi>
+                            <m:mi>x</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>ln</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>x</m:mi>
+                          <m:mi>y</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:msup>
+                        <m:mi>y</m:mi>
+                        <m:mi>'</m:mi>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }"ln"x+ {  {y}  over  {x} } ="ln"y+ {  {x}  over  {y} }  { {y}} sup { ' }} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1171100807600">и по множење со 
+<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>xy</m:mtext></m:mrow></m:mstyle></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "xy"} {}</m:annotation></m:semantics></m:math> се добива </para>
+        <para id="id1171105518912">
+          <quote id="id1171105518912_quote" display="block">
+            <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>xy</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mtext>ln</m:mtext>
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>x</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mi>'</m:mi>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>xy</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mtext>ln</m:mtext>
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msup>
+                            <m:mi>y</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ \(  ital "xy""ln"x - x rSup { size 8{2} }  \)  { {y}} sup { ' }= ital "xy""ln"y - y rSup { size 8{2} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </quote>
+        </para>
+        <para id="id1171116325917">од каде се определува изводот </para>
+        <equation id="id1171108808485">
+          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>y</m:mi>
+                          <m:mi>'</m:mi>
+                        </m:msup>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>y</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xy</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                            <m:mtext>ln</m:mtext>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>x</m:mi>
+                                <m:mstyle fontsize="8pt">
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:mstyle>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>xy</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                            <m:mtext>ln</m:mtext>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{ { {y}} sup { ' }= {  {y rSup { size 8{2} }  -  ital "xy""ln"y}  over  {x rSup { size 8{2} }  -  ital "xy""ln"x} }  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </equation>
+        <para id="id1171109284006"/>
+      </section>
+    </section>
+  </content>
+</document>

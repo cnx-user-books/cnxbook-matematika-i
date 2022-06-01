@@ -1,0 +1,1187 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Низи</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m15561</md:content-id>
+  <md:title>Низи</md:title>
+  <md:abstract>Во овој модул се воведува поимот за низа, точка на натрупување и граница на низа. Се наведуваат и некои особини на низите.</md:abstract>
+  <md:uuid>9827fa48-1d53-4895-8d2f-56cbea8d9eaf</md:uuid>
+</metadata>
+  <content>
+    <section id="id-800184566621">
+      <title>НИЗИ </title>
+      <para id="eip-929"><term>Конечна низа </term>од реални броеви се нарекува секое множество 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} }}  {}</m:annotation></m:semantics></m:math> каде 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mi/><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mi/><m:mn>2,</m:mn><m:mi/><m:mn>3,</m:mn><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:mi>n</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{i} } ~ \( i=1,`2,`3,` "."  "."  "."  "." ,`n \) } {}</m:annotation></m:semantics></m:math> се реални броеви, односно секое едно­значно пресликување на подмножество од природни броеви 1, 2, 3, …, n  во множество на реални броеви. Конечната низа се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msubsup><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace `a rSub { size 8{i`} }  rbrace  rSub { size 8{1} }  rSup { size 8{n} }  "." } {}</m:annotation></m:semantics></m:math></para><para id="eip-961">Бесконечното множество од реални броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} } ,` "."  "."  "." } {}</m:annotation></m:semantics></m:math> се нареку­ва <term>бесконечна низа</term> или само <term>низа</term><term/> и се означува со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace `a rSub { size 8{i`} }  rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } }  "." } {}</m:annotation></m:semantics></m:math> Оваа низа се добива како резултат на пресликување од множеството природни броеви во множеството реални броеви.</para><para id="eip-397">Без оглед на тоа дали се конечни или бесконечни, низите се определуваат како вредности на функции на кои дефиницио­ната област им е множеството природни броеви. Реалните броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} } ,` "."  "."  "." } {}</m:annotation></m:semantics></m:math> се нарекуваат <term>членови на низата</term> и за нив се користи иста ознака, буквата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, а се разликуваат само по својот индекс со кој наполно се определува членот на низата.</para><para id="eip-275">Низата може да се зададе со општиот член 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } } {}</m:annotation></m:semantics></m:math> или со набројување на неколку нејзини членови.</para><example id="eip-536"><title>ПРИМЕР 1.</title><para id="eip-204">Аритметичката прогресија
+</para><para id="eip-786"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mi>d</m:mi>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>2d</m:mn>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>nd</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mi/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1} } ,`a rSub { size 8{1} } +d,`a rSub { size 8{1} } +2d,` "."  "."  "." ,``a rSub { size 8{1} } + ital "nd",` "."  "."  "." `} {}</m:annotation>
+              </m:semantics>
+            </m:math></para><para id="eip-476">е пример на бесконечна низа со општ член 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>d</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } =`a rSub { size 8{1} } + \( n - 1 \) d} {}</m:annotation></m:semantics></m:math>. </para></example><example id="eip-102"><title>ПРИМЕР 2.</title><para id="eip-906">Геометриската прогресија </para><para id="eip-48"><m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:mi>q</m:mi>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msup>
+                          <m:mi>q</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:msub>
+                          <m:mi>a</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msub>
+                        <m:msup>
+                          <m:mi>q</m:mi>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                        <m:mi>,</m:mi>
+                        <m:mi/>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mi/>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1} } ,`a rSub { size 8{1} } q,`a rSub { size 8{1} } q rSup { size 8{2} } ,` "."  "."  "." ,``a rSub { size 8{1} } q rSup { size 8{n} } ,` "."  "."  "." `} {}</m:annotation>
+              </m:semantics>
+            </m:math></para><para id="eip-975">е исто така пример за бесконечна низа со општ член 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:msup><m:mi>q</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } =`a rSub { size 8{1} } q rSup { size 8{n - 1} } } {}</m:annotation></m:semantics></m:math>.</para></example><example id="eip-525"><title>ПРИМЕР 3.</title><para id="eip-72">Задавење на низа преку општиот член од низата:
+</para><para id="eip-420">Со општиот член 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } = {  {1}  over  {n} } } {}</m:annotation></m:semantics></m:math> се дефинира низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mn>1,</m:mn><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">⋯</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1, {  {1}  over  {2} } ,` {  {1}  over  {3} } ,` {  {1}  over  {4} } ,` dotsaxis } {}</m:annotation></m:semantics></m:math></para><para id="eip-224">додека со 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2n</m:mn><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b rSub { size 8{n} } = {  {n+1}  over  {2n+3} } } {}</m:annotation></m:semantics></m:math> се дефинира низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>2</m:mn><m:mn>5</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>3</m:mn><m:mn>7</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mfrac><m:mn>4</m:mn><m:mn>9</m:mn></m:mfrac><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">⋯</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2}  over  {5} } ,` {  {3}  over  {7} } ,` {  {4}  over  {9} } ,` dotsaxis } {}</m:annotation></m:semantics></m:math> . </para></example><example id="eip-95"><title>ПРИМЕР 4.</title><para id="eip-207">Oбратна постапка, од неколку зададени почетни членови на низата
+</para><para id="eip-126"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                          <m:mi>,</m:mi>
+                          <m:mrow>
+                            <m:mi/>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mn>2</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                          <m:mi/>
+                          <m:mfrac>
+                            <m:mn>3</m:mn>
+                            <m:mn>4</m:mn>
+                          </m:mfrac>
+                          <m:mi>,</m:mi>
+                          <m:mrow>
+                            <m:mi/>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mn>4</m:mn>
+                              <m:mn>5</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                          <m:mi/>
+                          <m:mo stretchy="false">⋯</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } ,` -  {  {2}  over  {3} } ,` {  {3}  over  {4} } ,` -  {  {4}  over  {5} } ,`` dotsaxis } {}</m:annotation>
+                </m:semantics>
+              </m:math></para><para id="eip-886">се определува еден можен облик на општиот член на низата </para><para id="eip-669"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } = \(  - 1 \)  rSup { size 8{n+1} }  {  {n}  over  {n+1} } } {}</m:annotation></m:semantics></m:math>. </para></example><section id="id-522674130275">
+        <title>Точка на натрупување на низа</title>
+        <section id="id-877758066033">
+          <title>Дефиниција. </title>
+          <para id="id48377574">Точката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>b</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> се нарекува <term>точка </term><term>на </term><term>натруп­ува­ње</term> на низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} } ,` "."  "."  "." } {}</m:annotation></m:semantics></m:math> ако за произволно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math> во секој интервал 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">−</m:mo><m:mi>ε</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( b - ε,`b+ε \) } {}</m:annotation></m:semantics></m:math> се наоѓаат бесконечно многу членови од низата.</para>
+          </section>
+        <para id="eip-611">Една низа може да има една или повеќе точки на натрупу­вање. </para><example id="eip-807"><title>ПРИМЕР 5. </title><para id="eip-26">Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } = {  {1}  over  {n} } } {}</m:annotation></m:semantics></m:math> има една точка на натрупување и тоа е точката 0, бидејќи во произволна околина на точката 0 има бесконечно многу членови на низата. 
+</para></example><example id="eip-762"><title>ПРИМЕР 6.</title><para id="eip-599">Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msup><m:mfrac><m:mi>n</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } = \(  - 1 \)  rSup { size 8{n+1} }  {  {n}  over  {n+1} } } {}</m:annotation></m:semantics></m:math> има две точки на натрупување: 1 и -1. Членовите од оваа низа со непарни индекси се натрупуваат околу точката 1, додека членовите со парни индекси се натрупуваат околу точката -1. </para></example></section>
+      <section id="id-361152459312">
+        <title>Гранична вредност на низа</title>
+        <section id="id-16674785381">
+          <title>Дефиниција.</title>
+          <para id="id48386865">Бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> се нарекува <term>гранична</term><term/><term> вредност</term> на низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} } ,` "."  "."  "." } {}</m:annotation></m:semantics></m:math> или само <term>граница</term> ако на секој број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math> му одговара природен број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> таков што за секое 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n&gt;n rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> важи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:mrow><m:mi/><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:mi>a</m:mi></m:mrow><m:mi/></m:mrow><m:mo stretchy="false">∣</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:mi>ε</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline `a rSub { size 8{n} }  - a` rline &lt;ε} {}</m:annotation></m:semantics></m:math> и се запишува </para>
+          <para id="id48376941"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mi/><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } } `a rSub { size 8{n} } =a} {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">→</m:mo><m:mi>a</m:mi><m:mi>,</m:mi><m:mi/><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} }  rightarrow a,`n rightarrow  infinity } {}</m:annotation></m:semantics></m:math></para>
+          <para id="id47579250">и се чита: низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>i</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace `a rSub { size 8{i`} }  rbrace } {}</m:annotation></m:semantics></m:math> тежи или конвергира кон бројот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> кога 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> тежи кон 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ infinity } {}</m:annotation></m:semantics></m:math>.</para>
+          </section></section>
+      <para id="eip-733">Дефиницијата за граница на низа укажува дека каков и да е радиусот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε&gt;0} {}</m:annotation></m:semantics></m:math> на околината на граничната вредност 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>a</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, во интервалот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">−</m:mo><m:mi>ε</m:mi></m:mrow><m:mi>,</m:mi><m:mi/><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">+</m:mo><m:mi>ε</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( a - ε,`a+ε \) } {}</m:annotation></m:semantics></m:math> ќе има бесконечно многу членови од низата, односно сите членови со индекс 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n&gt;n rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. Природниот број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> се определува во зависност од радиусот 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>ε</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>.</para><example id="eip-892"><title>ПРИМЕР 7.</title><para id="eip-105">За низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{n} } = {  {1}  over  {n} } } {}</m:annotation></m:semantics></m:math> бројот 0 е нејзина гранична вредност и ако се избере 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε= {  {1}  over  {"10"} } } {}</m:annotation></m:semantics></m:math>, тогаш од неравенството </para><para id="eip-600"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                            <m:mrow>
+                              <m:mi/>
+                              <m:mrow>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mi>n</m:mi>
+                                </m:mfrac>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+                              <m:mi/>
+                            </m:mrow>
+                            <m:mo stretchy="false">∣</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">&lt;</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mtext>10</m:mtext>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ lline ` {  {1}  over  {n} }  - 0` rline &lt; {  {1}  over  {"10"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math></para><para id="eip-196">ќе следува 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac><m:mo stretchy="false">&lt;</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {n} } &lt; {  {1}  over  {"10"} } } {}</m:annotation></m:semantics></m:math> или n<emphasis/>&gt;10, односно 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>0</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{0} } ="10" "." } {}</m:annotation></m:semantics></m:math> Тоа значи дека во околина на точката 0 во радиус 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>10</m:mtext></m:mfrac></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε= {  {1}  over  {"10"} } } {}</m:annotation></m:semantics></m:math> се наоѓаат членовите 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>11</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>12</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>13</m:mtext></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{"11"} } ,`a rSub { size 8{"12"} } ,`a rSub { size 8{"13"} } ,` "."  "."  "." ,} {}</m:annotation></m:semantics></m:math> додека надвор од интервалот ќе се наоѓаат само конечен број на членови и тоа 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mtext>10</m:mtext></m:mrow></m:mstyle></m:msub><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1} } ,`a rSub { size 8{2} } ,` "."  "."  "." ,`a rSub { size 8{"10"} }  "." } {}</m:annotation></m:semantics></m:math></para></example><para id="eip-654">Точката на натрупување не може да се поистовети со граничната вредност на низата, бидејќи надвор од 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε - {}} {}</m:annotation></m:semantics></m:math> околината на граничната точка има конечно многу членови на низата, што немора да важи за точката на натрупување. Ако низата има една точка на натрупување, таа е и нејзина гранична вредност, а ако низата има повеќе од една точка на натрупување, тогаш низата нема гранична вредност.</para><para id="eip-336">Низите чија гранична вредност е конечен реален број се нарекуваат <term>конвергентни</term>. Постојат и <term>дивергентни</term> низи, а тоа се низи чија гранична вредност е 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  infinity } {}</m:annotation></m:semantics></m:math> или 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ infinity } {}</m:annotation></m:semantics></m:math>.</para><section id="id-444832328381">
+        <title>Некои особини за низите</title>
+        <para id="id48354673">Ако за членовите на низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>2</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mn>3</m:mn><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mi>,</m:mi><m:mi/><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mi/></m:mrow></m:mrow></m:mstyle></m:msub><m:mi>,</m:mi><m:mi/><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } ,`a rSub { size 8{2`} } ,a rSub { size 8{3`} } , "."  "."  "." ,`a rSub { size 8{n`} } ,` "."  "."  "." } {}</m:annotation></m:semantics></m:math> важат неравенствата </para>
+        <para id="id48447856">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">&lt;</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">&lt;</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mo stretchy="false">&lt;</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">&lt;</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">&lt;</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } &lt;a rSub { size 8{2`} } &lt;a rSub { size 8{3`} } &lt; "."  "."  "." &lt;a rSub { size 8{n`} } &lt;a rSub { size 8{n+1`} } &lt; "."  "."  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id48509111">низата се нарекува <term>растечка</term>, а ако важи </para>
+        <para id="id48509128">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">&gt;</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">&gt;</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mo stretchy="false">&gt;</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">&gt;</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">&gt;</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} } &gt;a rSub { size 8{2`} } &gt;a rSub { size 8{3`} } &gt; "."  "."  "." &gt;a rSub { size 8{n`} } &gt;a rSub { size 8{n+1`} } &gt; "."  "."  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id48604713">низата е <term>опа</term><term>ѓа</term><term>чка</term>. </para>
+        <para id="id47762233">Ако се воведе ознаката 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δa</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δa rSub { size 8{n} } =a rSub { size 8{n+1} }  - a rSub { size 8{n} } } {}</m:annotation></m:semantics></m:math>, низата е растечка ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δa</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δa rSub { size 8{n} } &gt;0} {}</m:annotation></m:semantics></m:math> и опаѓачка ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δa</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δa rSub { size 8{n} } &lt;0} {}</m:annotation></m:semantics></m:math>.</para>
+        <para id="id48511591">И растечките и опаѓачките низи се нарекувааат <term>монотони</term><term/><term> низи</term>, па постојат монотоно растечки и монотоно опаѓачки низи. Низата за која </para>
+        <para id="id48445053">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">≤</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mo stretchy="false">≤</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">≤</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">≤</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} }  &lt;= a rSub { size 8{2`} }  &lt;= a rSub { size 8{3`} }  &lt;=  "."  "."  "."  &lt;= a rSub { size 8{n`} }  &lt;= a rSub { size 8{n+1`} }  &lt;=  "."  "."  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id47580491">се нарекува <term>монотоно</term><term/><term> неопаѓачка</term>, додека низата за која </para>
+        <para id="id47580517">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mstyle fontsize="12pt">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">≥</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">≥</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mtext>.</m:mtext>
+                            <m:mo stretchy="false">≥</m:mo>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mi/>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">≥</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">+</m:mo>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+                                  <m:mi/>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                        <m:mo stretchy="false">≥</m:mo>
+                        <m:mtext>.</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>.</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{1`} }  &gt;= a rSub { size 8{2`} }  &gt;= a rSub { size 8{3`} }  &gt;=  "."  "."  "."  &gt;= a rSub { size 8{n`} }  &gt;= a rSub { size 8{n+1`} }  &gt;=  "."  "."  "." } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+        </para>
+        <para id="id48510761">е <term>монотоно</term><term/><term> нерастечка</term>.</para>
+        <para id="id48510787">За неопаѓачите низи важи 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δa</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≥</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δa rSub { size 8{n} }  &gt;= 0} {}</m:annotation></m:semantics></m:math>, додека за нерастечките 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">Δa</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≤</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δa rSub { size 8{n} }  &lt;= 0 "." } {}</m:annotation></m:semantics></m:math></para>
+        </section>
+      <example id="eip-792"><title>ПРИМЕР 8.</title><para id="eip-2">а) Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mn>2n</m:mn><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1,4</m:mn><m:mo stretchy="false">/</m:mo><m:mn>3,6</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>4,8</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>5,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 2n/ \( n+1 \)  rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } = lbrace 1,4/3,6/4,8/5, "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math> е растечка;
+</para><para id="eip-514">б) Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1,1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2,1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3,1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>4,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 1/n rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } = lbrace 1,1/2,1/3,1/4, "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math> е опаѓачка.</para></example><section id="id-749926378398">
+        <title>Ограниченост на низа</title>
+        <section id="eip-601"><title>Дефиниција.</title><para id="eip-301">Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace a rSub { size 8{i} }  rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } } {}</m:annotation></m:semantics></m:math> е <term>ограничена</term> ако постојат броеви 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>,</m:mi><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m,M in R} {}</m:annotation></m:semantics></m:math> такви што</para><para id="eip-463"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">≤</m:mo><m:mi>M</m:mi></m:mrow><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m &lt;= a rSub { size 8{i} }  &lt;= M, \( i in N \) } {}</m:annotation></m:semantics></m:math>.</para></section><section id="eip-954"><title>Дефиниција.</title><para id="eip-18">Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace a rSub { size 8{i} }  rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } } {}</m:annotation></m:semantics></m:math> е <term>нео</term><term>граничена</term> ако за секој позитивен број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mi>M</m:mi><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M&gt;0} {}</m:annotation></m:semantics></m:math> постои природен број 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> таков да 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">&gt;</m:mo><m:mi>M</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline a rSub { size 8{n} }  \lline &gt;M "." } {}</m:annotation></m:semantics></m:math></para></section><section id="id-704780440549">
+          <para id="id48447473">Низата може да биде и:</para>
+          <list id="id48447479" list-type="bulleted">
+            <item>неограничена од лево и ограничена од десно ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mo stretchy="false">≤</m:mo><m:mi>M</m:mi></m:mrow><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  infinity &lt;a rSub { size 8{i} }  &lt;= M, \( i in N \) ;} {}</m:annotation></m:semantics></m:math></item>
+            <item>ограничена од лево и неограничена од десно ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>&lt;+</m:mtext><m:mo stretchy="false">∞</m:mo><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m &lt;= a rSub { size 8{i} } "&lt;+" infinity , \( i in N \) ;} {}</m:annotation></m:semantics></m:math></item>
+            <item>неограничена и од лево и од десно ако 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow><m:mo stretchy="false">&lt;</m:mo><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>i</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mtext>&lt;+</m:mtext><m:mo stretchy="false">∞</m:mo><m:mi>,</m:mi><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">∈</m:mo><m:mi>N</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ -  infinity &lt;a rSub { size 8{i} } "&lt;+" infinity , \( i in N \)  "." } {}</m:annotation></m:semantics></m:math></item>
+          </list>
+          <example id="eip-279"><title>ПРИМЕР 9.</title><para id="eip-856">а) Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>n</m:mi></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1,1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2,1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3,1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>4,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace 1/n rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } = lbrace 1,1/2,1/3,1/4, "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math> е ограничена бидејки 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">&lt;</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>n</m:mi></m:mrow></m:mrow><m:mo stretchy="false">≤</m:mo><m:mn>1</m:mn></m:mrow><m:mi>;</m:mi></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0&lt;1/n &lt;= 1;} {}</m:annotation></m:semantics></m:math>
+</para><para id="eip-924">б) Низата 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msubsup><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:msup><m:mi>n</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle><m:mstyle fontsize="8pt"><m:mrow><m:mo stretchy="false">∞</m:mo></m:mrow></m:mstyle></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">{</m:mo><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2,4</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3,9</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>4,</m:mn></m:mrow><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">/</m:mo><m:mn>5,</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo stretchy="false">}</m:mo></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lbrace n rSup { size 8{2} } / \( n+1 \)  rbrace  rSub { size 8{1} }  rSup { size 8{ infinity } } = lbrace 1/2,4/3,9/4,"16"/5, "."  "."  "."  rbrace } {}</m:annotation></m:semantics></m:math> е неограничена од десно.</para></example><section id="id-596263447999">
+            <title>За низите важат следните тврдења:</title>
+            <list id="id48451726" list-type="bulleted">
+              <item>Сите монотони и ограничени низи се конвергентни.</item>
+              <item>Една низа може да биде конвергентна, а да не биде монотона.</item>
+              <item>Секоја конвергентна низа е ограничена, а обратното не важи.</item>
+              <item>Секоја огранична низа има барем една точка на натрупување.</item>
+            </list>
+            </section><para id="eip-491">Ако постојат границите на низите
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } } a rSub { size 8{n} } =a} {}</m:annotation></m:semantics></m:math> и 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:mi>b</m:mi></m:mrow></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } } b rSub { size 8{n} } =b} {}</m:annotation></m:semantics></m:math>, тогаш:</para><para id="eip-66"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:munder>
+                  <m:mtext>lim</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">→</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:munder>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mstyle fontstyle="italic">
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>ka</m:mtext>
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>k</m:mi>
+                </m:mrow>
+                <m:munder>
+                  <m:mtext>lim</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                      <m:mo stretchy="false">→</m:mo>
+                      <m:mo stretchy="false">∞</m:mo>
+                    </m:mrow>
+                  </m:mrow>
+                </m:munder>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>a</m:mi>
+                    <m:mrow>
+                      <m:mi>n</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>ka</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+                <m:mi>,</m:mi>
+                <m:mi/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mrow>
+                  <m:mi>k</m:mi>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>const</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+                <m:mo stretchy="false">)</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } }  \(  ital "ka" rSub { size 8{n} }  \) =k {"lim"}  cSub { size 8{n rightarrow  infinity } } a rSub { size 8{n} } = ital "ka",~ \( k -  ital "const" \) } {}</m:annotation>
+        </m:semantics>
+      </m:math></para><para id="eip-315"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mo stretchy="false">∞</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:munder>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:msub>
+                              <m:mi>b</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mo stretchy="false">∞</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:munder>
+                          </m:mrow>
+                          <m:mo stretchy="false"/>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow>
+                            <m:mo stretchy="false"/>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mo stretchy="false">∞</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:munder>
+                          </m:mrow>
+                          <m:mo stretchy="false"/>
+                          <m:msub>
+                            <m:mi>b</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false"/>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } }  \( a rSub { size 8{n} }  +- b rSub { size 8{n} }  \) = {"lim"}  cSub { size 8{n rightarrow  infinity } }  \( a rSub { size 8{n} }  \)  +-  {"lim"}  cSub { size 8{n rightarrow  infinity } }  \( b rSub { size 8{n} }  \) } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para><para id="eip-974"><m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mstyle fontsize="12pt">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mo stretchy="false">∞</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:munder>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:msub>
+                            <m:mi>a</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>b</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mo stretchy="false">∞</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:munder>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>a</m:mi>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:msub>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:munder>
+                              <m:mtext>lim</m:mtext>
+                              <m:mstyle fontsize="8pt">
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mi>n</m:mi>
+                                    <m:mo stretchy="false">→</m:mo>
+                                    <m:mo stretchy="false">∞</m:mo>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:munder>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>b</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mi>n</m:mi>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } }  \( a rSub { size 8{n} } b rSub { size 8{n} }  \) = {"lim"}  cSub { size 8{n rightarrow  infinity } } a rSub { size 8{n} }  cdot  {"lim"}  cSub { size 8{n rightarrow  infinity } } b rSub { size 8{n} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </para><para id="eip-656"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:mfrac><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:msub><m:mi>a</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow><m:mrow><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mfrac></m:mrow><m:mi>,</m:mi><m:mi/><m:mo stretchy="false">(</m:mo><m:munder><m:mtext>lim</m:mtext><m:mstyle fontsize="8pt"><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mstyle></m:munder><m:mrow><m:msub><m:mi>b</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">≠</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {"lim"}  cSub { size 8{n rightarrow  infinity } }  {  {a rSub { size 8{n} } }  over  {b rSub { size 8{n} } } } = {  { {"lim"}  cSub { size 8{n rightarrow  infinity } } a rSub { size 8{n} } }  over  { {"lim"}  cSub { size 8{n rightarrow  infinity } } b rSub { size 8{n} } } } ,~ \(  {"lim"}  cSub { size 8{n rightarrow  infinity } } b rSub { size 8{n} }  &lt;&gt; 0 \) } {}</m:annotation></m:semantics></m:math>.</para></section>
+        </section>
+      <section id="id-674433969096">
+        <title>Бројот e</title>
+        <para id="id48603521">Бројот <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>e</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     се добива како гранична вредност на низата со општ член 
+<m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>n</m:mi></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mi>n</m:mi></m:mrow></m:mstyle></m:msup></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{n} } = left (1+ {  {1}  over  {n} }  right ) rSup { size 8{n} } } {}</m:annotation></m:semantics></m:math>, односно</para><para id="id47582224"><quote id="id1168069860783" display="block">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mstyle fontsize="14pt">
+                            <m:mrow>
+                              <m:mi>e</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:munder>
+                            <m:mtext>lim</m:mtext>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mi>n</m:mi>
+                                  <m:mo stretchy="false">→</m:mo>
+                                  <m:mo stretchy="false">∞</m:mo>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:munder>
+                        </m:mrow>
+                        <m:mi/>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfrac>
+                                <m:mn>1</m:mn>
+                                <m:mi>n</m:mi>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mstyle fontsize="8pt">
+                            <m:mrow>
+                              <m:mi>n</m:mi>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{ size 14{e}= {"lim"}  cSub { size 8{n rightarrow  infinity } } ` left (1+ {  {1}  over  {n} }  right ) rSup { size 8{n} } } {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </quote>
+        </para>
+        <para id="id48452411">при што  <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>e</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>2,718281828459045</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>.</m:mtext>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e="2,718281828459045" "."  "."  "."  } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    
+     е ирационалeн број и тој нема конечен децимален запис.</para><para id="id48452437">Вредностите на неколку први членови од оваа низа се:</para>
+        <para id="id48452448"><quote id="id1168066799980" display="block">
+            <m:math>
+              <m:semantics>
+                <m:mrow>
+                  <m:mstyle fontsize="12pt">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>e</m:mi>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mn>1</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mstyle fontsize="8pt">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow/>
+                </m:mrow>
+                <m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{1} } = left (1+ {  {1}  over  {1} }  right ) rSup { size 8{1} } =2} {}</m:annotation>
+              </m:semantics>
+            </m:math>
+          </quote>
+        </para>
+        <para id="id47749711"><quote id="id1168060700293" display="block"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>25</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{2} } = left (1+ {  {1}  over  {2} }  right ) rSup { size 8{2} } =2,"25"} {}</m:annotation></m:semantics></m:math>...</quote>
+        </para>
+        <para id="id48450252"><quote id="id1168060412136" display="block"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>37037</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{3} } = left (1+ {  {1}  over  {3} }  right ) rSup { size 8{3} } =2,"37037"} {}</m:annotation></m:semantics></m:math>...</quote>
+        </para>
+        <para id="id48446030"><quote id="id1168069986187" display="block"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>4</m:mn></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>4</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>4414</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{4} } = left (1+ {  {1}  over  {4} }  right ) rSup { size 8{4} } =2,"4414"} {}</m:annotation></m:semantics></m:math>...</quote>
+        </para>
+        <para id="id48859996"><quote id="id1168069938756" display="block"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>5</m:mn></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>5</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>48832</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{5} } = left (1+ {  {1}  over  {5} }  right ) rSup { size 8{5} } =2,"48832"} {}</m:annotation></m:semantics></m:math>...</quote>
+        </para>
+        <para id="id48860308"><quote id="id1168060816652" display="block"><m:math><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>e</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>6</m:mn></m:mfrac></m:mrow></m:mfenced><m:mstyle fontsize="8pt"><m:mrow><m:mn>6</m:mn></m:mrow></m:mstyle></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2,</m:mn></m:mrow><m:mtext>5216</m:mtext></m:mrow></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSub { size 8{6} } = left (1+ {  {1}  over  {6} }  right ) rSup { size 8{6} } =2,"5216"} {}</m:annotation></m:semantics></m:math>...</quote>
+        </para>
+        <para id="id47995868">и т.н. </para>
+        <para id="id47995875">Не докажувајќи, се забележува дека оваа низа е монотоно растечка и ограничена, што значи дека е конвергнетна.</para>
+        <para id="id47995886">Бројот  <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>e</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{e} {}</m:annotation>
+        </m:semantics>
+      </m:math> е база на природниот логаритам и број кој се појавува во многу природни процеси.</para></section>
+    </section>
+  </content>
+</document>
