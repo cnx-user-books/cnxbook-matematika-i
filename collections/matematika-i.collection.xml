@@ -1,15 +1,16 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk">
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="mk" authors="Liljana Stefanovska">
   <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
     <md:content-id>col11377</md:content-id>
-    <md:title>МАТЕМАТИКА 1</md:title>
+    <md:title>&#x41C;&#x410;&#x422;&#x415;&#x41C;&#x410;&#x422;&#x418;&#x41A;&#x410; 1</md:title>
     <md:language>mk</md:language>
     <md:license url="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</md:license>
     <md:uuid>9318fd70-0af4-45e0-a04c-8b816434d824</md:uuid>
-<md:slug>matematika-i</md:slug>
-</metadata>
+    <md:slug>matematika-i</md:slug>
+  </metadata>
   <col:content>
     <col:subcollection>
-      <md:title>Воведни поими од математичка анализа</md:title>
+      <md:title>&#x412;&#x43E;&#x432;&#x435;&#x434;&#x43D;&#x438; &#x43F;&#x43E;&#x438;&#x43C;&#x438; &#x43E;&#x434; &#x43C;&#x430;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x43A;&#x430; &#x430;&#x43D;&#x430;&#x43B;&#x438;&#x437;&#x430;</md:title>
       <col:content>
         <col:module document="m15116"/>
         <col:module document="m15118"/>
@@ -28,7 +29,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>Функции од една реална променлива</md:title>
+      <md:title>&#x424;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43E;&#x434; &#x435;&#x434;&#x43D;&#x430; &#x440;&#x435;&#x430;&#x43B;&#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430;</md:title>
       <col:content>
         <col:module document="m44981"/>
         <col:module document="m15511"/>
@@ -44,7 +45,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>Диференцијално сметање за функции од една променлива</md:title>
+      <md:title>&#x414;&#x438;&#x444;&#x435;&#x440;&#x435;&#x43D;&#x446;&#x438;&#x458;&#x430;&#x43B;&#x43D;&#x43E; &#x441;&#x43C;&#x435;&#x442;&#x430;&#x45A;&#x435; &#x437;&#x430; &#x444;&#x443;&#x43D;&#x43A;&#x446;&#x438;&#x438; &#x43E;&#x434; &#x435;&#x434;&#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x43D;&#x43B;&#x438;&#x432;&#x430;</md:title>
       <col:content>
         <col:module document="m35966"/>
         <col:module document="m51711"/>
@@ -61,7 +62,7 @@
       </col:content>
     </col:subcollection>
     <col:subcollection>
-      <md:title>Неопределен интеграл</md:title>
+      <md:title>&#x41D;&#x435;&#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D; &#x438;&#x43D;&#x442;&#x435;&#x433;&#x440;&#x430;&#x43B;</md:title>
       <col:content>
         <col:module document="m32959"/>
         <col:module document="m32962"/>
