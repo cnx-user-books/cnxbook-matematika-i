@@ -303,7 +303,7 @@
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:msub>
@@ -321,10 +321,10 @@
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:msub>
                           <m:mi>x</m:mi>
@@ -336,10 +336,10 @@
                         <m:mn>1</m:mn>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:msub>
                           <m:mi>x</m:mi>
@@ -352,7 +352,7 @@
                       </m:mrow>
                       <m:mtext>.</m:mtext>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>
@@ -371,7 +371,7 @@ x rSub { size 8{4} } =3 "."  {}
               <m:mrow>
                 <m:mtable>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mi>y</m:mi>
@@ -401,10 +401,10 @@ x rSub { size 8{4} } =3 "."  {}
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mi>y</m:mi>
@@ -444,10 +444,10 @@ x rSub { size 8{4} } =3 "."  {}
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                   <m:mtr>
-                    <m:mrow>
+                    <m:mtd>
                       <m:mrow>
                         <m:mrow>
                           <m:mi>y</m:mi>
@@ -481,7 +481,7 @@ x rSub { size 8{4} } =3 "."  {}
                         </m:mrow>
                       </m:mrow>
                       <m:mrow/>
-                    </m:mrow>
+                    </m:mtd>
                   </m:mtr>
                 </m:mtable>
                 <m:mrow/>

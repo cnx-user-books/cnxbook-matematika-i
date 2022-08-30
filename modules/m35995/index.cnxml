@@ -95,12 +95,7 @@
 <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:mi>x</m:mi></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> при што се добива</para>
       <para id="id1171099738636">
         <quote id="id1171099738636_quote" display="block">
-          <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
-            <m:semantics>
-              <m:mrow/>
-              <m:annotation encoding="StarMath 5.0">{}</m:annotation>
-            </m:semantics>
-          </m:math>
+          
           <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
             <m:semantics>
               <m:mrow>

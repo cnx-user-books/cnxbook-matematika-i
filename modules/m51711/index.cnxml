@@ -1130,7 +1130,7 @@
                     <m:mrow>
                       <m:mtable>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow>
                               <m:mrow>
                                 <m:mrow>
@@ -1186,10 +1186,10 @@
                               </m:mrow>
                             </m:mrow>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow/>
                             <m:mtext>cos</m:mtext>
                             <m:mrow>
@@ -1227,10 +1227,10 @@
                               <m:mrow/>
                             </m:mrow>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow/>
                             <m:mtext>cos</m:mtext>
                             <m:mrow>
@@ -1257,7 +1257,7 @@
                             </m:mrow>
                             <m:mtext>.</m:mtext>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                       </m:mtable>
                       <m:mrow/>
@@ -1462,7 +1462,7 @@
                     <m:mrow>
                       <m:mtable>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow>
                               <m:mrow>
                                 <m:mrow>
@@ -1494,10 +1494,10 @@
                               </m:mrow>
                             </m:mrow>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow/>
                             <m:mrow>
                               <m:munder>
@@ -1523,10 +1523,10 @@
                               <m:mrow/>
                             </m:mrow>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow/>
                             <m:munder>
                               <m:mtext>lim</m:mtext>
@@ -1618,10 +1618,10 @@
                               <m:mrow/>
                             </m:mrow>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                         <m:mtr>
-                          <m:mrow>
+                          <m:mtd>
                             <m:mrow/>
                             <m:msup>
                               <m:mi>f</m:mi>
@@ -1649,7 +1649,7 @@
                             <m:mi>x</m:mi>
                             <m:mo stretchy="false">)</m:mo>
                             <m:mrow/>
-                          </m:mrow>
+                          </m:mtd>
                         </m:mtr>
                       </m:mtable>
                       <m:mrow/>
